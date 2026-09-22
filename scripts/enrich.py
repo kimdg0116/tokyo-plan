@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """도쿄 플랜 데이터 보강 — 구글 Places로 위치·영업시간·사진·지도링크를 한 번에.
-가게(대표 1곳 + 다른 지점) · 사진 스폿 · 숙소 전부 이걸로 채운다.
+가게(대표 1곳 + 다른 지점) · 사진 · 숙소 전부 이걸로 채운다.
+영업시간은 요일별 한 줄씩([{day,time}, …] 월~일 고정 순서)이 이런 앱들의 표준 형식이다.
 """
 import json
 import math
@@ -34,25 +35,31 @@ def slug(s):
     return s[:44] or "x"
 
 
+DAY_ORDER = ["월", "화", "수", "목", "금", "토", "일"]
+
+
 def to_korean_hours(descs):
-    out, closed = [], []
+    """구글 weekdayDescriptions → 요일별 한 줄씩 [{day, time, off?}, …] (월~일 고정 순서).
+    이 형식이 이런 종류 앱(맛집·여행 플랜)의 영업시간 표준 — 가로로 이어붙이지 않고
+    요일마다 줄을 하나씩 쓴다. 프론트는 hoursHtml() 로 그대로 세로 나열한다."""
+    by_day = {}
     for d in descs or []:
         day, _, rest = d.partition(": ")
         day_ko = DAY_KO.get(day.strip(), day.strip())
-        rest = (rest.replace("時", ":").replace("分", "")
+        rest = (rest.replace("時", ":").replace("分", "").replace("～", "~")
                     .replace("定休日", "휴무").replace("休み", "휴무")
                     .replace("24 時間営業", "24시간").replace("Closed", "휴무")
                     .replace("Open 24 hours", "24시간").strip())
-        if "휴무" in rest:
-            closed.append(day_ko)
-        else:
-            out.append(f"{day_ko} {rest}")
-    if not out and not closed:
+        by_day[day_ko] = rest
+    if not by_day:
         return None
-    txt = " · ".join(out)
-    if closed:
-        txt += (" · " if txt else "") + "휴무 " + "·".join(closed)
-    return txt
+    rows = []
+    for d in DAY_ORDER:
+        if d not in by_day:
+            continue
+        t = by_day[d]
+        rows.append({"day": d, "time": t, "off": True} if "휴무" in t else {"day": d, "time": t})
+    return rows or None
 
 
 def search(query, center=None, radius=3000.0):
@@ -117,8 +124,8 @@ def enrich_into(target, query, center, fname_base, keep_addr=None, keep_hours=No
         target.setdefault("addr", keep_addr)
     if hours:
         target["hours"] = hours
-    elif keep_hours and keep_hours != "미확인":
-        target.setdefault("hours", keep_hours)
+    elif isinstance(keep_hours, list):
+        target.setdefault("hours", keep_hours)   # 이미 구조화된 값이면 유지, 문자열 시절 값은 버린다
     if loc.get("latitude") is not None:
         target["lat"] = loc["latitude"]
         target["lng"] = loc["longitude"]
@@ -226,22 +233,14 @@ for r in data["regions"]:
                     keep_addr=s.get("addr"), keep_hours=s.get("hours"))
         time.sleep(0.2)
 
-# ---------------------------------------------------------------- 사진 스폿
-print("\n== 사진 스폿 ==")
+# ---------------------------------------------------------------- 사진 (구 "사진 스폿")
+# 지도에 위치도 찍어야 하니 가게와 같은 enrich_into 로 — 좌표·주소·사진 다 받는다
+print("\n== 사진 ==")
 for r in data["regions"]:
     center = (r.get("lat"), r.get("lng"))
     for sp in r.get("photoSpots", []):
         q = re.sub(r"[⭐⚠️()（）]", "", sp["name"]).strip()
-        place = search(q + " 東京", center)
-        if place:
-            photo = fetch_photo(place, "p-" + slug(sp["name"]))
-            if photo:
-                sp["photo"] = photo
-                print("  ok  ", sp["name"])
-            else:
-                print("  (사진없음)", sp["name"])
-        else:
-            print("  MISS", sp["name"])
+        enrich_into(sp, q + " 東京", center, "p-" + slug(sp["name"]))
         time.sleep(0.2)
 
 # ---------------------------------------------------------------- 다른 지점 중 우리 일정 지역과 가까운 것

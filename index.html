@@ -171,6 +171,17 @@
   .shopcard .row{font-size:12px;color:var(--ink-3);display:flex;gap:6px;align-items:flex-start}
   .shopcard .row b{font-weight:600;color:var(--ink-2);flex:none}
   .shopcard .other{font-size:11.5px;color:var(--ink-3)}
+  /* 영업시간 — 요일 한 줄씩 세로로 (이런 계획 앱들의 공통 표준 포맷) */
+  .hourslabel{font-size:12px;font-weight:600;color:var(--ink-2);margin-top:2px}
+  .hours{display:flex;flex-direction:column;margin:2px 0 0 2px}
+  .hrow{display:flex;gap:8px;align-items:baseline;padding:1.5px 0;font-size:12px}
+  .hrow .d{flex:none;width:16px;text-align:center;font-weight:700;color:var(--ink-2)}
+  .hrow .d.sun{color:var(--accent)}
+  .hrow .d.sat{color:var(--blue)}
+  .hrow .t{color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .hrow.off .d{color:var(--accent)}
+  .hrow.off .t{color:var(--ink-3)}
+  .hoursunk{font-size:12px;color:var(--ink-3)}
   .shopcard .btns{display:flex;gap:6px;margin-top:4px;flex-wrap:wrap}
   .branchdetails{margin-top:6px}
   .branchdetails summary{list-style:none;cursor:pointer}
@@ -183,7 +194,6 @@
   .branchrow:last-child{border-bottom:0}
   .branchrow .bl{font-weight:700;color:var(--ink);display:flex;align-items:center;gap:6px}
   .branchrow .ba{color:var(--ink-2)}
-  .branchrow .bh{color:var(--ink-3)}
   .branchrow .blinks{display:flex;gap:6px;margin-top:3px}
   .branchrow .here{font-size:10.5px;font-weight:700;color:var(--good);background:var(--good-soft);border-radius:999px;padding:1px 7px}
   .minibtn{flex:none;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 10px;font-size:12px;font-weight:600;color:var(--ink-2);text-decoration:none}
@@ -455,6 +465,16 @@
   }
 
   /* ---- 지역 상세 시트 ---- */
+  /* 영업시간 — 요일 한 줄씩 세로로. hours 는 [{day,time,off?}, …] (월~일 고정 순서) */
+  function hoursHtml(hours){
+    if (!hours || !hours.length) return '<span class="hoursunk">미확인</span>';
+    return '<div class="hours">' + hours.map(function(r){
+      var dcls = r.day === "일" ? "d sun" : r.day === "토" ? "d sat" : "d";
+      return '<div class="hrow' + (r.off ? " off" : "") + '"><span class="' + dcls + '">' + esc(r.day) + '</span>' +
+        '<span class="t">' + esc(r.time) + '</span></div>';
+    }).join("") + '</div>';
+  }
+
   function photoBlock(photo, label){
     if (photo) return '<div class="thumb"><img src="' + esc(photo) + '" alt="" loading="lazy"></div>';
     return '<div class="thumb"><div class="noimg">' + esc((label || "?").slice(0, 1)) + '</div></div>';
@@ -473,7 +493,7 @@
       return '<div class="branchrow">' +
         '<div class="bl">' + esc(loc.label) + hereTag + '</div>' +
         (loc.addr ? '<div class="ba">' + esc(loc.addr) + '</div>' : "") +
-        (loc.hours ? '<div class="bh">' + esc(loc.hours) + '</div>' : "") +
+        hoursHtml(loc.hours) +
         '<div class="blinks">' +
           (here
             ? '<button type="button" class="minibtn" data-goregion2="' + loc.regionId + '">지역 상세</button>'
@@ -495,7 +515,7 @@
       '<div class="info">' +
         '<div class="name">' + esc(s.name) + (s.badge ? ' <span class="badge pick">' + esc(s.badge) + '</span>' : '') + '</div>' +
         (s.desc ? '<div class="desc">' + esc(s.desc) + '</div>' : '') +
-        '<div class="row"><b>시간</b><span>' + esc(s.hours || "미확인") + '</span></div>' +
+        '<div class="hourslabel">시간</div>' + hoursHtml(s.hours) +
         (s.addr ? '<div class="row"><b>주소</b><span>' + esc(s.addr) + '</span><button type="button" class="copybtn" data-copy="' + esc(s.addr) + '">복사</button></div>' : '') +
         (!s.brand && s.other ? '<div class="other">다른 지점: ' + esc(s.other) + '</div>' : '') +
         '<div class="btns">' +
@@ -550,7 +570,7 @@
     return '<div class="branchrow">' +
       '<div class="bl">' + esc(item.brandName) + ' · ' + esc(loc.label) + '</div>' +
       (loc.addr ? '<div class="ba">' + esc(loc.addr) + '</div>' : "") +
-      (loc.hours ? '<div class="bh">' + esc(loc.hours) + '</div>' : "") +
+      hoursHtml(loc.hours) +
       '<div class="blinks">' +
         '<a class="minibtn" href="' + esc(loc.map || mapUrl({ name: item.brandName + " " + loc.label, addr: loc.addr })) + '" target="_blank" rel="noopener">📍 지도</a>' +
         (home ? '<button type="button" class="minibtn" data-goregion2="' + home.regionId + '">원래 지점 · ' + esc(regionsById[home.regionId].name) + '</button>' : "") +
@@ -576,7 +596,7 @@
       (r.note ? '<p>' + esc(r.note) + '</p>' : '') +
       '<div class="sec"><h3>이동 · 시간</h3>' + timelineHtml(r) + '</div>' +
       (r.shops && r.shops.length ? '<div class="sec"><h3>가게 목록 (' + r.shops.length + ')</h3>' + r.shops.map(function(s){ return shopRow(r.id, s); }).join("") + '</div>' : "") +
-      (r.photoSpots && r.photoSpots.length ? '<div class="sec"><h3>사진 스폿 (' + r.photoSpots.length + ')</h3>' + r.photoSpots.map(spotRow).join("") + '</div>' : "") +
+      (r.photoSpots && r.photoSpots.length ? '<div class="sec"><h3>사진 (' + r.photoSpots.length + ')</h3>' + r.photoSpots.map(spotRow).join("") + '</div>' : "") +
       nearbyPanel(r.id);
     openSheet(html, dayMeta.label);
     $("d-body").querySelectorAll("[data-copy]").forEach(function(b){
@@ -626,7 +646,7 @@
 
   /* ---- 여유 있으면 탭 ---- */
   function renderBonusTab(){
-    var types = ["전체", "가게", "사진 스폿", "관광지"];
+    var types = ["전체", "가게", "사진", "관광지"];
     var html = '<div class="chips">' + types.map(function(t){
       return '<button type="button" class="chip" data-bf="' + esc(t) + '" aria-pressed="' + (st.bonusF === t) + '">' + esc(t) + '</button>';
     }).join("") + '</div>';
@@ -652,6 +672,14 @@
       iconSize: [s, s], iconAnchor: [s / 2, s / 2],
     });
   }
+  var PHOTO_COLOR = "#D6409F";
+  function photoIcon(){
+    var s = 13;
+    return L.divIcon({
+      className: "", html: '<div style="width:' + s + 'px;height:' + s + 'px;background:' + PHOTO_COLOR + ';border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.4);border-radius:3px;transform:rotate(45deg)"></div>',
+      iconSize: [s, s], iconAnchor: [s / 2, s / 2],
+    });
+  }
   function openBrandMap(brandId){
     st.mapBrand = brandId; st.viewMode = "map"; st.tab = "day";
     save("tp_viewmode", st.viewMode);
@@ -665,7 +693,7 @@
         '<button type="button" class="minibtn" id="clear-brand-map">← 전체 지도</button></div>'
       : "";
     $("main").innerHTML = banner + '<div class="mapbox"><div id="map"></div>' +
-      '<p class="mapnote">지도 원본 표기는 일본어입니다. 정확한 한국어 표기·경로는 📍 지도 버튼(구글맵 앱)을 쓰세요 — 폰 언어가 한국어면 구글맵 앱도 한국어로 뜹니다.</p></div>';
+      '<p class="mapnote">● 지역 · 🏨 숙소(검정) · ◆ 사진. 지도 원본 표기는 일본어입니다. 정확한 한국어 표기·경로는 📍 지도 버튼(구글맵 앱)을 쓰세요 — 폰 언어가 한국어면 구글맵 앱도 한국어로 뜹니다.</p></div>';
     var clearBtn = document.getElementById("clear-brand-map");
     if (clearBtn) clearBtn.addEventListener("click", function(){ st.mapBrand = null; render(); });
     setTimeout(function(){
@@ -697,7 +725,7 @@
           var color = isHere ? (getComputedStyle(document.documentElement).getPropertyValue("--" + regionsById[loc.regionId].day) || "#B23A2E") : "#8A5CC9";
           var m = L.marker([lat, lng], { icon: dotIcon(color) }).addTo(leafletMap);
           var html = '<div class="pop-n">' + esc(loc.label) + (isHere ? " · 일정에 있음" : "") + '</div>' +
-            '<div class="pop-m">' + esc(hours || "") + '</div>' +
+            '<div class="pop-m">' + hoursHtml(hours) + '</div>' +
             '<div class="pop-b">' + (isHere ? '<button type="button" data-goregion="' + loc.regionId + '">지역 상세</button>' : '<a href="' + esc(mapLink || mapUrl({ name: loc.label, addr: addr })) + '" target="_blank" rel="noopener">구글맵</a>') + '</div>';
           m.bindPopup(html);
           m.on("popupopen", bindPopupGoRegion);
@@ -705,7 +733,8 @@
         return;
       }
 
-      DATA.regions.filter(function(r){ return (st.day === "all" || r.day === st.day) && regionVisible(r); }).forEach(function(r){
+      var visibleRegions = DATA.regions.filter(function(r){ return (st.day === "all" || r.day === st.day) && regionVisible(r); });
+      visibleRegions.forEach(function(r){
         if (r.lat == null) return;
         var color = getComputedStyle(document.documentElement).getPropertyValue("--" + r.day) || "#B23A2E";
         var m = L.marker([r.lat, r.lng], { icon: dotIcon(color) }).addTo(leafletMap);
@@ -714,6 +743,19 @@
           '<div class="pop-b"><button type="button" data-goregion="' + r.id + '">자세히</button></div>';
         m.bindPopup(html);
         m.on("popupopen", bindPopupGoRegion);
+      });
+
+      /* 사진 — 지역과 같은 필터를 쓰되 마름모 마커로 구분 */
+      visibleRegions.forEach(function(r){
+        (r.photoSpots || []).forEach(function(sp){
+          if (sp.lat == null) return;
+          var m = L.marker([sp.lat, sp.lng], { icon: photoIcon() }).addTo(leafletMap);
+          var html = '<div class="pop-n">📷 ' + esc(sp.name) + '</div>' +
+            (sp.tip ? '<div class="pop-m">' + esc(sp.tip) + '</div>' : "") +
+            '<div class="pop-b"><button type="button" data-goregion="' + r.id + '">' + esc(r.name) + ' 보기</button></div>';
+          m.bindPopup(html);
+          m.on("popupopen", bindPopupGoRegion);
+        });
       });
     }, 30);
   }
@@ -781,7 +823,7 @@
 
 <script>
   (function(){
-    var CURRENT = "26.09.22-0003";
+    var CURRENT = "26.09.22-0004";
     var btn = document.getElementById("upd");
     var latest = null;
     function check(){
