@@ -1,0 +1,1428 @@
+{
+ "updated": "2026-09-22",
+ "flight": {
+  "out": "9/26(토) ICN 08:50 → NRT 11:20 (B787-9)",
+  "back": "9/29(화) NRT 15:20 → ICN 17:55 (WE504)"
+ },
+ "fixed": [
+  {
+   "k": "숙소",
+   "v": "도미인 이케부쿠로 (체크인 15:00)"
+  },
+  {
+   "k": "공항 교통",
+   "v": "스카이라이너 왕복"
+  },
+  {
+   "k": "크로스핏",
+   "v": "9/28(월) 6:30 첫 타임 · 크로스핏 이케부쿠로 (도보 25분 → 6:00 출발)"
+  },
+  {
+   "k": "가와고에",
+   "v": "9/27(일) 당일치기"
+  }
+ ],
+ "days": [
+  {
+   "id": "sat",
+   "label": "9/26 토",
+   "sub": "신주쿠 → 하라주쿠 → 시부야 · 다이칸야마",
+   "hasVariant": true
+  },
+  {
+   "id": "sun",
+   "label": "9/27 일",
+   "sub": "가와고에 당일치기",
+   "hasVariant": true
+  },
+  {
+   "id": "mon",
+   "label": "9/28 월",
+   "sub": "크로스핏 → 아사쿠사 → 간다 → 긴자",
+   "hasVariant": false
+  },
+  {
+   "id": "tue",
+   "label": "9/29 화",
+   "sub": "우에노 데님 → 공항",
+   "hasVariant": false
+  }
+ ],
+ "regions": [
+  {
+   "id": "shinjuku",
+   "name": "신주쿠",
+   "day": "sat",
+   "order": 1,
+   "lat": 35.6896,
+   "lng": 139.7006,
+   "timeA": "14:05~15:30",
+   "durA": "85분",
+   "timeB": "14:05~15:30",
+   "durB": "85분",
+   "transport": "숙소(이케부쿠로) 5분",
+   "note": "숙소에서 가장 가깝다. 여기서만 보는 두 곳 — 나머지 신주쿠 가게는 다른 축에 같은 브랜드가 있어 뺐다.",
+   "shops": [
+    {
+     "name": "Jins 플래그십",
+     "desc": "안경 — ⚠️ 제일 먼저. 도수 렌즈는 제작 시간이 걸린다",
+     "hours": "월 10:30~21:30 · 화 10:30~21:30 · 수 10:30~21:30 · 목 10:30~21:30 · 금 10:30~21:30 · 토 10:30~21:30 · 일 10:30~21:30",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目１−２０",
+     "map": "https://maps.google.com/?cid=13397411051462492355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.6906289,
+     "lng": 139.7049433,
+     "photo": "photos/s-jins-플래그십.jpg"
+    },
+    {
+     "name": "스루가야 신주쿠 마루이아넥스점",
+     "desc": "넨도로이드 — 5F 한 층 전체 · 아키하바라보다 저렴",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 10:30~21:00 · 일 10:30~21:00",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目１−２６ マルイアネックス 5F",
+     "lat": 35.6901514,
+     "lng": 139.70584190000002,
+     "map": "https://maps.google.com/?cid=9995198544518023487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-스루가야-신주쿠-마루이아넥스점.jpg"
+    }
+   ],
+   "photoSpots": []
+  },
+  {
+   "id": "harajuku",
+   "name": "하라주쿠 · 아오야마",
+   "day": "sat",
+   "order": 2,
+   "lat": 35.6702,
+   "lng": 139.7027,
+   "timeA": "15:40~17:30",
+   "durA": "110분",
+   "timeB": "15:40~16:40",
+   "durB": "60분 (BAPE·단톤·Goldwin만)",
+   "transport": "신주쿠 4분",
+   "note": "神宮前~南青山 한 동네. 안 B는 이 축을 50분 손해 본다 — 시간 없으면 버리는 순서: Cas:pace → JAPAN BLUE(화요일 우에노에서 본다) → BAPE THINK.",
+   "shops": [
+    {
+     "name": "BAPE STORE 하라주쿠",
+     "desc": "여친 픽",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２１−５",
+     "other": "시부야(스페인자카)",
+     "brand": "bape",
+     "lat": 35.6679739,
+     "lng": 139.7085167,
+     "map": "https://maps.google.com/?cid=11470044563448368660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-bape-store-하라주쿠.jpg"
+    },
+    {
+     "name": "APEE 하라주쿠",
+     "desc": "여친 픽 · BAPE 같은 건물",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２１−５ Ｇビル神宮前０１",
+     "lat": 35.6679908,
+     "lng": 139.7085127,
+     "map": "https://maps.google.com/?cid=12115154025081409485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-apee-하라주쿠.jpg"
+    },
+    {
+     "name": "BAPE THINK",
+     "desc": "여친 픽",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前３丁目２５−１３",
+     "brand": "bape",
+     "lat": 35.6714303,
+     "lng": 139.7078709,
+     "map": "https://maps.google.com/?cid=1737266961502205374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-bape-think.jpg"
+    },
+    {
+     "name": "아디다스 오리지널스 플래그십",
+     "desc": "여친 픽",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前５丁目１７−４",
+     "other": "시부야 300평 · 미야시타파크 · 신주쿠",
+     "brand": "adidas-originals",
+     "lat": 35.666220599999995,
+     "lng": 139.7060158,
+     "map": "https://maps.google.com/?cid=1030542622883135474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-아디다스-오리지널스-플래그십.jpg"
+    },
+    {
+     "name": "DANTON TOKYO",
+     "desc": "내 옷 · 직영 플래그십",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目１２−１７ ダイヤモンドビル 1F",
+     "lat": 35.666232099999995,
+     "lng": 139.70400229999998,
+     "map": "https://maps.google.com/?cid=3286721948833497824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-danton-tokyo.jpg"
+    },
+    {
+     "name": "Goldwin Harajuku",
+     "desc": "내 테크 아우터 · 직영 3호점 · 노스페이스 퍼플라벨 계열",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目１０−１２ Ｃｉｔｔａ神宮前 1F",
+     "other": "마루노우치",
+     "brand": "goldwin",
+     "lat": 35.6676901,
+     "lng": 139.70501489999998,
+     "map": "https://maps.google.com/?cid=7935900416000062096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-goldwin-harajuku.jpg"
+    },
+    {
+     "name": "Deus Ex Machina 하라주쿠",
+     "desc": "여친 픽",
+     "hours": "월 9:00~20:00 · 화 9:00~20:00 · 수 9:00~20:00 · 목 9:00~20:00 · 금 9:00~20:00 · 토 9:00~20:00 · 일 9:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前２丁目３２−５ Bprスクエア神宮前 I 1 1F & 2F",
+     "other": "시부야 · 아사쿠사 (한 곳만 본다)",
+     "brand": "deus",
+     "lat": 35.6723025,
+     "lng": 139.7084669,
+     "map": "https://maps.google.com/?cid=7861082691585105858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-deus-ex-machina-하라주쿠.jpg"
+    },
+    {
+     "name": "Chrome Hearts 아오야마",
+     "desc": "여친 픽 · 국내 플래그십",
+     "hours": "월 12:00~19:00 · 화 12:00~19:00 · 수 12:00~19:00 · 목 12:00~19:00 · 금 12:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒107-0062 東京都港区南青山６丁目３−１４",
+     "other": "긴자 · 하라주쿠",
+     "brand": "chrome-hearts",
+     "lat": 35.6607445,
+     "lng": 139.7163551,
+     "map": "https://maps.google.com/?cid=9875441586880837547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-chrome-hearts-아오야마.jpg"
+    },
+    {
+     "name": "Cas:pace",
+     "desc": "여친 픽 · 폰케이스",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前３丁目２４−３ 桑原ビル 1階B",
+     "badge": "시간 없으면 1순위로 버림",
+     "lat": 35.670911499999995,
+     "lng": 139.7075442,
+     "map": "https://maps.google.com/?cid=7100548764819391178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-cas-pace.jpg"
+    },
+    {
+     "name": "JAPAN BLUE JEANS (시부야점 표기)",
+     "desc": "오카야마 데님 직영",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 수 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前５丁目２８−７",
+     "other": "우에노점(화 오전 예정)",
+     "brand": "japan-blue",
+     "lat": 35.6645131,
+     "lng": 139.70358389999998,
+     "map": "https://maps.google.com/?cid=1534220050583324710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-japan-blue-jeans-시부야점-표기.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "메이지 진구 참도",
+     "tip": "하라주쿠역 바로 앞. 큰 토리이 → 자갈길 숲, 역광으로 숲 사이 빛줄기. ⚠️ 본전 안 촬영 금지 (오전이 더 좋다)",
+     "cost": "0",
+     "photo": "photos/p-메이지-진구-참도.jpg"
+    },
+    {
+     "name": "오모테산도 건축 산책",
+     "tip": "프라다 아오야마(유리 마름모) · 토즈(나무가지 기둥) · 오모테산도 힐즈 — 크롬하츠 아오야마 가는 길에 그대로 걸린다",
+     "cost": "0",
+     "time": "16:00~17:30",
+     "photo": "photos/p-오모테산도-건축-산책.png"
+    },
+    {
+     "name": "타케시타도리 · 캣스트리트",
+     "tip": "BAPE·아디다스 오리지널스 사이를 걷는 길 자체",
+     "cost": "0",
+     "photo": "photos/p-타케시타도리-캣스트리트.jpg"
+    }
+   ]
+  },
+  {
+   "id": "shibuya",
+   "name": "시부야",
+   "day": "sat",
+   "order": 3,
+   "lat": 35.6595,
+   "lng": 139.7005,
+   "timeA": "17:35~19:00 (해질녘) · 20:10~21:00 (복귀)",
+   "durA": "135분",
+   "timeB": "20:10~21:00",
+   "durB": "50분",
+   "transport": "하라주쿠 2분",
+   "note": "9/26 일몰 17:30. 안 A는 이 시각에 딱 스크램블에 있다 — 안 B는 이걸 포기하고 Brand off·몽벨만 짧게 본다.",
+   "shops": [
+    {
+     "name": "Brand off",
+     "desc": "여친 픽 ⭐ — \"한 곳만 들린다면 여기\" · 가죽",
+     "hours": "월 12:00~21:00 · 화 12:00~21:00 · 수 12:00~21:00 · 목 12:00~21:00 · 금 12:00~21:00 · 토 12:00~21:00 · 일 12:00~21:00",
+     "addr": "〒150-0042 東京都渋谷区宇田川町２３−１０ VIVEL SHIBUYA 1F-4F",
+     "badge": "⭐",
+     "photo": "photos/s-brand-off.jpg",
+     "lat": 35.659957399999996,
+     "lng": 139.699471,
+     "map": "https://maps.google.com/?cid=11816806066793699120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "name": "아디다스 브랜드센터 시부야",
+     "desc": "여친 픽 · 국내 최대 300평",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒150-0042 東京都渋谷区宇田川町２３−５",
+     "other": "하라주쿠 · 미야시타파크 · 신주쿠",
+     "brand": "adidas-originals",
+     "lat": 35.659846699999996,
+     "lng": 139.6992886,
+     "map": "https://maps.google.com/?cid=4761185190055683429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-아디다스-브랜드센터-시부야.png"
+    },
+    {
+     "name": "유나이티드 애로우",
+     "desc": "내 가디건·모자",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~20:00",
+     "addr": "〒150-8509 東京都渋谷区渋谷２丁目２１−１ 3F ヒカリエ内ShinQs by TOKYU DEPARTMENT STORE 渋谷",
+     "other": "하라주쿠 · 신주쿠 루미네",
+     "brand": "united-arrows",
+     "lat": 35.658779599999995,
+     "lng": 139.70319659999998,
+     "map": "https://maps.google.com/?cid=2726014660508888163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-유나이티드-애로우.jpg"
+    },
+    {
+     "name": "몽벨 시부야",
+     "desc": "내 가방 · 대형점",
+     "hours": "월 10:30~21:00 · 화 10:30~21:00 · 수 10:30~21:00 · 목 10:30~21:00 · 금 10:30~21:00 · 토 10:30~21:00 · 일 10:30~21:00",
+     "addr": "〒150-0042 東京都渋谷区宇田川町１１−５ モンベル渋谷ビル",
+     "other": "신주쿠 남구 · 오카치마치(4층 350평) · 교바시 · 이케부쿠로 도부(⚠️19시)",
+     "brand": "montbell",
+     "lat": 35.662389999999995,
+     "lng": 139.697547,
+     "map": "https://maps.google.com/?cid=11750434768715304279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-몽벨-시부야.jpg"
+    },
+    {
+     "name": "BAPE STORE 시부야",
+     "desc": "여친 픽",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒150-0042 東京都渋谷区宇田川町１３−１７",
+     "other": "하라주쿠 3곳",
+     "brand": "bape",
+     "lat": 35.661561899999995,
+     "lng": 139.69866009999998,
+     "map": "https://maps.google.com/?cid=17074459437478121546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-bape-store-시부야.jpg"
+    },
+    {
+     "name": "RINKAN 시부야점",
+     "desc": "크롬하츠 리셀",
+     "hours": "월 12:30~20:00 · 화 12:30~20:00 · 수 12:30~20:00 · 목 12:30~20:00 · 금 12:30~20:00 · 토 12:00~20:00 · 일 12:00~20:00",
+     "addr": "〒150-0041 東京都渋谷区神南１丁目１２−１６ 和光 ビル 1F･2F",
+     "other": "신주쿠(재고 최대) · 하라주쿠 silver",
+     "brand": "rinkan",
+     "lat": 35.6625842,
+     "lng": 139.70051010000003,
+     "map": "https://maps.google.com/?cid=15458664804488154298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-rinkan-시부야점.jpg"
+    },
+    {
+     "name": "Kindal 시부야",
+     "desc": "여친 픽 · 빈티지 명품",
+     "hours": "월 12:00~20:00 · 화 12:00~20:00 · 수 12:00~20:00 · 목 12:00~20:00 · 금 12:00~20:00 · 토 12:00~20:00 · 일 12:00~20:00",
+     "addr": "〒150-0042 東京都渋谷区宇田川町２９−８ 中村ビル 1F・3F 4F",
+     "other": "긴자",
+     "brand": "kindal",
+     "lat": 35.660745299999995,
+     "lng": 139.6985662,
+     "map": "https://maps.google.com/?cid=18123861565115279711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-kindal-시부야.jpg"
+    },
+    {
+     "name": "BILLY'S ENT",
+     "desc": "여친 픽 · 신발",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目２３−７",
+     "map": "https://maps.google.com/?cid=11001827201009074385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.6646262,
+     "lng": 139.7022082,
+     "photo": "photos/s-billy-s-ent.jpg"
+    },
+    {
+     "name": "RANDA 시부야",
+     "desc": "여친 픽 · 여성 신발",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒150-0042 東京都渋谷区宇田川町１６−８ １F",
+     "other": "루미네에스트 신주쿠",
+     "brand": "randa",
+     "lat": 35.660856599999995,
+     "lng": 139.6989757,
+     "map": "https://maps.google.com/?cid=10680423764497478943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-randa-시부야.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "시부야 스크램블 — 해질녘 ⭐⭐",
+     "tip": "스크램블 스퀘어 밑 육교 / MAG'S PARK(109 맞은편 마그넷 옥상, 소액 유료). ⚠️ 스타벅스 2층은 혼잡·촬영 제한 안내",
+     "cost": "0",
+     "time": "17:30~18:00 (안 A만)",
+     "photo": "photos/p-시부야-스크램블-해질녘.jpg"
+    },
+    {
+     "name": "하치코 · 논베이요코초",
+     "tip": "동상 자체보다 줄 서서 찍는 사람들을 찍는 게 낫다. 뒷골목은 좁고 간판이 빽빽",
+     "cost": "0",
+     "time": "18:00~19:00",
+     "photo": "photos/p-하치코-논베이요코초.png"
+    }
+   ]
+  },
+  {
+   "id": "daikanyama",
+   "name": "다이칸야마",
+   "day": "sat",
+   "order": 4,
+   "lat": 35.6485,
+   "lng": 139.7031,
+   "timeA": "19:05~20:00",
+   "durA": "55분",
+   "timeB": "18:10~20:00",
+   "durB": "110분",
+   "transport": "시부야에서 도요코선 1정거장 2분",
+   "note": "nanamica 도쿄 직영은 여기뿐. 세 매장이 猿楽町 한 블록에 모여 있다. ⚠️ 퍼플라벨은 일본 전용 라인 — 국내 정식 유통 없음, 이번에 안 사면 다음이 없다.",
+   "shops": [
+    {
+     "name": "nanamica MOUNTAIN",
+     "desc": "THE NORTH FACE PURPLE LABEL 플래그십 + nanamica",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 수 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒150-0033 東京都渋谷区猿楽町１９−５",
+     "badge": "⭐",
+     "brand": "nanamica",
+     "lat": 35.6488952,
+     "lng": 139.7010017,
+     "map": "https://maps.google.com/?cid=8095431365742038592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-nanamica-mountain.jpg"
+    },
+    {
+     "name": "nanamica DAIKANYAMA",
+     "desc": "nanamica 남성 본점",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 수 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒150-0033 東京都渋谷区猿楽町２６−１３",
+     "brand": "nanamica",
+     "lat": 35.6486989,
+     "lng": 139.70105379999998,
+     "map": "https://maps.google.com/?cid=8646554096367128976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-nanamica-daikanyama.jpg"
+    },
+    {
+     "name": "nanamica D.W.S.",
+     "desc": "nanamica 여성 (여자친구용)",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 수 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒150-0033 東京都渋谷区猿楽町２６−１３",
+     "brand": "nanamica",
+     "lat": 35.6486715,
+     "lng": 139.7010371,
+     "map": "https://maps.google.com/?cid=13957733497364288695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-nanamica-d-w-s.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "츠타야 다이칸야마",
+     "tip": "nanamica 세 매장과 같은 사루가쿠초 도보권",
+     "cost": "0",
+     "time": "19:05~20:00",
+     "photo": "photos/p-츠타야-다이칸야마.jpg"
+    }
+   ]
+  },
+  {
+   "id": "gakugei",
+   "name": "가쿠게이다이가쿠",
+   "day": "sat",
+   "order": 5,
+   "onlyVariant": "B",
+   "lat": 35.6323,
+   "lng": 139.6874,
+   "timeB": "17:00~18:00",
+   "durB": "60분",
+   "transport": "후쿠토신선 직통 20분",
+   "note": "안 B에서만 간다. BIG JOHN 이 도쿄 유일 직영점. 해질녘 스크램블(안 A)과 맞바꾸는 자리.",
+   "shops": [
+    {
+     "name": "BIG JOHN TOKYO",
+     "desc": "도쿄 유일의 직영점 — 일본 최초 국산 진(1965)·일본인 체형 맞춤 실루엣(1967)·세계 최초 워싱가공(1968)의 원조",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 수 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒153-0053 東京都目黒区五本木１丁目３１−１０",
+     "lat": 35.637308000000004,
+     "lng": 139.69056419999998,
+     "map": "https://maps.google.com/?cid=3581761455259374408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-big-john-tokyo.jpg"
+    }
+   ],
+   "photoSpots": []
+  },
+  {
+   "id": "kawagoe",
+   "name": "가와고에",
+   "day": "sun",
+   "order": 1,
+   "lat": 35.9096,
+   "lng": 139.4842,
+   "timeA": "08:20~17:05",
+   "durA": "하루",
+   "timeB": "08:20~19:20",
+   "durB": "하루",
+   "transport": "이케부쿠로 → 도부 토조선 급행 30분 · 환승 0 · ¥490",
+   "note": "역 앞엔 아무것도 없다 — 관광지는 역 북쪽 1.5~2km(버스 10분/도보 25~30분). 오전 일정은 안 A/B 공통, 저녁만 갈린다.",
+   "timeline": [
+    {
+     "t": "08:20",
+     "what": "이케부쿠로 출발 (도부 토조선 급행)"
+    },
+    {
+     "t": "09:10~10:10",
+     "what": "⭐ 이치반가이 + 토키노카네 — 사진. 가게는 10시 개점이라 이 시간엔 사진만"
+    },
+    {
+     "t": "10:10~10:25",
+     "what": "카시야요코초"
+    },
+    {
+     "t": "10:30",
+     "what": "🍚 小川菊 줄서기 (10:40 오픈 · ⚠️ 주말 예약 불가 · 품절되면 닫는다)"
+    },
+    {
+     "t": "11:00~11:45",
+     "what": "장어 점심"
+    },
+    {
+     "t": "12:00",
+     "what": "🔔 토키노카네 정오 타종"
+    },
+    {
+     "t": "12:00~13:00",
+     "what": "이치반가이 상점 · 군것질 (いも恋 · おさつ庵)"
+    },
+    {
+     "t": "13:20~13:50",
+     "what": "히카와신사 (붉은 다리 · 에마 터널)"
+    },
+    {
+     "t": "14:00~15:00",
+     "what": "기타인 + 500나한 (일요일 8:50~16:50 · ¥400)"
+    },
+    {
+     "t": "15:15~16:00",
+     "what": "다이쇼로망 유메도리 → 크레아몰 걸어 내려와 역으로"
+    }
+   ],
+   "timelineA": [
+    {
+     "t": "16:00~17:00",
+     "what": "🍺 COEDO BREWERY (역 직결 U_PLACE 1F)"
+    },
+    {
+     "t": "17:05",
+     "what": "도부 급행"
+    },
+    {
+     "t": "17:40",
+     "what": "이케부쿠로 도착 — 🏮 미코시 퍼레이드(17:30~20:00)가 숙소 앞을 지나간다"
+    }
+   ],
+   "timelineB": [
+    {
+     "t": "~16:50",
+     "what": "기타인 (폐문 16:50)"
+    },
+    {
+     "t": "17:10",
+     "what": "이치반가이 복귀"
+    },
+    {
+     "t": "17:30~18:10",
+     "what": "⭐ 일몰 + 라이트업된 토키노카네 · 🔔 18:00 타종 · 관광객이 빠진 창고거리"
+    },
+    {
+     "t": "18:15~19:15",
+     "what": "🍺 COEDO 브루펍 저녁까지 (일요일 22:00까지)"
+    },
+    {
+     "t": "19:20",
+     "what": "도부 급행 → 20:00 이케부쿠로 (미코시는 파장·노점만)"
+    }
+   ],
+   "shops": [
+    {
+     "name": "COEDO BREWERY (U_PLACE)",
+     "desc": "역 직결 브루펍",
+     "hours": "월 11:30~15:30, 17:00~22:00 · 화 11:30~15:30, 17:00~22:00 · 수 11:30~15:30, 17:00~22:00 · 목 11:30~15:30, 17:00~22:00 · 금 11:30~15:30, 17:00~22:00 · 토 11:30~22:00 · 일 11:30~22:00",
+     "addr": "〒350-1123 埼玉県川越市脇田本町８−１ U_PLACE 1F",
+     "lat": 35.9058079,
+     "lng": 139.4811944,
+     "map": "https://maps.google.com/?cid=2640786285722542164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-coedo-brewery-u-place.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "이치반가이 쿠라즈쿠리 거리 + 토키노카네 ⭐⭐",
+     "tip": "검은 기와·흙벽 창고가 통째로 남은 거리. 가게는 10시 개점이라 이 시간엔 사진만 — 일요일 오후엔 사람으로 꽉 찬다",
+     "cost": "0",
+     "time": "09:10~10:10",
+     "photo": "photos/p-이치반가이-쿠라즈쿠리-거리-토키노카네.jpg"
+    },
+    {
+     "name": "라이트업된 토키노카네 ⭐ (안 B만)",
+     "tip": "일몰 후 종에 조명. 관광객이 빠진 창고거리 — 아침(자연광·무인) ↔ 밤(조명·무인) 같은 거리를 정반대 톤으로 두 번",
+     "cost": "0",
+     "time": "17:30~18:10",
+     "photo": "photos/p-라이트업된-토키노카네-안-b만.png"
+    }
+   ]
+  },
+  {
+   "id": "ikebukuro-night",
+   "name": "이케부쿠로 밤",
+   "day": "sun",
+   "order": 2,
+   "onlyVariant": "A",
+   "lat": 35.7295,
+   "lng": 139.7109,
+   "timeA": "17:40~21:00",
+   "durA": "3시간 (안 B면 1시간, 못 한 건 화요일 오전으로)",
+   "transport": "숙소 도보권 = 東池袋",
+   "note": "숙소 근처. 여자친구 화장품 9종 전부가 여기서 끝난다.",
+   "shops": [
+    {
+     "name": "Animate 이케부쿠로 본점",
+     "desc": "여친 픽 · 4층",
+     "hours": "월 10:00~21:00 · 화 10:00~21:00 · 수 10:00~21:00 · 목 10:00~21:00 · 금 10:00~21:00 · 토 10:00~21:00 · 일 10:00~21:00",
+     "addr": "〒170-0013 東京都豊島区東池袋１丁目２０−７",
+     "lat": 35.7311443,
+     "lng": 139.7154592,
+     "map": "https://maps.google.com/?cid=5782044568649909786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-animate-이케부쿠로-본점.jpg"
+    },
+    {
+     "name": "Shelly Coco",
+     "desc": "여친 픽 · 이타백·인형·인형옷",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒170-0013 東京都豊島区東池袋１丁目１３−１０ 岡安園ビル 3f",
+     "lat": 35.7297152,
+     "lng": 139.7152537,
+     "map": "https://maps.google.com/?cid=77560139546176975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-shelly-coco.jpg"
+    },
+    {
+     "name": "Pop Nyan",
+     "desc": "여친 픽 · 인형",
+     "hours": "월 13:00~20:00 · 화 13:00~20:00 · 금 13:00~20:00 · 토 13:00~20:00 · 일 13:00~20:00 · 휴무 수·목",
+     "addr": "〒170-0013 東京都豊島区東池袋１丁目３５−１",
+     "lat": 35.7329414,
+     "lng": 139.71555379999998,
+     "map": "https://maps.google.com/?cid=1389141450114335248&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-pop-nyan.jpg"
+    },
+    {
+     "name": "K-BOOKS 오토메관",
+     "desc": "여친 픽 · 굿즈",
+     "hours": "월 12:00~20:00 · 화 12:00~20:00 · 수 12:00~20:00 · 목 12:00~20:00 · 금 12:00~20:00 · 토 11:30~20:00 · 일 11:30~20:00",
+     "addr": "〒170-0013 東京都豊島区東池袋３丁目１５−5 東池袋マンション B1F",
+     "lat": 35.7307862,
+     "lng": 139.7179055,
+     "map": "https://maps.google.com/?cid=506131134875345947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-k-books-오토메관.jpg"
+    },
+    {
+     "name": "Deal Design 파르코점",
+     "desc": "여친 픽 · 악세사리",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２５−７ 2F",
+     "brand": "deal-design",
+     "lat": 35.6690611,
+     "lng": 139.708082,
+     "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-deal-design-파르코점.png"
+    },
+    {
+     "name": "드럭스토어",
+     "desc": "여친 픽 · 화장품 9종 전부 (캔메이크·비오레·오르비스·우루리스 등)",
+     "hours": "매장별",
+     "addr": "역 주변 다수"
+    },
+    {
+     "name": "다이소 · Can do · Standard Product · Lakole · Kaldi · Right on",
+     "desc": "여친 픽 · 잡화",
+     "hours": "매장별",
+     "addr": "이케부쿠로에 전부 있다"
+    },
+    {
+     "name": "바카라 2곳",
+     "desc": "내 잔 — 백화점 내",
+     "hours": "백화점 폐점 시각",
+     "addr": "세이부·도부"
+    },
+    {
+     "name": "주류 전문점 (야마야 등)",
+     "desc": "내 위스키 — 글렌모렌지 시그넷 2병",
+     "hours": "미확인",
+     "addr": "⚠️ 면세 400달러 한도"
+    }
+   ],
+   "photoSpots": []
+  },
+  {
+   "id": "asakusa",
+   "name": "아사쿠사",
+   "day": "mon",
+   "order": 1,
+   "lat": 35.7148,
+   "lng": 139.7967,
+   "timeA": "9:30~11:00",
+   "durA": "90분",
+   "transport": "숙소에서 야마노테 → 긴자선",
+   "note": "우리 후보 중 아침에 살아 있는 유일한 곳. 센소지는 24시간, 나카미세는 9:30 개점인데 간다·긴자는 11시 전에 전부 닫혀 있다.",
+   "shops": [
+    {
+     "name": "浅草古着着物 加とう",
+     "desc": "여친 픽 · 중고 기모노·유카타 판매점 (렌탈 아님)",
+     "hours": "월 10:00~19:00 · 화 10:00~19:00 · 수 10:00~19:00 · 목 10:00~19:00 · 금 10:00~19:00 · 토 10:00~19:00 · 일 10:00~19:00",
+     "addr": "〒111-0032 東京都台東区浅草１丁目３１−６",
+     "badge": "⚠️ 9:30에 안 열려 있을 수 있다 — 준비 목록에서 확인",
+     "lat": 35.712301800000006,
+     "lng": 139.79569519999998,
+     "map": "https://maps.google.com/?cid=12915525959148884633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-x.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "센소지 ⭐⭐",
+     "tip": "가미나리몬 · 나카미세 · 호조몬 — 차이는 호조몬 아래에서 오층탑을 끼워 찍는 것. 아침이라 사람이 없다",
+     "cost": "0",
+     "time": "9:30~11:00",
+     "photo": "photos/p-센소지.jpg"
+    },
+    {
+     "name": "아즈마바시 ⭐",
+     "tip": "스카이트리 + 아사히 오브제를 한 프레임에. 센소지에서 도보",
+     "cost": "0",
+     "photo": "photos/p-아즈마바시.jpg"
+    },
+    {
+     "name": "아사쿠사 문화관광센터 8층",
+     "tip": "무료 전망. 카미나리몬 → 나카미세 일직선이 위에서 내려다보인다. 길 건너면 끝",
+     "cost": "0",
+     "photo": "photos/p-아사쿠사-문화관광센터-8층.jpg"
+    }
+   ]
+  },
+  {
+   "id": "kanda",
+   "name": "간다 오가와마치",
+   "day": "mon",
+   "order": 2,
+   "lat": 35.6944,
+   "lng": 139.7631,
+   "timeA": "11:10~12:00",
+   "durA": "50분",
+   "transport": "긴자선 아사쿠사→간다 10분",
+   "note": "미즈노 50분과 진보초 헌책방 거리가 겹친다 — 둘 중 하나.",
+   "shops": [
+    {
+     "name": "MIZUNO TOKYO",
+     "desc": "내 양말·모자·신발 (국내 미판매)",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒101-0052 東京都千代田区神田小川町３丁目１",
+     "photo": "photos/s-mizuno-tokyo.jpg",
+     "lat": 35.6945294,
+     "lng": 139.7623003,
+     "map": "https://maps.google.com/?cid=17669198692554872197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "name": "스포츠용품 거리",
+     "desc": "미즈노 말고도 매장이 줄지어 있다. ⚠️ 아디다스 직영은 없다(시부야·하라주쿠에서 본다)",
+     "hours": "미확인",
+     "addr": ""
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "진보초 헌책방 거리",
+     "tip": "책등·간판·차양이 줄지어 있다. 간다 축 바로 옆. ⚠️ 미즈노 50분과 겹친다",
+     "cost": "0",
+     "time": "11:10~12:00",
+     "photo": "photos/p-진보초-헌책방-거리.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ginza",
+   "name": "긴자",
+   "day": "mon",
+   "order": 3,
+   "lat": 35.6717,
+   "lng": 139.7647,
+   "timeA": "12:10~21:00",
+   "durA": "9시간 통째",
+   "transport": "마루노우치선 5분",
+   "note": "상점 대부분 11:00 오픈. 빈티지 명품은 한 곳에 40분씩 잡는다. 이토야는 층을 정해서 들어간다 — 목적 없이 들어가면 두 시간이 사라진다.",
+   "shops": [
+    {
+     "name": "ALLU 긴자",
+     "desc": "여친 픽 · 레어 명품·주얼리",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒104-0061 東京都中央区銀座５丁目３−１４ 銀座ジュンビル",
+     "map": "https://maps.google.com/?cid=4929718348954902303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "other": "신주쿠",
+     "brand": "allu",
+     "lat": 35.671809499999995,
+     "lng": 139.7627266,
+     "photo": "photos/s-allu-긴자.jpg"
+    },
+    {
+     "name": "Brand Collect 긴자",
+     "desc": "여친 픽 · 클래식 명품, 저렴",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒104-0061 東京都中央区銀座２丁目４−２ 誠佳ビル 1・2階 銀座柳通り沿い 1丁目駅 5番出口すぐ",
+     "map": "https://maps.google.com/?cid=4516507478607656892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.6743109,
+     "lng": 139.7668653,
+     "photo": "photos/s-brand-collect-긴자.jpg"
+    },
+    {
+     "name": "Kindal 긴자",
+     "desc": "여친 픽 · 유니크",
+     "hours": "월 10:00~20:00 · 화 10:00~20:00 · 수 10:00~20:00 · 목 10:00~20:00 · 금 10:00~20:00 · 토 10:00~20:00 · 일 10:00~20:00",
+     "addr": "〒104-0061 東京都中央区銀座５丁目９−１５ 銀座清月堂ビル 1F/2F",
+     "map": "https://maps.google.com/?cid=1168549044379929599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "other": "시부야",
+     "brand": "kindal",
+     "lat": 35.6700793,
+     "lng": 139.7649569,
+     "photo": "photos/s-kindal-긴자.jpg"
+    },
+    {
+     "name": "Vintage Velaa 긴자",
+     "desc": "여친 픽 · 샤넬 위주",
+     "hours": "월 12:00~20:00 · 화 12:00~20:00 · 수 12:00~20:00 · 목 12:00~20:00 · 금 12:00~20:00 · 토 12:00~20:00 · 일 12:00~20:00",
+     "addr": "銀座ランドビル 7Floor, ２丁目-１１-1 銀座 中央区 東京都 104-0061",
+     "map": "https://maps.google.com/?cid=12101287177062702833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.6727413,
+     "lng": 139.7692185,
+     "photo": "photos/s-vintage-velaa-긴자.jpg"
+    },
+    {
+     "name": "금자안경 (Kaneko Optical)",
+     "desc": "여친 픽 · 안경테",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "addr": "〒104-0061 東京都中央区銀座６丁目８−４",
+     "map": "https://maps.google.com/?cid=11906930384117499082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.6704702,
+     "lng": 139.7633405,
+     "photo": "photos/s-금자안경-kaneko-optical.jpg"
+    },
+    {
+     "name": "Ginza Itoya",
+     "desc": "여친 픽 · 문구 · 12F + 별관 — 2F 카드·3F 만년필·4F 수첩·가죽·5F 표준문구·7F 종이 1,000종·연필 1,300종·12F 카페",
+     "hours": "월 10:00~20:00 · 화 10:00~20:00 · 수 10:00~20:00 · 목 10:00~20:00 · 금 10:00~20:00 · 토 10:00~20:00 · 일 10:00~19:00",
+     "addr": "〒104-0061 東京都中央区銀座２丁目７−１５",
+     "map": "https://maps.google.com/?cid=9979308774657714368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.6731273,
+     "lng": 139.7672138,
+     "photo": "photos/s-ginza-itoya.jpg"
+    },
+    {
+     "name": "MUJI 긴자",
+     "desc": "내 것 · 세계 플래그십",
+     "hours": "미확인",
+     "addr": "",
+     "other": "어디든"
+    },
+    {
+     "name": "유니클로 긴자",
+     "desc": "내 것 · 플래그십",
+     "hours": "미확인",
+     "addr": "",
+     "other": "어디든"
+    },
+    {
+     "name": "잇포도 新丸ビル店",
+     "desc": "내 말차 (⚠️ 마루노우치점은 폐점)",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "addr": "〒100-6590 東京都千代田区丸の内１丁目５−１ 新丸の内ビル B1階",
+     "lat": 35.6826912,
+     "lng": 139.763924,
+     "map": "https://maps.google.com/?cid=595070926366469394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-잇포도.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "와코 시계탑 · 긴자식스 옥상",
+     "tip": "긴자 걷는 길에",
+     "cost": "0",
+     "time": "12:10~",
+     "photo": "photos/p-와코-시계탑-긴자식스-옥상.jpg"
+    },
+    {
+     "name": "도쿄역 마루노우치 + KITTE 6층 옥상정원 ⭐",
+     "tip": "무료. 붉은 역사 부감, 밤 라이트업이 정답. 긴자에서 도보권, 잇포도 신마루빌딩도 같은 블록",
+     "cost": "0",
+     "time": "밤",
+     "photo": "photos/p-도쿄역-마루노우치-kitte-6층-옥상정원.jpg"
+    },
+    {
+     "name": "긴자 명품관 유리면",
+     "tip": "",
+     "cost": "0",
+     "time": "밤",
+     "photo": "photos/p-긴자-명품관-유리면.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ueno",
+   "name": "우에노",
+   "day": "tue",
+   "order": 1,
+   "lat": 35.7141,
+   "lng": 139.7774,
+   "timeA": "10:30~11:55",
+   "durA": "85분",
+   "transport": "야마노테선 → 우에노 16분 · 역 락커에 캐리어",
+   "note": "마지막 날 이동일. 15:20 나리타 출발이라 오전 2시간이 전부다.",
+   "shops": [
+    {
+     "name": "HINOYA 본점",
+     "desc": "⭐ 일본 장인 데님을 한 곳에서 비교 — MOMOTARO(도쿄 직영 없음)·ONI·PURE BLUE JAPAN·Studio D'Artisan·Iron Heart(21oz)·SUGAR CANE·EVISU",
+     "hours": "월 10:30~20:10 · 화 10:30~20:10 · 수 10:30~20:10 · 목 10:30~20:10 · 금 10:30~20:10 · 토 10:30~20:10 · 일 10:30~20:10",
+     "addr": "〒110-0005 東京都台東区上野６丁目１０−１４",
+     "badge": "⭐",
+     "lat": 35.710329699999996,
+     "lng": 139.7749341,
+     "map": "https://maps.google.com/?cid=7904755559523666318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-hinoya-본점.jpg"
+    },
+    {
+     "name": "JAPAN BLUE JEANS 우에노점",
+     "desc": "고지마 직영 · 보텀 50종 300점 · 1점물 리메이크",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 수 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "addr": "〒110-0005 東京都台東区上野６丁目８−２２",
+     "brand": "japan-blue",
+     "lat": 35.7091257,
+     "lng": 139.7757219,
+     "map": "https://maps.google.com/?cid=13471579127040383835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-japan-blue-jeans-우에노점.jpg"
+    }
+   ],
+   "photoSpots": [
+    {
+     "name": "아메요코 시장",
+     "tip": "움직이는 피사체가 가장 많은 곳. HINOYA·JAPAN BLUE 가 바로 옆 블록이라 추가 이동 0",
+     "cost": "0",
+     "time": "10:30~11:55",
+     "photo": "photos/p-아메요코-시장.jpg"
+    }
+   ]
+  }
+ ],
+ "bonus": [
+  {
+   "type": "가게",
+   "name": "파라부트 청산 (보트슈즈)",
+   "why": "",
+   "whyNot": "2026-09-21 본인 결정 — 안 본다"
+  },
+  {
+   "type": "가게",
+   "name": "菊屋 · 캇파바시 · 프랑프랑 (그릇)",
+   "why": "",
+   "whyNot": "잔은 바카라(이케부쿠로)로 끝. 그릇 자체가 후순위로 내려감"
+  },
+  {
+   "type": "가게",
+   "name": "바카라 긴자 마츠야 4F · 롯폰기 케야키자카",
+   "why": "",
+   "whyNot": "이케부쿠로 백화점 2곳과 중복"
+  },
+  {
+   "type": "가게",
+   "name": "러닝 선글라스 · SWANS · blinc vase",
+   "why": "",
+   "whyNot": "한국 공식가가 더 싸다"
+  },
+  {
+   "type": "가게",
+   "name": "카메라샵 (맵카메라·후지야·FUJIFILM Square)",
+   "why": "",
+   "whyNot": "2026-09-20 제외 확정"
+  },
+  {
+   "type": "가게",
+   "name": "아디다스 간다",
+   "why": "",
+   "whyNot": "직영이 없다 (양판점 거리)"
+  },
+  {
+   "type": "관광지",
+   "name": "가마쿠라 · 에노시마 · 요코하마 · 키치조지",
+   "why": "",
+   "whyNot": "일정에 자리가 없다"
+  },
+  {
+   "type": "관광지",
+   "name": "시부야 스카이 · 야경 전망대 5곳",
+   "why": "",
+   "whyNot": "야경에 따로 시간을 안 쓴다 (사진은 동선에 얹히는 것만)"
+  },
+  {
+   "type": "관광지",
+   "name": "기타구 불꽃놀이 (9/26)",
+   "why": "",
+   "whyNot": "토요일 저녁 시부야와 충돌"
+  },
+  {
+   "type": "관광지",
+   "name": "킨챠쿠다 꽃무릇",
+   "why": "",
+   "whyNot": "반나절이 필요한데 일요일은 가와고에"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "도덴 아라카와선 (사쿠라 트램)",
+   "why": "도쿄에 하나 남은 노면전차. 민가 사이를 지난다. 숙소 1정거장(오츠카)",
+   "whyNot": "왕복 1~2시간. 화요일 아침에 넣으면 우에노 데님이 죽는다"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "야네센 (야나카·네즈·센다기)",
+   "why": "공습을 피한 동네. 유야케단단 계단·고양이. 35mm 화각의 교과서",
+   "whyNot": "반나절. 우에노에서 한 정거장인데 화요일엔 2시간밖에 없다"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "츠키지 장외시장",
+   "why": "사람·불·김·해산물",
+   "whyNot": "오전이 전부(14시 마감)인데 우리 오전은 월=아사쿠사, 화=우에노"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "오모이데요코초 · 골든가이 (신주쿠)",
+   "why": "도쿄 밤의 표준 이미지",
+   "whyNot": "토요일 신주쿠가 낮 85분이다. 촬영 규제도 강하다 — 간판·외관만"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "짓켄바시",
+   "why": "강물에 스카이트리가 통째로 반영",
+   "whyNot": "오시아게 도보 15분 · 밤·무풍일 때만"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "나카메구로 메구로강",
+   "why": "강변 + 편집숍",
+   "whyNot": "다이칸야마에서 1정거장인데 20:00 이후라 어둡다"
+  },
+  {
+   "type": "사진 스폿",
+   "name": "도쿄도청 프로젝션 매핑",
+   "why": "청사 벽면 전체 · 무료 · 숙소 5분",
+   "whyNot": "상영 일정 미확인. 확인되면 밤에 끼울 수 있다"
+  }
+ ],
+ "checklist": [
+  {
+   "group": "예약 · 결제",
+   "items": [
+    "크로스핏 이케부쿠로 드롭인 예약 (LINE · 9/28 6:30 · 티셔츠 판매 여부도 같이 물어보기)",
+    "스카이라이너 왕복 e티켓 ¥4,500 × 2 결제",
+    "모바일 스이카 발급 (아이폰 지갑앱, 출발 전 미리)"
+   ]
+  },
+  {
+   "group": "안 A/B 확정",
+   "items": [
+    "토요일 안 확정 — 해질녘 스크램블 vs BIG JOHN (BIG JOHN 국내 구매 가능하면 스크램블 안으로)",
+    "일요일 안 확정 — 17:05 이케부쿠로 밤 vs 19:20 밤 가와고에"
+   ]
+  },
+  {
+   "group": "영업시간 · 가능 여부 확인",
+   "items": [
+    "加とう (아사쿠사 중고 기모노) — 9:30에 여는가",
+    "Jins 플래그십 영업시간 + 도수 렌즈 당일 수령 가능 여부",
+    "긴자 빈티지 4곳 (ALLU · Brand Collect · Kindal · Vintage Velaa) + 금자안경 영업시간",
+    "도쿄도청 프로젝션 매핑 상영 일정 (되면 밤에 끼운다)",
+    "Goldwin 하라주쿠 재고 · 유나이티드 애로우 시부야 영업시간",
+    "Brand off · Kindal 시부야 · BILLY'S · Deus 하라주쿠 · BAPE 시부야 · JAPAN BLUE(양쪽) 영업시간",
+    "Animate 이케부쿠로 영업시간 · 위스키 매장과 가격 (면세 400달러 한도)",
+    "실행 플랜 표의 미확인 · 빈 지도 링크 전부"
+   ]
+  },
+  {
+   "group": "짐",
+   "items": [
+    "여권",
+    "운동화 · 운동복 (크로스핏용)",
+    "캐리어 여유 공간 + 그릇용 완충재"
+   ]
+  }
+ ],
+ "hotel": {
+  "name": "도미인 PREMIUM 이케부쿠로",
+  "desc": "체크인 15:00 · 대욕장 15:00~익일 10:00",
+  "addr": "〒170-0013 東京都豊島区東池袋３丁目１１−１１",
+  "lat": 35.7318065,
+  "lng": 139.7190125,
+  "map": "https://maps.google.com/?cid=13095594666114529943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "photo": "photos/hotel-dormyinn-ikebukuro.jpg"
+ },
+ "brands": {
+  "goldwin": {
+   "name": "Goldwin",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "Goldwin Harajuku"
+    },
+    {
+     "label": "마루노우치",
+     "addr": "〒100-0005 東京都千代田区丸の内２丁目６−１ ブリックスクエア１Ｆ １０８区",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "lat": 35.6790668,
+     "lng": 139.7626826,
+     "map": "https://maps.google.com/?cid=3617760219693041920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-goldwin-마루노우치.jpg"
+    }
+   ]
+  },
+  "deus": {
+   "name": "Deus Ex Machina",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "Deus Ex Machina 하라주쿠"
+    },
+    {
+     "label": "시부야",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目３１−２１ 東急プラザ原宿「ハラカド」 2階",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "lat": 35.6684224,
+     "lng": 139.7048752,
+     "map": "https://maps.google.com/?cid=14231011816628294094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deus-시부야.jpg"
+    },
+    {
+     "label": "아사쿠사",
+     "addr": "〒131-0033 東京都墨田区向島１丁目２−８ W5",
+     "hours": "월 11:00~19:00 · 화 11:00~19:00 · 목 11:00~19:00 · 금 11:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00 · 휴무 수",
+     "lat": 35.711082,
+     "lng": 139.80353019999998,
+     "map": "https://maps.google.com/?cid=4152845194933715767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deus-아사쿠사.jpg"
+    }
+   ]
+  },
+  "chrome-hearts": {
+   "name": "Chrome Hearts",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "Chrome Hearts 아오야마"
+    },
+    {
+     "label": "긴자",
+     "addr": "〒104-0061 東京都中央区銀座５丁目４−９ B1 - 2F",
+     "hours": "월 12:00~19:00 · 화 12:00~19:00 · 수 12:00~19:00 · 목 12:00~19:00 · 금 12:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "lat": 35.6713605,
+     "lng": 139.7629508,
+     "map": "https://maps.google.com/?cid=5054441042591433914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-chrome-hearts-긴자.jpg"
+    },
+    {
+     "label": "하라주쿠",
+     "addr": "〒150-0001 東京都渋谷区神宮前２丁目１８−11 1F･2F",
+     "hours": "월 12:00~19:00 · 화 12:00~19:00 · 수 12:00~19:00 · 목 12:00~19:00 · 금 12:00~19:00 · 토 11:00~19:00 · 일 11:00~19:00",
+     "lat": 35.6722602,
+     "lng": 139.709265,
+     "map": "https://maps.google.com/?cid=9778377381539910962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-chrome-hearts-하라주쿠.jpg"
+    }
+   ]
+  },
+  "adidas-originals": {
+   "name": "adidas Originals",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "아디다스 오리지널스 플래그십"
+    },
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "아디다스 브랜드센터 시부야"
+    },
+    {
+     "label": "미야시타파크",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目２０−１０ MIYASHITA PARK South 1F・2F",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "lat": 35.6622585,
+     "lng": 139.70190159999999,
+     "map": "https://maps.google.com/?cid=11113241243265711853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-adidas-originals-미야시타파크.jpg"
+    },
+    {
+     "label": "신주쿠",
+     "addr": "3F, ３丁目-２７-4 1 新宿 新宿区 東京都 160-0022",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "lat": 35.6908868,
+     "lng": 139.7018393,
+     "map": "https://maps.google.com/?cid=14804572943054525449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-adidas-originals-신주쿠.jpg"
+    }
+   ]
+  },
+  "united-arrows": {
+   "name": "유나이티드 애로우",
+   "locations": [
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "유나이티드 애로우"
+    },
+    {
+     "label": "하라주쿠",
+     "addr": "〒150-0001 東京都渋谷区神宮前３丁目２８−１",
+     "hours": "월 12:00~20:00 · 화 12:00~20:00 · 수 12:00~20:00 · 목 12:00~20:00 · 금 12:00~20:00 · 토 12:00~20:00 · 일 12:00~20:00",
+     "lat": 35.6720407,
+     "lng": 139.7095079,
+     "map": "https://maps.google.com/?cid=14329430069820695518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-united-arrows-하라주쿠.jpg"
+    },
+    {
+     "label": "신주쿠 루미네",
+     "addr": "〒160-0023 東京都新宿区西新宿１丁目１−５ ルミネ新宿 ルミネ1 B1・1F",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "lat": 35.6892105,
+     "lng": 139.6992913,
+     "map": "https://maps.google.com/?cid=91966904553009600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-united-arrows-신주쿠-루미네.jpg"
+    }
+   ]
+  },
+  "montbell": {
+   "name": "몽벨",
+   "locations": [
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "몽벨 시부야"
+    },
+    {
+     "label": "신주쿠 남구",
+     "addr": "〒151-0053 東京都渋谷区代々木２丁目４−９ NMF 新宿南口ビル 1階",
+     "hours": "월 10:00~21:00 · 화 10:00~21:00 · 수 10:00~21:00 · 목 10:00~21:00 · 금 10:00~21:00 · 토 10:00~21:00 · 일 10:00~21:00",
+     "lat": 35.687570699999995,
+     "lng": 139.6992203,
+     "map": "https://maps.google.com/?cid=17884812280338132625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-신주쿠-남구.jpg"
+    },
+    {
+     "label": "오카치마치",
+     "addr": "〒110-0005 東京都台東区上野３丁目２２−６ コムテラス 御徒町",
+     "hours": "월 10:00~21:00 · 화 10:00~21:00 · 수 10:00~21:00 · 목 10:00~21:00 · 금 10:00~21:00 · 토 10:00~21:00 · 일 10:00~21:00",
+     "lat": 35.7064151,
+     "lng": 139.7737829,
+     "map": "https://maps.google.com/?cid=17245256251592542764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-오카치마치.jpg"
+    },
+    {
+     "label": "교바시",
+     "addr": "〒104-0031 東京都中央区京橋３丁目１−１ 東京スクエアガーデン １ ２階",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "lat": 35.6759537,
+     "lng": 139.768802,
+     "map": "https://maps.google.com/?cid=18111296058751286170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-교바시.jpg"
+    },
+    {
+     "label": "이케부쿠로 도부",
+     "addr": "〒171-8512 東京都豊島区西池袋１丁目１−２５ 東武百貨店池袋店 5F 9・10番地",
+     "hours": "월 10:00~19:00 · 화 10:00~19:00 · 수 10:00~19:00 · 목 10:00~19:00 · 금 10:00~19:00 · 토 10:00~19:00 · 일 10:00~19:00",
+     "lat": 35.7300456,
+     "lng": 139.7104443,
+     "map": "https://maps.google.com/?cid=13123939370967231536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-이케부쿠로-도부.jpg"
+    }
+   ]
+  },
+  "rinkan": {
+   "name": "RINKAN (크롬하츠 리셀)",
+   "locations": [
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "RINKAN 시부야점"
+    },
+    {
+     "label": "신주쿠",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目３４−１３ 三経２５ビル B1F",
+     "hours": "월 13:00~19:30 · 화 13:00~19:30 · 수 13:00~19:30 · 목 13:00~19:30 · 금 13:00~19:30 · 토 13:00~19:30 · 일 13:00~19:30",
+     "lat": 35.6905613,
+     "lng": 139.7031084,
+     "map": "https://maps.google.com/?cid=2327735776294731591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-rinkan-신주쿠.jpg"
+    },
+    {
+     "label": "하라주쿠 silver",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２７−１ ギャラリー ドジム B1F",
+     "hours": "월 13:00~19:30 · 화 13:00~19:30 · 수 13:00~19:30 · 목 13:00~19:30 · 금 13:00~19:30 · 토 13:00~19:30 · 일 13:00~19:30",
+     "lat": 35.6697007,
+     "lng": 139.7077677,
+     "map": "https://maps.google.com/?cid=6018458820991992819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-rinkan-하라주쿠-silver.jpg"
+    }
+   ]
+  },
+  "randa": {
+   "name": "RANDA",
+   "locations": [
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "RANDA 시부야"
+    },
+    {
+     "label": "루미네에스트 신주쿠",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目３８−１ ルミネエスト新宿 4F",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 10:30~21:00 · 일 10:30~21:00",
+     "lat": 35.691204,
+     "lng": 139.70120530000003,
+     "map": "https://maps.google.com/?cid=951930861678083629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-randa-루미네에스트-신주쿠.jpg"
+    }
+   ]
+  },
+  "allu": {
+   "name": "ALLU",
+   "locations": [
+    {
+     "label": "긴자",
+     "regionId": "ginza",
+     "shopName": "ALLU 긴자"
+    },
+    {
+     "label": "신주쿠",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目１−２０",
+     "hours": "월 11:00~21:00 · 화 11:00~21:00 · 수 11:00~21:00 · 목 11:00~21:00 · 금 11:00~21:00 · 토 11:00~21:00 · 일 11:00~21:00",
+     "lat": 35.690538,
+     "lng": 139.7049648,
+     "map": "https://maps.google.com/?cid=15579103828022728797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-allu-신주쿠.jpg"
+    }
+   ]
+  },
+  "kindal": {
+   "name": "Kindal",
+   "locations": [
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "Kindal 시부야"
+    },
+    {
+     "label": "긴자",
+     "regionId": "ginza",
+     "shopName": "Kindal 긴자"
+    }
+   ]
+  },
+  "bape": {
+   "name": "BAPE",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "BAPE STORE 하라주쿠"
+    },
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "BAPE THINK"
+    },
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "BAPE STORE 시부야"
+    }
+   ]
+  },
+  "japan-blue": {
+   "name": "JAPAN BLUE JEANS",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "JAPAN BLUE JEANS (시부야점 표기)"
+    },
+    {
+     "label": "우에노",
+     "regionId": "ueno",
+     "shopName": "JAPAN BLUE JEANS 우에노점"
+    }
+   ]
+  },
+  "nanamica": {
+   "name": "nanamica / PURPLE LABEL",
+   "locations": [
+    {
+     "label": "다이칸야마",
+     "regionId": "daikanyama",
+     "shopName": "nanamica MOUNTAIN"
+    },
+    {
+     "label": "다이칸야마",
+     "regionId": "daikanyama",
+     "shopName": "nanamica DAIKANYAMA"
+    },
+    {
+     "label": "다이칸야마",
+     "regionId": "daikanyama",
+     "shopName": "nanamica D.W.S."
+    }
+   ]
+  },
+  "deal-design": {
+   "name": "Deal Design",
+   "locations": [
+    {
+     "label": "이케부쿠로 밤",
+     "regionId": "ikebukuro-night",
+     "shopName": "Deal Design 파르코점"
+    },
+    {
+     "label": "신주쿠",
+     "addr": "〒160-0022 東京都新宿区新宿５丁目１６−４ マルイメン 4F",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "lat": 35.6926136,
+     "lng": 139.70635339999998,
+     "map": "https://maps.google.com/?cid=104110879906635141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deal-design-신주쿠.jpg"
+    },
+    {
+     "label": "하라주쿠",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２５−７ 2F",
+     "hours": "월 11:00~20:00 · 화 11:00~20:00 · 수 11:00~20:00 · 목 11:00~20:00 · 금 11:00~20:00 · 토 11:00~20:00 · 일 11:00~20:00",
+     "lat": 35.6690611,
+     "lng": 139.708082,
+     "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deal-design-하라주쿠.png"
+    }
+   ]
+  }
+ }
+}
