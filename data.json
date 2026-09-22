@@ -140,6 +140,87 @@
      "lng": 139.70584190000002,
      "map": "https://maps.google.com/?cid=9995198544518023487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-스루가야-신주쿠-마루이아넥스점.jpg"
+    },
+    {
+     "name": "Rab (이시이스포츠 요도바시신주쿠니시구치점)",
+     "desc": "겨울 등반 하드쉘 · Phantom Mountain 2.5L",
+     "hours": [
+      {
+       "day": "월",
+       "time": "9:30~22:00"
+      },
+      {
+       "day": "화",
+       "time": "9:30~22:00"
+      },
+      {
+       "day": "수",
+       "time": "9:30~22:00"
+      },
+      {
+       "day": "목",
+       "time": "9:30~22:00"
+      },
+      {
+       "day": "금",
+       "time": "9:30~22:00"
+      },
+      {
+       "day": "토",
+       "time": "9:30~22:00"
+      },
+      {
+       "day": "일",
+       "time": "9:30~22:00"
+      }
+     ],
+     "addr": "〒160-0023 東京都新宿区西新宿１丁目１０−１ ヨドバシ新宿西口駅前ビル B1F/B2F",
+     "badge": "하드쉘",
+     "lat": 35.689868,
+     "lng": 139.6983967,
+     "map": "https://maps.google.com/?cid=14446905868309903471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-rab-이시이스포츠-요도바시신주쿠니시구치점.jpg"
+    },
+    {
+     "name": "Watchnian 신주쿠본점",
+     "desc": "빈티지 시계 · 신주쿠·시부야·긴자 5개 지점 중 하나",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "addr": "〒160-0022 東京都新宿区新宿３丁目１８−５ 猪山興業ビル 1F-3F",
+     "badge": "시계",
+     "lat": 35.6924693,
+     "lng": 139.7025055,
+     "map": "https://maps.google.com/?cid=2017015566223512834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-watchnian-신주쿠본점.jpg",
+     "brand": "watchnian"
     }
    ],
    "photoSpots": []
@@ -561,6 +642,46 @@
      "lng": 139.70358389999998,
      "map": "https://maps.google.com/?cid=1534220050583324710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-japan-blue-jeans-시부야점-표기.jpg"
+    },
+    {
+     "name": "Patagonia 시부야점",
+     "desc": "겨울 등반 하드쉘 · Storm Racer 2.5L",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~16:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~19:00"
+      }
+     ],
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目１６−８",
+     "badge": "하드쉘",
+     "lat": 35.665216799999996,
+     "lng": 139.7035817,
+     "map": "https://maps.google.com/?cid=9042211536900144705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-patagonia-시부야점.jpg"
     }
    ],
    "photoSpots": [
@@ -1036,6 +1157,86 @@
      "lng": 139.6989757,
      "map": "https://maps.google.com/?cid=10680423764497478943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-randa-시부야.jpg"
+    },
+    {
+     "name": "and wander MIYASHITA PARK",
+     "desc": "겨울 등반 하드쉘 · Pertex Shield 20,000mm",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目２０−１０ MIYASHITA PARK South 2F",
+     "badge": "하드쉘",
+     "lat": 35.6622585,
+     "lng": 139.70190159999999,
+     "map": "https://maps.google.com/?cid=13817700934924505623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-and-wander-miyashita-park.jpg"
+    },
+    {
+     "name": "Kith Tokyo",
+     "desc": "District Vision 취급 (공식 스톡리스트) · 재고는 매장 확인",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目２０−１０",
+     "badge": "District Vision",
+     "lat": 35.662959,
+     "lng": 139.70198059999998,
+     "map": "https://maps.google.com/?cid=18270458273014498001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-kith-tokyo.jpg"
     }
    ],
    "photoSpots": [
@@ -1808,7 +2009,7 @@
     {
      "name": "주류 전문점 (야마야 등)",
      "desc": "내 위스키 — 글렌모렌지 시그넷 2병",
-     "hours": "미확인",
+     "hours": "10:00~22:00 (야마야 이케부쿠로 서점·동점 모두)",
      "addr": "⚠️ 면세 400달러 한도"
     }
    ],
@@ -1985,8 +2186,58 @@
     {
      "name": "스포츠용품 거리",
      "desc": "미즈노 말고도 매장이 줄지어 있다. ⚠️ 아디다스 직영은 없다(시부야·하라주쿠에서 본다)",
-     "hours": "미확인",
+     "hours": null,
      "addr": ""
+    },
+    {
+     "name": "Arc'teryx 간다점",
+     "desc": "겨울 등반 하드쉘 · Norvan SL GORE-TEX ShakeDry",
+     "hours": null,
+     "addr": "〒101-0054 東京都千代田区神田錦町２丁目 「神田スクエア」",
+     "badge": "하드쉘",
+     "lat": 35.693521499999996,
+     "lng": 139.7634,
+     "map": "https://maps.google.com/?cid=356539262248494494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "name": "Teton Bros (사카이야 스포츠)",
+     "desc": "겨울 등반 하드쉘 · 셸재킷 라인 취급",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~19:00"
+      }
+     ],
+     "addr": "〒101-0051 東京都千代田区神田神保町２丁目３０ 昭和ビル 1F",
+     "badge": "하드쉘",
+     "lat": 35.6977082,
+     "lng": 139.7562759,
+     "map": "https://maps.google.com/?cid=11553345643233730717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-teton-bros-사카이야-스포츠.jpg"
     }
    ],
    "photoSpots": [
@@ -2200,7 +2451,7 @@
        "time": "12:00~20:00"
       }
      ],
-     "addr": "銀座ランドビル 7Floor, ２丁目-１１-1 銀座 中央区 東京都 104-0061",
+     "addr": "〒104-0061 東京都中央区銀座２丁目１１−１ 銀座ランドビル 7F",
      "map": "https://maps.google.com/?cid=12101287177062702833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "lat": 35.6727413,
      "lng": 139.7692185,
@@ -2287,15 +2538,73 @@
     {
      "name": "MUJI 긴자",
      "desc": "내 것 · 세계 플래그십",
-     "hours": "미확인",
-     "addr": "",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "addr": "〒104-0061 東京都中央区銀座３丁目３−５",
      "other": "어디든"
     },
     {
      "name": "유니클로 긴자",
      "desc": "내 것 · 플래그십",
-     "hours": "미확인",
-     "addr": "",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "addr": "〒104-0061 東京都中央区銀座６丁目９−５ ギンザコマツ東館",
      "other": "어디든"
     },
     {
@@ -2336,6 +2645,48 @@
      "lng": 139.763924,
      "map": "https://maps.google.com/?cid=595070926366469394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-잇포도.jpg"
+    },
+    {
+     "name": "Fire Kids 긴자나인점",
+     "desc": "빈티지 시계 · 나카노 안 가도 되는 대체 지점",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "화",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "수",
+       "time": "휴무",
+       "off": true
+      },
+      {
+       "day": "목",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "금",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "토",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "일",
+       "time": "11:30~19:30"
+      }
+     ],
+     "addr": "〒104-0061 東京都中央区銀座８丁目７−番地先",
+     "badge": "시계",
+     "lat": 35.6676953,
+     "lng": 139.76061640000003,
+     "map": "https://maps.google.com/?cid=11822431248665941811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-fire-kids-긴자나인점.jpg",
+     "brand": "firekids"
     }
    ],
    "photoSpots": [
@@ -2575,12 +2926,6 @@
  "bonus": [
   {
    "type": "가게",
-   "name": "파라부트 청산 (보트슈즈)",
-   "why": "",
-   "whyNot": "2026-09-21 본인 결정 — 안 본다"
-  },
-  {
-   "type": "가게",
    "name": "菊屋 · 캇파바시 · 프랑프랑 (그릇)",
    "why": "",
    "whyNot": "잔은 바카라(이케부쿠로)로 끝. 그릇 자체가 후순위로 내려감"
@@ -2673,7 +3018,7 @@
    "type": "사진",
    "name": "도쿄도청 프로젝션 매핑",
    "why": "청사 벽면 전체 · 무료 · 숙소 5분",
-   "whyNot": "상영 일정 미확인. 확인되면 밤에 끼울 수 있다"
+   "whyNot": "매일(악천후 제외) 17:30~21:30 사이 약 15분씩 여러 작품 연속 상영, 무료·자유 입퇴장. 확인됐으니 밤에 끼울 수 있다"
   }
  ],
  "checklist": [
@@ -2693,24 +3038,63 @@
    ]
   },
   {
-   "group": "영업시간 · 가능 여부 확인",
+   "group": "남은 확인 사항",
    "items": [
-    "加とう (아사쿠사 중고 기모노) — 9:30에 여는가",
-    "Jins 플래그십 영업시간 + 도수 렌즈 당일 수령 가능 여부",
-    "긴자 빈티지 4곳 (ALLU · Brand Collect · Kindal · Vintage Velaa) + 금자안경 영업시간",
-    "도쿄도청 프로젝션 매핑 상영 일정 (되면 밤에 끼운다)",
-    "Goldwin 하라주쿠 재고 · 유나이티드 애로우 시부야 영업시간",
-    "Brand off · Kindal 시부야 · BILLY'S · Deus 하라주쿠 · BAPE 시부야 · JAPAN BLUE(양쪽) 영업시간",
-    "Animate 이케부쿠로 영업시간 · 위스키 매장과 가격 (면세 400달러 한도)",
-    "실행 플랜 표의 미확인 · 빈 지도 링크 전부"
+    "유나이티드 애로우 시부야 위치 정정 확인 — 실제는 히카리에 ShinQs, 스크램블스퀘어 아님",
+    "Goldwin 하라주쿠 재고 현장 확인 (사이즈·컬러)",
+    "Animate 이케부쿠로 위스키 매장 가격 비교"
    ]
   },
   {
-   "group": "짐",
+   "group": "출입국 · 앱 설치",
    "items": [
-    "여권",
-    "운동화 · 운동복 (크로스핏용)",
-    "캐리어 여유 공간 + 그릇용 완충재"
+    "Visit Japan Web 등록 (2인, 입국심사+세관 QR 통합)",
+    "eSIM 개통 — 출국 전 설치만, 도착 후 활성화",
+    "파파고 또는 구글 번역 앱 설치 (카메라 번역)",
+    "Payke 앱 설치 (바코드 스캔 상품 정보 확인)",
+    "신용카드 해외결제 알림 설정"
+   ]
+  },
+  {
+   "group": "짐 — 문서 · 결제",
+   "items": [
+    "여권 (유효기간 6개월 이상 확인)",
+    "여권 사본을 폰에 사진으로 저장 (분실 대비)",
+    "항공권 e티켓",
+    "해외여행자보험 가입 확인",
+    "엔화 현금 1인 2~3만엔 (노포·소규모 식당은 카드 안 됨)"
+   ]
+  },
+  {
+   "group": "짐 — 전자기기",
+   "items": [
+    "콘센트 어댑터 — 일본은 100V·A타입, 한국 돼지코 필요",
+    "보조배터리 (위탁수하물 금지, 기내 반입만)",
+    "스마트폰 충전기 · 케이블",
+    "카메라(X100V) 여유 배터리 · SD카드"
+   ]
+  },
+  {
+   "group": "짐 — 의류",
+   "items": [
+    "반팔 + 얇은 겉옷 (낮 25~28℃, 아침저녁 20℃)",
+    "접이식 우산 (태풍 시즌 끝자락)",
+    "편한 신발",
+    "운동화 · 운동복 (크로스핏용, 9/28)",
+    "도미인 세탁기 무료 — 옷은 넉넉히 안 챙겨도 됨"
+   ]
+  },
+  {
+   "group": "짐 — 쇼핑 대비",
+   "items": [
+    "캐리어 여유 공간 + 그릇용 완충재",
+    "접이식 보조 가방 (쇼핑 짐 늘어날 때)"
+   ]
+  },
+  {
+   "group": "짐 — 기타",
+   "items": [
+    "상비약 (진통제 · 소화제 · 멀미약)"
    ]
   }
  ],
@@ -3004,7 +3388,7 @@
     },
     {
      "label": "신주쿠",
-     "addr": "3F, ３丁目-２７-4 1 新宿 新宿区 東京都 160-0022",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目２７−４ 3F",
      "hours": [
       {
        "day": "월",
@@ -3638,6 +4022,297 @@
      "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deal-design-하라주쿠.png",
      "nearRegionId": "harajuku"
+    }
+   ]
+  },
+  "watchnian": {
+   "name": "Watchnian",
+   "locations": [
+    {
+     "label": "신주쿠",
+     "regionId": "shinjuku",
+     "shopName": "Watchnian 신주쿠본점"
+    },
+    {
+     "label": "시부야점",
+     "addr": "〒150-0042 東京都渋谷区宇田川町２６−５",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.659994,
+     "lng": 139.69884,
+     "map": "https://maps.google.com/?cid=5293628038802672511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-시부야점.jpg",
+     "nearRegionId": "shibuya"
+    },
+    {
+     "label": "긴자5초메점",
+     "addr": "〒104-0061 東京都中央区銀座５丁目７−１９",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6713094,
+     "lng": 139.7645091,
+     "map": "https://maps.google.com/?cid=1463761501935935259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-긴자5초메점-fix.jpg",
+     "nearRegionId": "ginza"
+    },
+    {
+     "label": "긴자2초메점",
+     "addr": "〒104-0061 東京都中央区銀座２丁目５−５ マネージュビル銀座 1F/2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.673848,
+     "lng": 139.7668381,
+     "map": "https://maps.google.com/?cid=274954618749916335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-긴자2초메점.jpg",
+     "nearRegionId": "ginza"
+    },
+    {
+     "label": "긴자본점",
+     "addr": "〒104-0061 東京都中央区銀座８丁目８−５ 陽栄銀座ビル 1F/2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6684212,
+     "lng": 139.7617339,
+     "map": "https://maps.google.com/?cid=234653590795315723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-긴자본점.jpg",
+     "nearRegionId": "ginza"
+    },
+    {
+     "label": "나카노점",
+     "addr": "〒164-0001 東京都中野区中野５丁目５２−１５ 中野ブロードウェイ 3階",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.7088077,
+     "lng": 139.6657059,
+     "map": "https://maps.google.com/?cid=5147283993729826949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-나카노점.jpg"
+    }
+   ]
+  },
+  "firekids": {
+   "name": "Fire Kids",
+   "locations": [
+    {
+     "label": "긴자",
+     "regionId": "ginza",
+     "shopName": "Fire Kids 긴자나인점"
+    },
+    {
+     "label": "나카노 브로드웨이점",
+     "addr": "〒164-0001 東京都中野区中野５丁目５２−１５ 1F 140,141号",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "화",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "수",
+       "time": "휴무",
+       "off": true
+      },
+      {
+       "day": "목",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "금",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "토",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "일",
+       "time": "11:30~19:30"
+      }
+     ],
+     "lat": 35.709161300000005,
+     "lng": 139.6660313,
+     "map": "https://maps.google.com/?cid=415417512498158791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-firekids-나카노-브로드웨이점.jpg"
+    },
+    {
+     "label": "요코하마본점",
+     "addr": "〒221-0802 神奈川県横浜市神奈川区六角橋１丁目１０−１２",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "화",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "수",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "목",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "금",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "토",
+       "time": "11:30~19:30"
+      },
+      {
+       "day": "일",
+       "time": "11:30~19:30"
+      }
+     ],
+     "lat": 35.487836699999995,
+     "lng": 139.6262855,
+     "map": "https://maps.google.com/?cid=6303875408874178741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-firekids-요코하마본점.jpg"
     }
    ]
   }

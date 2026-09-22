@@ -467,7 +467,9 @@
   /* ---- 지역 상세 시트 ---- */
   /* 영업시간 — 요일 한 줄씩 세로로. hours 는 [{day,time,off?}, …] (월~일 고정 순서) */
   function hoursHtml(hours){
-    if (!hours || !hours.length) return '<span class="hoursunk">미확인</span>';
+    if (!hours) return '<span class="hoursunk">미확인</span>';
+    if (typeof hours === "string") return '<span class="hoursunk">' + esc(hours) + '</span>';
+    if (!Array.isArray(hours) || !hours.length) return '<span class="hoursunk">미확인</span>';
     return '<div class="hours">' + hours.map(function(r){
       var dcls = r.day === "일" ? "d sun" : r.day === "토" ? "d sat" : "d";
       return '<div class="hrow' + (r.off ? " off" : "") + '"><span class="' + dcls + '">' + esc(r.day) + '</span>' +
@@ -534,6 +536,7 @@
         '<div class="name">' + esc(sp.name) + '</div>' +
         (sp.tip ? '<div class="tip">' + esc(sp.tip) + '</div>' : '') +
         '<div class="meta">' + [sp.time, sp.cost === "0" ? "무료" : sp.cost].filter(Boolean).join(" · ") + '</div>' +
+        '<div class="btns"><a class="minibtn" href="' + mapUrl(sp) + '" target="_blank" rel="noopener">📍 지도</a></div>' +
       '</div>' +
     '</div>';
   }
@@ -823,7 +826,7 @@
 
 <script>
   (function(){
-    var CURRENT = "26.09.22-0004";
+    var CURRENT = "26.09.22-0005";
     var btn = document.getElementById("upd");
     var latest = null;
     function check(){

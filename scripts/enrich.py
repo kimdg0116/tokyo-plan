@@ -138,139 +138,146 @@ def enrich_into(target, query, center, fname_base, keep_addr=None, keep_hours=No
     return True
 
 
-data = json.loads(DATA.read_text(encoding="utf-8"))
 
-# ---------------------------------------------------------------- 숙소
-print("== 숙소 ==")
-hotel = {"name": "도미인 PREMIUM 이케부쿠로", "desc": "체크인 15:00 · 대욕장 15:00~익일 10:00"}
-enrich_into(hotel, "ドーミーインPREMIUM池袋", (35.7295, 139.7109), "hotel-dormyinn-ikebukuro")
-data["hotel"] = hotel
-time.sleep(0.3)
+def main():
+    data = json.loads(DATA.read_text(encoding="utf-8"))
 
-# ---------------------------------------------------------------- 브랜드 레지스트리
-# 이미 일정 안에 있는 가게는 (region_id, shop_name)로 링크만 한다 (API 호출 없음).
-# extra는 일정엔 없는 다른 지점 — 새로 검색해서 채운다.
-BRANDS = {
-    "goldwin": {"name": "Goldwin", "members": [("harajuku", "Goldwin Harajuku")],
-                "extra": [{"label": "마루노우치", "q": "ゴールドウィン 丸の内"}]},
-    "deus": {"name": "Deus Ex Machina", "members": [("harajuku", "Deus Ex Machina 하라주쿠")],
-             "extra": [{"label": "시부야", "q": "Deus Ex Machina 渋谷"},
-                       {"label": "아사쿠사", "q": "Deus Ex Machina 浅草"}]},
-    "chrome-hearts": {"name": "Chrome Hearts", "members": [("harajuku", "Chrome Hearts 아오야마")],
-                       "extra": [{"label": "긴자", "q": "クロムハーツ 銀座"},
-                                 {"label": "하라주쿠", "q": "クロムハーツ 原宿"}]},
-    "adidas-originals": {"name": "adidas Originals", "members": [("harajuku", "아디다스 오리지널스 플래그십"), ("shibuya", "아디다스 브랜드센터 시부야")],
-                          "extra": [{"label": "미야시타파크", "q": "アディダス 原宿 宮下パーク"},
-                                    {"label": "신주쿠", "q": "アディダス 新宿"}]},
-    "united-arrows": {"name": "유나이티드 애로우", "members": [("shibuya", "유나이티드 애로우")],
-                       "extra": [{"label": "하라주쿠", "q": "ユナイテッドアローズ 原宿本店"},
-                                 {"label": "신주쿠 루미네", "q": "ユナイテッドアローズ ルミネ新宿"}]},
-    "montbell": {"name": "몽벨", "members": [("shibuya", "몽벨 시부야")],
-                 "extra": [{"label": "신주쿠 남구", "q": "モンベル 新宿南口"},
-                           {"label": "오카치마치", "q": "モンベル 御徒町"},
-                           {"label": "교바시", "q": "モンベル 京橋"},
-                           {"label": "이케부쿠로 도부", "q": "モンベル 東武百貨店 池袋"}]},
-    "rinkan": {"name": "RINKAN (크롬하츠 리셀)", "members": [("shibuya", "RINKAN 시부야점")],
-               "extra": [{"label": "신주쿠", "q": "リンカン 新宿店 中古"},
-                         {"label": "하라주쿠 silver", "q": "リンカン 原宿 silver"}]},
-    "randa": {"name": "RANDA", "members": [("shibuya", "RANDA 시부야")],
-              "extra": [{"label": "루미네에스트 신주쿠", "q": "RANDA ルミネエスト新宿"}]},
-    "allu": {"name": "ALLU", "members": [("ginza", "ALLU 긴자")],
-             "extra": [{"label": "신주쿠", "q": "ALLU 新宿店"}]},
-    "kindal": {"name": "Kindal", "members": [("shibuya", "Kindal 시부야"), ("ginza", "Kindal 긴자")], "extra": []},
-    "bape": {"name": "BAPE", "members": [("harajuku", "BAPE STORE 하라주쿠"), ("harajuku", "BAPE THINK"), ("shibuya", "BAPE STORE 시부야")], "extra": []},
-    "japan-blue": {"name": "JAPAN BLUE JEANS", "members": [("harajuku", "JAPAN BLUE JEANS (시부야점 표기)"), ("ueno", "JAPAN BLUE JEANS 우에노점")], "extra": []},
-    "nanamica": {"name": "nanamica / PURPLE LABEL", "members": [("daikanyama", "nanamica MOUNTAIN"), ("daikanyama", "nanamica DAIKANYAMA"), ("daikanyama", "nanamica D.W.S.")], "extra": []},
-    "deal-design": {"name": "Deal Design", "members": [("ikebukuro-night", "Deal Design 파르코점")],
-                     "extra": [{"label": "신주쿠", "q": "ディールデザイン 新宿"},
-                               {"label": "하라주쿠", "q": "ディールデザイン 原宿"}]},
-}
+    # ---------------------------------------------------------------- 숙소
+    print("== 숙소 ==")
+    hotel = {"name": "도미인 PREMIUM 이케부쿠로", "desc": "체크인 15:00 · 대욕장 15:00~익일 10:00"}
+    enrich_into(hotel, "ドーミーインPREMIUM池袋", (35.7295, 139.7109), "hotel-dormyinn-ikebukuro")
+    data["hotel"] = hotel
+    time.sleep(0.3)
 
-regions_by_id = {r["id"]: r for r in data["regions"]}
+    # ---------------------------------------------------------------- 브랜드 레지스트리
+    # 이미 일정 안에 있는 가게는 (region_id, shop_name)로 링크만 한다 (API 호출 없음).
+    # extra는 일정엔 없는 다른 지점 — 새로 검색해서 채운다.
+    BRANDS = {
+        "goldwin": {"name": "Goldwin", "members": [("harajuku", "Goldwin Harajuku")],
+                    "extra": [{"label": "마루노우치", "q": "ゴールドウィン 丸の内"}]},
+        "deus": {"name": "Deus Ex Machina", "members": [("harajuku", "Deus Ex Machina 하라주쿠")],
+                 "extra": [{"label": "시부야", "q": "Deus Ex Machina 渋谷"},
+                           {"label": "아사쿠사", "q": "Deus Ex Machina 浅草"}]},
+        "chrome-hearts": {"name": "Chrome Hearts", "members": [("harajuku", "Chrome Hearts 아오야마")],
+                           "extra": [{"label": "긴자", "q": "クロムハーツ 銀座"},
+                                     {"label": "하라주쿠", "q": "クロムハーツ 原宿"}]},
+        "adidas-originals": {"name": "adidas Originals", "members": [("harajuku", "아디다스 오리지널스 플래그십"), ("shibuya", "아디다스 브랜드센터 시부야")],
+                              "extra": [{"label": "미야시타파크", "q": "アディダス 原宿 宮下パーク"},
+                                        {"label": "신주쿠", "q": "アディダス 新宿"}]},
+        "united-arrows": {"name": "유나이티드 애로우", "members": [("shibuya", "유나이티드 애로우")],
+                           "extra": [{"label": "하라주쿠", "q": "ユナイテッドアローズ 原宿本店"},
+                                     {"label": "신주쿠 루미네", "q": "ユナイテッドアローズ ルミネ新宿"}]},
+        "montbell": {"name": "몽벨", "members": [("shibuya", "몽벨 시부야")],
+                     "extra": [{"label": "신주쿠 남구", "q": "モンベル 新宿南口"},
+                               {"label": "오카치마치", "q": "モンベル 御徒町"},
+                               {"label": "교바시", "q": "モンベル 京橋"},
+                               {"label": "이케부쿠로 도부", "q": "モンベル 東武百貨店 池袋"}]},
+        "rinkan": {"name": "RINKAN (크롬하츠 리셀)", "members": [("shibuya", "RINKAN 시부야점")],
+                   "extra": [{"label": "신주쿠", "q": "リンカン 新宿店 中古"},
+                             {"label": "하라주쿠 silver", "q": "リンカン 原宿 silver"}]},
+        "randa": {"name": "RANDA", "members": [("shibuya", "RANDA 시부야")],
+                  "extra": [{"label": "루미네에스트 신주쿠", "q": "RANDA ルミネエスト新宿"}]},
+        "allu": {"name": "ALLU", "members": [("ginza", "ALLU 긴자")],
+                 "extra": [{"label": "신주쿠", "q": "ALLU 新宿店"}]},
+        "kindal": {"name": "Kindal", "members": [("shibuya", "Kindal 시부야"), ("ginza", "Kindal 긴자")], "extra": []},
+        "bape": {"name": "BAPE", "members": [("harajuku", "BAPE STORE 하라주쿠"), ("harajuku", "BAPE THINK"), ("shibuya", "BAPE STORE 시부야")], "extra": []},
+        "japan-blue": {"name": "JAPAN BLUE JEANS", "members": [("harajuku", "JAPAN BLUE JEANS (시부야점 표기)"), ("ueno", "JAPAN BLUE JEANS 우에노점")], "extra": []},
+        "nanamica": {"name": "nanamica / PURPLE LABEL", "members": [("daikanyama", "nanamica MOUNTAIN"), ("daikanyama", "nanamica DAIKANYAMA"), ("daikanyama", "nanamica D.W.S.")], "extra": []},
+        "deal-design": {"name": "Deal Design", "members": [("ikebukuro-night", "Deal Design 파르코점")],
+                         "extra": [{"label": "신주쿠", "q": "ディールデザイン 新宿"},
+                                   {"label": "하라주쿠", "q": "ディールデザイン 原宿"}]},
+    }
 
-
-def find_shop(region_id, name):
-    for s in regions_by_id[region_id].get("shops", []):
-        if s["name"] == name:
-            return s
-    return None
+    regions_by_id = {r["id"]: r for r in data["regions"]}
 
 
-print("\n== 브랜드 extra 지점 ==")
-brands_out = {}
-for bid, b in BRANDS.items():
-    locations = []
-    # 1) 일정에 이미 있는 멤버 — 링크만 (주소/시간은 그 가게 항목을 그대로 쓴다, 이미 채워져 있거나 아래 shop enrich 단계에서 채워짐)
-    for region_id, shop_name in b["members"]:
-        s = find_shop(region_id, shop_name)
-        if s is None:
-            print(f"  ! {bid}: {region_id}/{shop_name} 못 찾음")
-            continue
-        s["brand"] = bid
-        locations.append({"label": regions_by_id[region_id]["name"], "regionId": region_id, "shopName": shop_name})
-    # 2) extra — 새로 검색
-    for ex in b["extra"]:
-        loc_entry = {"label": ex["label"]}
-        enrich_into(loc_entry, ex["q"], None, "b-" + bid + "-" + slug(ex["label"]))
-        locations.append(loc_entry)
-        time.sleep(0.25)
-    brands_out[bid] = {"name": b["name"], "locations": locations}
-data["brands"] = brands_out
-
-# ---------------------------------------------------------------- 가게 본체 (대표 1곳) 전부 새로고침
-print("\n== 가게 본체 ==")
-SKIP_SHOPS = {
-    "드럭스토어", "다이소 · Can do · Standard Product · Lakole · Kaldi · Right on",
-    "바카라 2곳", "주류 전문점 (야마야 등)", "스포츠용품 거리", "MUJI 긴자", "유니클로 긴자",
-}
-for r in data["regions"]:
-    center = (r.get("lat"), r.get("lng"))
-    for s in r.get("shops", []):
-        if s["name"] in SKIP_SHOPS:
-            continue
-        q = re.sub(r"[⭐⚠️()（）]", "", s["name"]).strip()
-        enrich_into(s, q + " 東京", center, "s-" + slug(s["name"]),
-                    keep_addr=s.get("addr"), keep_hours=s.get("hours"))
-        time.sleep(0.2)
-
-# ---------------------------------------------------------------- 사진 (구 "사진 스폿")
-# 지도에 위치도 찍어야 하니 가게와 같은 enrich_into 로 — 좌표·주소·사진 다 받는다
-print("\n== 사진 ==")
-for r in data["regions"]:
-    center = (r.get("lat"), r.get("lng"))
-    for sp in r.get("photoSpots", []):
-        q = re.sub(r"[⭐⚠️()（）]", "", sp["name"]).strip()
-        enrich_into(sp, q + " 東京", center, "p-" + slug(sp["name"]))
-        time.sleep(0.2)
-
-# ---------------------------------------------------------------- 다른 지점 중 우리 일정 지역과 가까운 것
-# 일정에 없는 "다른 지점"이 다른 날 어차피 가는 지역 도보권이면, 그 지역 상세에도 참고로 띄운다.
-NEAR_THRESHOLD_M = 1000.0
+    def find_shop(region_id, name):
+        for s in regions_by_id[region_id].get("shops", []):
+            if s["name"] == name:
+                return s
+        return None
 
 
-def dist_m(a, b):
-    R = 6371000
-    dlat, dlng = math.radians(b[0] - a[0]), math.radians(b[1] - a[1])
-    x = (math.sin(dlat / 2) ** 2 +
-         math.cos(math.radians(a[0])) * math.cos(math.radians(b[0])) * math.sin(dlng / 2) ** 2)
-    return 2 * R * math.asin(math.sqrt(x))
-
-
-print("\n== 도보권 지역 매칭 ==")
-for b in data["brands"].values():
-    for loc in b["locations"]:
-        if loc.get("regionId") or loc.get("lat") is None:
-            continue
-        best = None
-        for r in data["regions"]:
-            if r.get("lat") is None:
+    print("\n== 브랜드 extra 지점 ==")
+    brands_out = {}
+    for bid, b in BRANDS.items():
+        locations = []
+        # 1) 일정에 이미 있는 멤버 — 링크만 (주소/시간은 그 가게 항목을 그대로 쓴다, 이미 채워져 있거나 아래 shop enrich 단계에서 채워짐)
+        for region_id, shop_name in b["members"]:
+            s = find_shop(region_id, shop_name)
+            if s is None:
+                print(f"  ! {bid}: {region_id}/{shop_name} 못 찾음")
                 continue
-            dm = dist_m((loc["lat"], loc["lng"]), (r["lat"], r["lng"]))
-            if dm <= NEAR_THRESHOLD_M and (best is None or dm < best[0]):
-                best = (dm, r["id"])
-        if best:
-            loc["nearRegionId"] = best[1]
-            print(f"  {loc['label']:20s} -> {regions_by_id[best[1]]['name']} ({best[0]:.0f}m)")
+            s["brand"] = bid
+            locations.append({"label": regions_by_id[region_id]["name"], "regionId": region_id, "shopName": shop_name})
+        # 2) extra — 새로 검색
+        for ex in b["extra"]:
+            loc_entry = {"label": ex["label"]}
+            enrich_into(loc_entry, ex["q"], None, "b-" + bid + "-" + slug(ex["label"]))
+            locations.append(loc_entry)
+            time.sleep(0.25)
+        brands_out[bid] = {"name": b["name"], "locations": locations}
+    data["brands"] = brands_out
 
-DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-print("\nDONE. wrote", DATA)
+    # ---------------------------------------------------------------- 가게 본체 (대표 1곳) 전부 새로고침
+    print("\n== 가게 본체 ==")
+    SKIP_SHOPS = {
+        "드럭스토어", "다이소 · Can do · Standard Product · Lakole · Kaldi · Right on",
+        "바카라 2곳", "주류 전문점 (야마야 등)", "스포츠용품 거리", "MUJI 긴자", "유니클로 긴자",
+    }
+    for r in data["regions"]:
+        center = (r.get("lat"), r.get("lng"))
+        for s in r.get("shops", []):
+            if s["name"] in SKIP_SHOPS:
+                continue
+            q = re.sub(r"[⭐⚠️()（）]", "", s["name"]).strip()
+            enrich_into(s, q + " 東京", center, "s-" + slug(s["name"]),
+                        keep_addr=s.get("addr"), keep_hours=s.get("hours"))
+            time.sleep(0.2)
+
+    # ---------------------------------------------------------------- 사진 (구 "사진 스폿")
+    # 지도에 위치도 찍어야 하니 가게와 같은 enrich_into 로 — 좌표·주소·사진 다 받는다
+    print("\n== 사진 ==")
+    for r in data["regions"]:
+        center = (r.get("lat"), r.get("lng"))
+        for sp in r.get("photoSpots", []):
+            q = re.sub(r"[⭐⚠️()（）]", "", sp["name"]).strip()
+            enrich_into(sp, q + " 東京", center, "p-" + slug(sp["name"]))
+            time.sleep(0.2)
+
+    # ---------------------------------------------------------------- 다른 지점 중 우리 일정 지역과 가까운 것
+    # 일정에 없는 "다른 지점"이 다른 날 어차피 가는 지역 도보권이면, 그 지역 상세에도 참고로 띄운다.
+    NEAR_THRESHOLD_M = 1000.0
+
+
+    def dist_m(a, b):
+        R = 6371000
+        dlat, dlng = math.radians(b[0] - a[0]), math.radians(b[1] - a[1])
+        x = (math.sin(dlat / 2) ** 2 +
+             math.cos(math.radians(a[0])) * math.cos(math.radians(b[0])) * math.sin(dlng / 2) ** 2)
+        return 2 * R * math.asin(math.sqrt(x))
+
+
+    print("\n== 도보권 지역 매칭 ==")
+    for b in data["brands"].values():
+        for loc in b["locations"]:
+            if loc.get("regionId") or loc.get("lat") is None:
+                continue
+            best = None
+            for r in data["regions"]:
+                if r.get("lat") is None:
+                    continue
+                dm = dist_m((loc["lat"], loc["lng"]), (r["lat"], r["lng"]))
+                if dm <= NEAR_THRESHOLD_M and (best is None or dm < best[0]):
+                    best = (dm, r["id"])
+            if best:
+                loc["nearRegionId"] = best[1]
+                print(f"  {loc['label']:20s} -> {regions_by_id[best[1]]['name']} ({best[0]:.0f}m)")
+
+    DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("\nDONE. wrote", DATA)
+
+
+
+if __name__ == "__main__":
+    main()
