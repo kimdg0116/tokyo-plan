@@ -235,6 +235,9 @@
 
 
   .mapbox{position:relative;z-index:0;margin-inline:-16px}
+  .locbtn{position:absolute;right:10px;top:10px;z-index:5;width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:var(--surface);box-shadow:var(--shadow);font-size:17px;display:grid;place-items:center;color:var(--ink-2)}
+  .locbtn[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+  .me-dot{width:16px;height:16px;border-radius:50%;background:#1F6FEB;border:3px solid #fff;box-shadow:0 0 0 6px rgba(31,111,235,.25)}
   #map{height:calc(100vh - 320px);height:calc(100dvh - 320px);min-height:340px;background:var(--surface-2);border-block:1px solid var(--line-soft)}
   .leaflet-container{font-family:inherit;touch-action:none}
   :root[data-theme="dark"] .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.9) contrast(.9)}
@@ -764,6 +767,19 @@
 
   /* ---- 지도 (일정 탭 안 토글) ---- */
   var leafletMap = null;
+  var here = null, showHere = false, justLocated = false;
+  function locateMe(){
+    if (!navigator.geolocation) { toast("이 기기에서는 위치를 쓸 수 없어요"); showHere = false; renderMapTab(); return; }
+    navigator.geolocation.getCurrentPosition(function(pos){
+      here = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      justLocated = true;
+      renderMapTab();
+    }, function(err){
+      showHere = false; here = null;
+      toast(err.code === 1 ? "위치 권한이 꺼져 있어요 — 설정에서 허용해주세요" : "위치를 찾지 못했어요");
+      renderMapTab();
+    }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 });
+  }
   function dotIcon(color, big){
     var s = big ? 22 : 16;
     return L.divIcon({
@@ -792,9 +808,14 @@
         '<button type="button" class="minibtn" id="clear-brand-map">← 전체 지도</button></div>'
       : "";
     $("main").innerHTML = banner + '<div class="mapbox"><div id="map"></div>' +
-      '<p class="mapnote">● 지역 · 🏨 숙소(검정) · ◆ 사진. 지도 원본 표기는 일본어입니다. 정확한 한국어 표기·경로는 📍 지도 버튼(구글맵 앱)을 쓰세요 — 폰 언어가 한국어면 구글맵 앱도 한국어로 뜹니다.</p></div>';
+      '<button type="button" class="locbtn" id="locate-btn" aria-pressed="' + (showHere ? "true" : "false") + '" aria-label="내 위치">📍</button>' +
+      '<p class="mapnote">● 지역 · 🏨 숙소(검정) · ◆ 사진 · 📍 내 위치. 지도 원본 표기는 일본어입니다. 정확한 한국어 표기·경로는 각 항목의 지도 버튼(구글맵 앱)을 쓰세요 — 폰 언어가 한국어면 구글맵 앱도 한국어로 뜹니다.</p></div>';
     var clearBtn = document.getElementById("clear-brand-map");
     if (clearBtn) clearBtn.addEventListener("click", function(){ st.mapBrand = null; render(); });
+    $("locate-btn").addEventListener("click", function(){
+      showHere = !showHere;
+      if (showHere) locateMe(); else renderMapTab();
+    });
     setTimeout(function(){
       if (!window.L) return;
       if (leafletMap) { leafletMap.remove(); leafletMap = null; }
@@ -808,6 +829,15 @@
         var hm = L.marker([DATA.hotel.lat, DATA.hotel.lng], { icon: dotIcon("#111", true) }).addTo(leafletMap);
         hm.bindPopup('<div class="pop-n">🏨 ' + esc(DATA.hotel.name) + '</div><div class="pop-m">' + esc(DATA.hotel.desc || "숙소") + '</div>' +
           '<div class="pop-b"><a href="' + mapUrl(DATA.hotel) + '" target="_blank" rel="noopener">구글맵</a></div>');
+      }
+
+      /* 내 위치 */
+      if (showHere && here) {
+        L.marker([here.lat, here.lng], {
+          icon: L.divIcon({ className: "", html: '<div class="me-dot"></div>', iconSize: [16, 16], iconAnchor: [8, 8] }),
+          interactive: false, zIndexOffset: 1000,
+        }).addTo(leafletMap);
+        if (justLocated) { leafletMap.setView([here.lat, here.lng], 15); justLocated = false; }
       }
 
       if (brand) {
@@ -927,7 +957,7 @@
 
 <script>
   (function(){
-    var CURRENT = "26.09.22-0006";
+    var CURRENT = "26.09.22-0007";
     var btn = document.getElementById("upd");
     var latest = null;
     function check(){
