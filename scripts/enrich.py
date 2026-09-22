@@ -4,6 +4,7 @@
 가게(대표 1곳 + 다른 지점) · 사진 스폿 · 숙소 전부 이걸로 채운다.
 """
 import json
+import math
 import pathlib
 import re
 import time
@@ -242,6 +243,35 @@ for r in data["regions"]:
         else:
             print("  MISS", sp["name"])
         time.sleep(0.2)
+
+# ---------------------------------------------------------------- 다른 지점 중 우리 일정 지역과 가까운 것
+# 일정에 없는 "다른 지점"이 다른 날 어차피 가는 지역 도보권이면, 그 지역 상세에도 참고로 띄운다.
+NEAR_THRESHOLD_M = 1000.0
+
+
+def dist_m(a, b):
+    R = 6371000
+    dlat, dlng = math.radians(b[0] - a[0]), math.radians(b[1] - a[1])
+    x = (math.sin(dlat / 2) ** 2 +
+         math.cos(math.radians(a[0])) * math.cos(math.radians(b[0])) * math.sin(dlng / 2) ** 2)
+    return 2 * R * math.asin(math.sqrt(x))
+
+
+print("\n== 도보권 지역 매칭 ==")
+for b in data["brands"].values():
+    for loc in b["locations"]:
+        if loc.get("regionId") or loc.get("lat") is None:
+            continue
+        best = None
+        for r in data["regions"]:
+            if r.get("lat") is None:
+                continue
+            dm = dist_m((loc["lat"], loc["lng"]), (r["lat"], r["lng"]))
+            if dm <= NEAR_THRESHOLD_M and (best is None or dm < best[0]):
+                best = (dm, r["id"])
+        if best:
+            loc["nearRegionId"] = best[1]
+            print(f"  {loc['label']:20s} -> {regions_by_id[best[1]]['name']} ({best[0]:.0f}m)")
 
 DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 print("\nDONE. wrote", DATA)

@@ -1093,7 +1093,8 @@
      "lat": 35.6790668,
      "lng": 139.7626826,
      "map": "https://maps.google.com/?cid=3617760219693041920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-goldwin-마루노우치.jpg"
+     "photo": "photos/b-goldwin-마루노우치.jpg",
+     "nearRegionId": "ginza"
     }
    ]
   },
@@ -1112,7 +1113,8 @@
      "lat": 35.6684224,
      "lng": 139.7048752,
      "map": "https://maps.google.com/?cid=14231011816628294094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-deus-시부야.jpg"
+     "photo": "photos/b-deus-시부야.jpg",
+     "nearRegionId": "harajuku"
     },
     {
      "label": "아사쿠사",
@@ -1121,7 +1123,8 @@
      "lat": 35.711082,
      "lng": 139.80353019999998,
      "map": "https://maps.google.com/?cid=4152845194933715767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-deus-아사쿠사.jpg"
+     "photo": "photos/b-deus-아사쿠사.jpg",
+     "nearRegionId": "asakusa"
     }
    ]
   },
@@ -1140,7 +1143,8 @@
      "lat": 35.6713605,
      "lng": 139.7629508,
      "map": "https://maps.google.com/?cid=5054441042591433914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-chrome-hearts-긴자.jpg"
+     "photo": "photos/b-chrome-hearts-긴자.jpg",
+     "nearRegionId": "ginza"
     },
     {
      "label": "하라주쿠",
@@ -1149,7 +1153,8 @@
      "lat": 35.6722602,
      "lng": 139.709265,
      "map": "https://maps.google.com/?cid=9778377381539910962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-chrome-hearts-하라주쿠.jpg"
+     "photo": "photos/b-chrome-hearts-하라주쿠.jpg",
+     "nearRegionId": "harajuku"
     }
    ]
   },
@@ -1173,7 +1178,8 @@
      "lat": 35.6622585,
      "lng": 139.70190159999999,
      "map": "https://maps.google.com/?cid=11113241243265711853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-adidas-originals-미야시타파크.jpg"
+     "photo": "photos/b-adidas-originals-미야시타파크.jpg",
+     "nearRegionId": "shibuya"
     },
     {
      "label": "신주쿠",
@@ -1182,7 +1188,8 @@
      "lat": 35.6908868,
      "lng": 139.7018393,
      "map": "https://maps.google.com/?cid=14804572943054525449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-adidas-originals-신주쿠.jpg"
+     "photo": "photos/b-adidas-originals-신주쿠.jpg",
+     "nearRegionId": "shinjuku"
     }
    ]
   },
@@ -1201,7 +1208,8 @@
      "lat": 35.6720407,
      "lng": 139.7095079,
      "map": "https://maps.google.com/?cid=14329430069820695518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-united-arrows-하라주쿠.jpg"
+     "photo": "photos/b-united-arrows-하라주쿠.jpg",
+     "nearRegionId": "harajuku"
     },
     {
      "label": "신주쿠 루미네",
@@ -1210,7 +1218,8 @@
      "lat": 35.6892105,
      "lng": 139.6992913,
      "map": "https://maps.google.com/?cid=91966904553009600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-united-arrows-신주쿠-루미네.jpg"
+     "photo": "photos/b-united-arrows-신주쿠-루미네.jpg",
+     "nearRegionId": "shinjuku"
     }
    ]
   },
@@ -1229,7 +1238,8 @@
      "lat": 35.687570699999995,
      "lng": 139.6992203,
      "map": "https://maps.google.com/?cid=17884812280338132625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-montbell-신주쿠-남구.jpg"
+     "photo": "photos/b-montbell-신주쿠-남구.jpg",
+     "nearRegionId": "shinjuku"
     },
     {
      "label": "오카치마치",
@@ -1238,7 +1248,8 @@
      "lat": 35.7064151,
      "lng": 139.7737829,
      "map": "https://maps.google.com/?cid=17245256251592542764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-montbell-오카치마치.jpg"
+     "photo": "photos/b-montbell-오카치마치.jpg",
+     "nearRegionId": "ueno"
     },
     {
      "label": "교바시",
@@ -1247,7 +1258,8 @@
      "lat": 35.6759537,
      "lng": 139.768802,
      "map": "https://maps.google.com/?cid=18111296058751286170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-montbell-교바시.jpg"
+     "photo": "photos/b-montbell-교바시.jpg",
+     "nearRegionId": "ginza"
     },
     {
      "label": "이케부쿠로 도부",
@@ -1256,7 +1268,8 @@
      "lat": 35.7300456,
      "lng": 139.7104443,
      "map": "https://maps.google.com/?cid=13123939370967231536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-montbell-이케부쿠로-도부.jpg"
+     "photo": "photos/b-montbell-이케부쿠로-도부.jpg",
+     "nearRegionId": "ikebukuro-night"
     }
    ]
   },
@@ -1275,7 +1288,8 @@
      "lat": 35.6905613,
      "lng": 139.7031084,
      "map": "https://maps.google.com/?cid=2327735776294731591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-rinkan-신주쿠.jpg"
+     "photo": "photos/b-rinkan-신주쿠.jpg",
+     "nearRegionId": "shinjuku"
     },
     {
      "label": "하라주쿠 silver",
@@ -1284,7 +1298,8 @@
      "lat": 35.6697007,
      "lng": 139.7077677,
      "map": "https://maps.google.com/?cid=6018458820991992819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-rinkan-하라주쿠-silver.jpg"
+     "photo": "photos/b-rinkan-하라주쿠-silver.jpg",
+     "nearRegionId": "harajuku"
     }
    ]
   },
@@ -1303,7 +1318,8 @@
      "lat": 35.691204,
      "lng": 139.70120530000003,
      "map": "https://maps.google.com/?cid=951930861678083629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-randa-루미네에스트-신주쿠.jpg"
+     "photo": "photos/b-randa-루미네에스트-신주쿠.jpg",
+     "nearRegionId": "shinjuku"
     }
    ]
   },
@@ -1322,7 +1338,8 @@
      "lat": 35.690538,
      "lng": 139.7049648,
      "map": "https://maps.google.com/?cid=15579103828022728797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-allu-신주쿠.jpg"
+     "photo": "photos/b-allu-신주쿠.jpg",
+     "nearRegionId": "shinjuku"
     }
    ]
   },
@@ -1411,7 +1428,8 @@
      "lat": 35.6926136,
      "lng": 139.70635339999998,
      "map": "https://maps.google.com/?cid=104110879906635141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-deal-design-신주쿠.jpg"
+     "photo": "photos/b-deal-design-신주쿠.jpg",
+     "nearRegionId": "shinjuku"
     },
     {
      "label": "하라주쿠",
@@ -1420,7 +1438,8 @@
      "lat": 35.6690611,
      "lng": 139.708082,
      "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/b-deal-design-하라주쿠.png"
+     "photo": "photos/b-deal-design-하라주쿠.png",
+     "nearRegionId": "harajuku"
     }
    ]
   }

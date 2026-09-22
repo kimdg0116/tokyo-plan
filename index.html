@@ -107,6 +107,8 @@
   .plantoggle .seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
 
   .seg{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+  .seg button{border:0;background:transparent;padding:6px 14px;font-size:13px;font-weight:600;color:var(--ink-3);display:flex;align-items:center;gap:4px}
+  .seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
   .chips{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-block:1px 3px}
   .chips::-webkit-scrollbar{display:none}
   .chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:500;color:var(--ink-2);white-space:nowrap}
@@ -528,6 +530,41 @@
       }).join("") + '</div>';
   }
 
+  function nearbyBranches(regionId){
+    var out = [];
+    Object.keys(DATA.brands || {}).forEach(function(bid){
+      var b = DATA.brands[bid];
+      b.locations.forEach(function(loc){
+        if (loc.nearRegionId === regionId) out.push({ brandId: bid, brandName: b.name, loc: loc });
+      });
+    });
+    return out;
+  }
+  function homeOfBrand(bid){
+    var members = DATA.brands[bid].locations.filter(function(l){ return l.regionId; });
+    return members.length ? members[0] : null;
+  }
+  function nearbyRow(item){
+    var loc = item.loc;
+    var home = homeOfBrand(item.brandId);
+    return '<div class="branchrow">' +
+      '<div class="bl">' + esc(item.brandName) + ' · ' + esc(loc.label) + '</div>' +
+      (loc.addr ? '<div class="ba">' + esc(loc.addr) + '</div>' : "") +
+      (loc.hours ? '<div class="bh">' + esc(loc.hours) + '</div>' : "") +
+      '<div class="blinks">' +
+        '<a class="minibtn" href="' + esc(loc.map || mapUrl({ name: item.brandName + " " + loc.label, addr: loc.addr })) + '" target="_blank" rel="noopener">📍 지도</a>' +
+        (home ? '<button type="button" class="minibtn" data-goregion2="' + home.regionId + '">원래 지점 · ' + esc(regionsById[home.regionId].name) + '</button>' : "") +
+      '</div>' +
+    '</div>';
+  }
+  function nearbyPanel(regionId){
+    var items = nearbyBranches(regionId);
+    if (!items.length) return "";
+    return '<div class="sec"><h3>이 근처 · 다른 지점 (참고, ' + items.length + ')</h3>' +
+      '<p style="margin-bottom:8px">일정엔 없지만 이 지역 도보권(1km 이내)이다. 원래 지점에서 못 샀으면 여기서.</p>' +
+      items.map(nearbyRow).join("") + '</div>';
+  }
+
   function openRegionSheet(id){
     var r = DATA.regions.filter(function(x){ return x.id === id; })[0];
     if (!r) return;
@@ -539,7 +576,8 @@
       (r.note ? '<p>' + esc(r.note) + '</p>' : '') +
       '<div class="sec"><h3>이동 · 시간</h3>' + timelineHtml(r) + '</div>' +
       (r.shops && r.shops.length ? '<div class="sec"><h3>가게 목록 (' + r.shops.length + ')</h3>' + r.shops.map(function(s){ return shopRow(r.id, s); }).join("") + '</div>' : "") +
-      (r.photoSpots && r.photoSpots.length ? '<div class="sec"><h3>사진 스폿 (' + r.photoSpots.length + ')</h3>' + r.photoSpots.map(spotRow).join("") + '</div>' : "");
+      (r.photoSpots && r.photoSpots.length ? '<div class="sec"><h3>사진 스폿 (' + r.photoSpots.length + ')</h3>' + r.photoSpots.map(spotRow).join("") + '</div>' : "") +
+      nearbyPanel(r.id);
     openSheet(html, dayMeta.label);
     $("d-body").querySelectorAll("[data-copy]").forEach(function(b){
       b.addEventListener("click", function(){ copyText(b.dataset.copy); });
@@ -743,7 +781,7 @@
 
 <script>
   (function(){
-    var CURRENT = "26.09.22-0002";
+    var CURRENT = "26.09.22-0003";
     var btn = document.getElementById("upd");
     var latest = null;
     function check(){
