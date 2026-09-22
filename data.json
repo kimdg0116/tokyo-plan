@@ -566,6 +566,53 @@
      "photo": "photos/s-goldwin-harajuku.jpg"
     },
     {
+     "name": "Graphpaper AOYAMA",
+     "desc": "내 옷 · 도쿄 직영 · 미니멀 데일리웨어",
+     "hours": [
+      {
+       "day": "월",
+       "time": "휴무",
+       "off": true
+      },
+      {
+       "day": "화",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "수",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "목",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "금",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "토",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "일",
+       "time": "12:00~19:00",
+       "off": false
+      }
+     ],
+     "addr": "〒150-0001 東京都渋谷区神宮前５丁目３６−６ KARI MANSION 1A/2D",
+     "brand": "graphpaper",
+     "lat": 35.6642313,
+     "lng": 139.70600869999998,
+     "map": "https://maps.google.com/?cid=5870280434424653531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-graphpaper-aoyama.jpg"
+    },
+    {
      "name": "Deus Ex Machina 하라주쿠",
      "desc": "여친 픽",
      "hours": [
@@ -4470,6 +4517,61 @@
      "lng": 139.6262855,
      "map": "https://maps.google.com/?cid=6303875408874178741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-firekids-요코하마본점.jpg"
+    }
+   ]
+  },
+  "graphpaper": {
+   "name": "Graphpaper",
+   "locations": [
+    {
+     "label": "하라주쿠 · 아오야마",
+     "regionId": "harajuku",
+     "shopName": "Graphpaper AOYAMA"
+    },
+    {
+     "label": "요요기 · 니시산도",
+     "addr": "〒151-0053 東京都渋谷区代々木３丁目３８−１０ Nishi-Sando Mansion 2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "화",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "수",
+       "time": "휴무",
+       "off": true
+      },
+      {
+       "day": "목",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "금",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "토",
+       "time": "12:00~19:00",
+       "off": false
+      },
+      {
+       "day": "일",
+       "time": "12:00~19:00",
+       "off": false
+      }
+     ],
+     "lat": 35.6812505,
+     "lng": 139.6932314,
+     "map": "https://maps.google.com/?cid=7957345399232836057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-graphpaper-tokyo.jpg"
     }
    ]
   }
