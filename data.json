@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23",
+ "updated": "2026-09-24",
  "flight": {
   "out": "9/26(토) ICN 08:50 → NRT 11:20 (B787-9)",
   "back": "9/29(화) NRT 15:20 → ICN 17:55 (WE504)"
@@ -731,7 +731,7 @@
    "timeB": "15:40~16:40",
    "durB": "60분 (BAPE·단톤·Goldwin만)",
    "transport": "신주쿠 4분",
-   "note": "神宮前~南青山 한 동네. Cas:pace는 15:40 첫 방문으로 고정한다. 안 B는 이 축을 50분 손해 본다 — 시간 없으면 버리는 순서: JAPAN BLUE(화요일 우에노에서 본다) → BAPE THINK → 나머지 중복 지점.",
+   "note": "神宮前~南青山 한 동네. Cas:pace는 15:40 첫 방문으로 고정한다. 안 B는 이 축을 50분 손해 본다 — 시간 없으면 버리는 순서: JAPAN BLUE(화요일 우에노에서 본다) → The Kenford Fineshoes(구두 구매 의향 없으면) → BAPE THINK → 나머지 중복 지점.",
    "shops": [
     {
      "name": "BAPE STORE 하라주쿠",
@@ -1611,6 +1611,21 @@
      "lng": 139.708082,
      "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deal-design-하라주쿠.png"
+    },
+    {
+     "name": "The Kenford Fineshoes Tokyo",
+     "badge": "로퍼 ⭐",
+     "desc": "조셉트 다음 한 켤레 후보 · 일본제 클래식 로퍼를 탱크솔·키ルト·콤비로 현대적으로 재해석",
+     "wishlist": {
+      "mine": [
+       "탱크솔·키ルト·콤비 로퍼 착화"
+      ]
+     },
+     "hours": "12:00~20:00 · 월·목 휴무",
+     "addr": "〒150-0001 東京都渋谷区神宮前２丁目２７−３ エスペランサ神宮前Ⅱ 1F",
+     "lat": 35.6752,
+     "lng": 139.7112,
+     "map": "https://www.google.com/maps/search/?api=1&query=The%20Kenford%20Fineshoes%20Tokyo%20Jingumae"
     }
    ],
    "photoSpots": [
@@ -1719,7 +1734,7 @@
    "timeB": "20:10~21:00",
    "durB": "50분",
    "transport": "하라주쿠 2분",
-   "note": "9/26 일몰 17:30. 안 A는 이 시각에 딱 스크램블에 있다 — 안 B는 이걸 포기하고 Brand off·몽벨만 짧게 본다.",
+   "note": "9/26 일몰 17:30. 안 A는 이 시각에 딱 스크램블에 있다 — 안 B는 이걸 포기하고 Brand off·몽벨만 짧게 본다. 미야시타파크의 Hender Scheme은 and wander·Kith와 같은 건물이라 이동 없이 확인 가능.",
    "shops": [
     {
      "name": "Brand off",
@@ -2415,6 +2430,21 @@
      "lng": 139.6958992,
      "map": "https://maps.google.com/?cid=9847872992388191270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-shinanoya-도겐자카.jpg"
+    },
+    {
+     "name": "Hender Scheme · sukima Miyashita Park",
+     "badge": "로컬 가죽",
+     "desc": "베지터블 태닝 가죽·에이징이 핵심인 도쿄 브랜드. 정통 구두보다 가죽을 패션으로 푼 로퍼·슬립온 쪽",
+     "wishlist": {
+      "mine": [
+       "로퍼·슬립온 10분 탐색"
+      ]
+     },
+     "hours": "11:00~21:00",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目２０−１０ MIYASHITA PARK North 2F",
+     "lat": 35.6622,
+     "lng": 139.7017,
+     "map": "https://www.google.com/maps/search/?api=1&query=sukima%20Miyashita%20Park"
     }
    ],
    "photoSpots": [
@@ -4057,7 +4087,7 @@
    "timeA": "12:10~21:00",
    "durA": "9시간 통째",
    "transport": "마루노우치선 5분",
-   "note": "상점 대부분 11:00 오픈. 빈티지 명품은 한 곳에 40분씩 잡는다. 이토야는 층을 정해서 들어간다 — 목적 없이 들어가면 두 시간이 사라진다.",
+   "note": "상점 대부분 11:00 오픈. 빈티지 명품은 한 곳에 40분씩 잡는다. 이토야는 층을 정해서 들어간다 — 목적 없이 들어가면 두 시간이 사라진다. 구두는 SCOTCH GRAIN부터 신어 보고, 맞지 않을 때만 WFG·Trading Post까지 확장한다.",
    "shops": [
     {
      "name": "ALLU 긴자",
@@ -4864,6 +4894,41 @@
      "lng": 139.7608354,
      "map": "https://maps.google.com/?cid=16528443507161319767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-shinanoya-긴자.jpg"
+    },
+    {
+     "name": "SCOTCH GRAIN 銀座本店",
+     "badge": "구두 ⭐",
+     "desc": "Made in Japan 정통 구두 · 발 길이·발볼 측정 후 스웨이드 로퍼 또는 U팁부터 신어보기",
+     "wishlist": {
+      "mine": [
+       "스웨이드 로퍼 또는 U팁 착화"
+      ]
+     },
+     "hours": "월~토 11:00~20:00 · 일·공휴 11:00~19:00",
+     "addr": "〒104-0061 東京都中央区銀座４丁目１０−１６ シグマ銀座ファースト 1F",
+     "lat": 35.6689,
+     "lng": 139.7700,
+     "map": "https://www.google.com/maps/search/?api=1&query=SCOTCH%20GRAIN%20%E9%8A%80%E5%BA%A7%E6%9C%AC%E5%BA%97"
+    },
+    {
+     "name": "World Footwear Gallery 銀座",
+     "badge": "구두 비교",
+     "desc": "일본 구두 전문 셀렉트숍 · SCOTCH GRAIN이 맞지 않을 때 일본·유럽 브랜드의 목형을 한 번에 비교",
+     "hours": "11:00~20:00 · 연말연시 제외 무휴",
+     "addr": "〒104-0061 東京都中央区銀座５丁目６−６ すずらん通り",
+     "lat": 35.6707,
+     "lng": 139.7645,
+     "map": "https://www.google.com/maps/search/?api=1&query=World%20Footwear%20Gallery%20Ginza"
+    },
+    {
+     "name": "Trading Post 銀座店",
+     "badge": "구두 비교",
+     "desc": "일본·유럽 구두 셀렉트숍 · World Footwear Gallery까지 본 뒤에도 결정을 못 했을 때만",
+     "hours": "11:30~20:00 · 부정기 휴무",
+     "addr": "〒104-0061 東京都中央区銀座２丁目５−８ GM-Gビル B1F",
+     "lat": 35.6737,
+     "lng": 139.7666,
+     "map": "https://www.google.com/maps/search/?api=1&query=Trading%20Post%20Ginza"
     }
    ],
    "photoSpots": [
