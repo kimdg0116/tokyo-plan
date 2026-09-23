@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22",
+ "updated": "2026-09-23",
  "flight": {
   "out": "9/26(토) ICN 08:50 → NRT 11:20 (B787-9)",
   "back": "9/29(화) NRT 15:20 → ICN 17:55 (WE504)"
@@ -100,7 +100,8 @@
      "map": "https://maps.google.com/?cid=13397411051462492355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "lat": 35.6906289,
      "lng": 139.7049433,
-     "photo": "photos/s-jins-플래그십.jpg"
+     "photo": "photos/s-jins-플래그십.jpg",
+     "brand": "jins"
     },
     {
      "name": "스루가야 신주쿠 마루이아넥스점",
@@ -139,7 +140,12 @@
      "lat": 35.6901514,
      "lng": 139.70584190000002,
      "map": "https://maps.google.com/?cid=9995198544518023487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/s-스루가야-신주쿠-마루이아넥스점.jpg"
+     "photo": "photos/s-스루가야-신주쿠-마루이아넥스점.jpg",
+     "wishlist": {
+      "girlfriend": [
+       "넨도로이드"
+      ]
+     }
     },
     {
      "name": "Rab (이시이스포츠 요도바시신주쿠니시구치점)",
@@ -221,6 +227,385 @@
      "map": "https://maps.google.com/?cid=2017015566223512834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-watchnian-신주쿠본점.jpg",
      "brand": "watchnian"
+    },
+    {
+     "name": "Standard Products 빅카메라 신주쿠 동쪽출구점",
+     "badge": "잡화 대안",
+     "desc": "긴자에서 못 산 잡화의 신주쿠 대체 지점",
+     "wishlist": {
+      "girlfriend": [
+       "Standard Products 부족분"
+      ]
+     },
+     "addr": "〒160-0022 東京都新宿区新宿３丁目２９−１ 8階",
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~22:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~22:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~22:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~22:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~22:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~22:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~22:00"
+      }
+     ],
+     "lat": 35.6913489,
+     "lng": 139.70300559999998,
+     "map": "https://maps.google.com/?cid=10410032141469428434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-standard-products-빅카메라-신주쿠-동쪽출구점.jpg",
+     "brand": "standard-products"
+    },
+    {
+     "name": "아트모스 신주쿠점",
+     "desc": "스니커즈 · Google 지도 저장 지점",
+     "brand": "atmos",
+     "addr": "〒160-0022 東京都新宿区新宿４丁目１−１ 新宿サウスアヴェニュー 1F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:30"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:30"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:30"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:30"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:30"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:30"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:30"
+      }
+     ],
+     "lat": 35.688052,
+     "lng": 139.70272699999998,
+     "map": "https://maps.google.com/?cid=7198040261493443950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-아트모스-신주쿠점.jpg"
+    },
+    {
+     "name": "adidas Originals 신주쿠",
+     "desc": "신주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "adidas-originals",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目２７−４ 3F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6908868,
+     "lng": 139.7018393,
+     "map": "https://maps.google.com/?cid=14804572943054525449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-adidas-originals-신주쿠.jpg"
+    },
+    {
+     "name": "유나이티드 애로우 신주쿠 루미네",
+     "desc": "신주쿠 루미네 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "united-arrows",
+     "addr": "〒160-0023 東京都新宿区西新宿１丁目１−５ ルミネ新宿 ルミネ1 B1・1F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6892105,
+     "lng": 139.6992913,
+     "map": "https://maps.google.com/?cid=91966904553009600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-united-arrows-신주쿠-루미네.jpg"
+    },
+    {
+     "name": "몽벨 신주쿠 남구",
+     "desc": "신주쿠 남구 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "montbell",
+     "addr": "〒151-0053 東京都渋谷区代々木２丁目４−９ NMF 新宿南口ビル 1階",
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~21:00"
+      }
+     ],
+     "lat": 35.687570699999995,
+     "lng": 139.6992203,
+     "map": "https://maps.google.com/?cid=17884812280338132625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-신주쿠-남구.jpg",
+     "wishlist": {
+      "mine": [
+       "미니 더플백 후보",
+       "경량 장비"
+      ]
+     }
+    },
+    {
+     "name": "RINKAN (크롬하츠 리셀) 신주쿠",
+     "desc": "신주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "rinkan",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目３４−１３ 三経２５ビル B1F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "화",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "수",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "목",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "금",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "토",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "일",
+       "time": "13:00~19:30"
+      }
+     ],
+     "lat": 35.6905613,
+     "lng": 139.7031084,
+     "map": "https://maps.google.com/?cid=2327735776294731591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-rinkan-신주쿠.jpg"
+    },
+    {
+     "name": "RANDA 루미네에스트 신주쿠",
+     "desc": "루미네에스트 신주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "randa",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目３８−１ ルミネエスト新宿 4F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "10:30~21:00"
+      },
+      {
+       "day": "일",
+       "time": "10:30~21:00"
+      }
+     ],
+     "lat": 35.691204,
+     "lng": 139.70120530000003,
+     "map": "https://maps.google.com/?cid=951930861678083629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-randa-루미네에스트-신주쿠.jpg"
+    },
+    {
+     "name": "ALLU 신주쿠",
+     "desc": "신주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "allu",
+     "addr": "〒160-0022 東京都新宿区新宿３丁目１−２０",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.690538,
+     "lng": 139.7049648,
+     "map": "https://maps.google.com/?cid=15579103828022728797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-allu-신주쿠.jpg"
+    },
+    {
+     "name": "Deal Design 신주쿠",
+     "desc": "신주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "deal-design",
+     "addr": "〒160-0022 東京都新宿区新宿５丁目１６−４ マルイメン 4F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6926136,
+     "lng": 139.70635339999998,
+     "map": "https://maps.google.com/?cid=104110879906635141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deal-design-신주쿠.jpg"
     }
    ],
    "photoSpots": [
@@ -522,7 +907,14 @@
      "lat": 35.666232099999995,
      "lng": 139.70400229999998,
      "map": "https://maps.google.com/?cid=3286721948833497824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/s-danton-tokyo.jpg"
+     "photo": "photos/s-danton-tokyo.jpg",
+     "wishlist": {
+      "mine": [
+       "경량 패딩",
+       "모자",
+       "의류"
+      ]
+     }
     },
     {
      "name": "Goldwin Harajuku",
@@ -732,7 +1124,12 @@
      "lat": 35.670911499999995,
      "lng": 139.7075442,
      "map": "https://maps.google.com/?cid=7100548764819391178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/s-cas-pace.jpg"
+     "photo": "photos/s-cas-pace.jpg",
+     "wishlist": {
+      "girlfriend": [
+       "핸드폰 케이스"
+      ]
+     }
     },
     {
      "name": "JAPAN BLUE JEANS (시부야점 표기)",
@@ -814,6 +1211,382 @@
      "lng": 139.7035817,
      "map": "https://maps.google.com/?cid=9042211536900144705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-patagonia-시부야점.jpg"
+    },
+    {
+     "name": "SOU・SOU KYOTO 青山店",
+     "badge": "여자친구",
+     "desc": "일본식 디자인 의류 · 전 상품 취급점",
+     "wishlist": {
+      "girlfriend": [
+       "SOU・SOU 의류"
+      ]
+     },
+     "hours": [
+      {
+       "day": "월",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "12:00~20:00"
+      }
+     ],
+     "addr": "〒107-0062 東京都港区南青山５丁目４−２４ ア・ラ・クローチェ1F",
+     "lat": 35.6612521,
+     "lng": 139.714892,
+     "map": "https://maps.google.com/?cid=17275758790874668940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-sou-sou-kyoto.jpg"
+    },
+    {
+     "name": "PORTER OMOTESANDO",
+     "badge": "가방",
+     "desc": "가방 직영점 · 재고는 현장/공식 재고검색으로 확인",
+     "wishlist": {
+      "mine": [
+       "미니 더플백",
+       "가방 커스텀용 카라비너·줄"
+      ]
+     },
+     "addr": "〒150-0001 東京都渋谷区神宮前５丁目６−８",
+     "hours": [
+      {
+       "day": "월",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "12:00~20:00"
+      }
+     ],
+     "lat": 35.6660059,
+     "lng": 139.7090154,
+     "map": "https://maps.google.com/?cid=8677234650934003896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-porter-omotesando.jpg"
+    },
+    {
+     "name": "Paris Miki Harajuku",
+     "desc": "안경 · Google 지도 저장 지점",
+     "brand": "paris-miki",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目７−１０ ネスト原宿 101号",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6668178,
+     "lng": 139.7060826,
+     "map": "https://maps.google.com/?cid=12905569046890624029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-paris-miki-harajuku.jpg"
+    },
+    {
+     "name": "RINKAN LAB 하라주쿠점",
+     "desc": "크롬하츠 리셀 · Google 지도 저장 지점",
+     "brand": "rinkan",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目３２−１ コーナービル 穏田 2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "13:00~19:00"
+      },
+      {
+       "day": "화",
+       "time": "13:00~19:00"
+      },
+      {
+       "day": "수",
+       "time": "13:00~19:00"
+      },
+      {
+       "day": "목",
+       "time": "13:00~19:00"
+      },
+      {
+       "day": "금",
+       "time": "13:00~19:00"
+      },
+      {
+       "day": "토",
+       "time": "13:00~19:00"
+      },
+      {
+       "day": "일",
+       "time": "13:00~19:00"
+      }
+     ],
+     "lat": 35.669866,
+     "lng": 139.707123,
+     "map": "https://maps.google.com/?cid=13300280581203649036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-rinkan-lab-하라주쿠점.jpg"
+    },
+    {
+     "name": "Deus Ex Machina 시부야",
+     "desc": "시부야 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "deus",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目３１−２１ 東急プラザ原宿「ハラカド」 2階",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6684224,
+     "lng": 139.7048752,
+     "map": "https://maps.google.com/?cid=14231011816628294094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deus-시부야.jpg"
+    },
+    {
+     "name": "Chrome Hearts 하라주쿠",
+     "desc": "하라주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "chrome-hearts",
+     "addr": "〒150-0001 東京都渋谷区神宮前２丁目１８−11 1F･2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "화",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "수",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "목",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "금",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~19:00"
+      }
+     ],
+     "lat": 35.6722602,
+     "lng": 139.709265,
+     "map": "https://maps.google.com/?cid=9778377381539910962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-chrome-hearts-하라주쿠.jpg"
+    },
+    {
+     "name": "유나이티드 애로우 하라주쿠",
+     "desc": "하라주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "united-arrows",
+     "addr": "〒150-0001 東京都渋谷区神宮前３丁目２８−１",
+     "hours": [
+      {
+       "day": "월",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "12:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "12:00~20:00"
+      }
+     ],
+     "lat": 35.6720407,
+     "lng": 139.7095079,
+     "map": "https://maps.google.com/?cid=14329430069820695518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-united-arrows-하라주쿠.jpg"
+    },
+    {
+     "name": "RINKAN (크롬하츠 리셀) 하라주쿠 silver",
+     "desc": "하라주쿠 silver 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "rinkan",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２７−１ ギャラリー ドジム B1F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "화",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "수",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "목",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "금",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "토",
+       "time": "13:00~19:30"
+      },
+      {
+       "day": "일",
+       "time": "13:00~19:30"
+      }
+     ],
+     "lat": 35.6697007,
+     "lng": 139.7077677,
+     "map": "https://maps.google.com/?cid=6018458820991992819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-rinkan-하라주쿠-silver.jpg"
+    },
+    {
+     "name": "Deal Design 하라주쿠",
+     "desc": "하라주쿠 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "deal-design",
+     "addr": "〒150-0001 東京都渋谷区神宮前４丁目２５−７ 2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6690611,
+     "lng": 139.708082,
+     "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deal-design-하라주쿠.png"
     }
    ],
    "photoSpots": [
@@ -962,7 +1735,13 @@
      "photo": "photos/s-brand-off.jpg",
      "lat": 35.659957399999996,
      "lng": 139.699471,
-     "map": "https://maps.google.com/?cid=11816806066793699120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+     "map": "https://maps.google.com/?cid=11816806066793699120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "wishlist": {
+      "girlfriend": [
+       "가죽 제품",
+       "빈티지 명품 1순위"
+      ]
+     }
     },
     {
      "name": "아디다스 브랜드센터 시부야",
@@ -1006,44 +1785,44 @@
      "photo": "photos/s-아디다스-브랜드센터-시부야.png"
     },
     {
-     "name": "유나이티드 애로우",
-     "desc": "내 가디건·모자",
+     "name": "유나이티드 애로우 시부야 스크램블스퀘어",
+     "desc": "내 가디건·모자 · 남성 매장 8F",
      "hours": [
       {
        "day": "월",
-       "time": "11:00~21:00"
+       "time": "10:00~21:00"
       },
       {
        "day": "화",
-       "time": "11:00~21:00"
+       "time": "10:00~21:00"
       },
       {
        "day": "수",
-       "time": "11:00~21:00"
+       "time": "10:00~21:00"
       },
       {
        "day": "목",
-       "time": "11:00~21:00"
+       "time": "10:00~21:00"
       },
       {
        "day": "금",
-       "time": "11:00~21:00"
+       "time": "10:00~21:00"
       },
       {
        "day": "토",
-       "time": "11:00~21:00"
+       "time": "10:00~21:00"
       },
       {
        "day": "일",
-       "time": "11:00~20:00"
+       "time": "10:00~21:00"
       }
      ],
-     "addr": "〒150-8509 東京都渋谷区渋谷２丁目２１−１ 3F ヒカリエ内ShinQs by TOKYU DEPARTMENT STORE 渋谷",
+     "addr": "〒150-6101 東京都渋谷区渋谷２丁目２４−１２ 渋谷スクランブルスクエア 8F",
      "other": "하라주쿠 · 신주쿠 루미네",
      "brand": "united-arrows",
-     "lat": 35.658779599999995,
-     "lng": 139.70319659999998,
-     "map": "https://maps.google.com/?cid=2726014660508888163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "lat": 35.65837,
+     "lng": 139.70222,
+     "map": "https://www.google.com/maps/search/?api=1&query=UNITED+ARROWS+SHIBUYA+SCRAMBLE+SQUARE",
      "photo": "photos/s-유나이티드-애로우.jpg"
     },
     {
@@ -1085,7 +1864,13 @@
      "lat": 35.662389999999995,
      "lng": 139.697547,
      "map": "https://maps.google.com/?cid=11750434768715304279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-     "photo": "photos/s-몽벨-시부야.jpg"
+     "photo": "photos/s-몽벨-시부야.jpg",
+     "wishlist": {
+      "mine": [
+       "미니 더플백 후보",
+       "경량 장비"
+      ]
+     }
     },
     {
      "name": "BAPE STORE 시부야",
@@ -1369,6 +2154,219 @@
      "lng": 139.70198059999998,
      "map": "https://maps.google.com/?cid=18270458273014498001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-kith-tokyo.jpg"
+    },
+    {
+     "name": "d.i.a. SHIBUYA109",
+     "badge": "여자친구",
+     "desc": "SHIBUYA109 5F · 의류",
+     "wishlist": {
+      "girlfriend": [
+       "d.i.a. 의류"
+      ]
+     },
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~21:00"
+      }
+     ],
+     "addr": "東京都渋谷区道玄坂2-29-1 SHIBUYA109 5F",
+     "lat": 35.6597053,
+     "lng": 139.6986671,
+     "map": "https://maps.google.com/?cid=18114536050782678426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-d-i-a-shibuya109.jpg"
+    },
+    {
+     "name": "시부야 LOFT",
+     "badge": "여자친구",
+     "desc": "잡화 · 문구 · 생활용품 회수 후보",
+     "wishlist": {
+      "girlfriend": [
+       "잡화",
+       "필요한 생활용품"
+      ]
+     },
+     "addr": "〒150-0042 東京都渋谷区宇田川町２１−１",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6609346,
+     "lng": 139.6997226,
+     "map": "https://maps.google.com/?cid=14502424858922825908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-시부야-loft.jpg"
+    },
+    {
+     "name": "파리미키 시부야점",
+     "desc": "안경 · Google 지도 저장 지점",
+     "brand": "paris-miki",
+     "addr": "〒150-0041 東京都渋谷区神南１丁目２１−１ 日本生命渋谷ビル 1F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6619368,
+     "lng": 139.70058459999998,
+     "map": "https://maps.google.com/?cid=8012618293764651588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-파리미키-시부야점.jpg"
+    },
+    {
+     "name": "adidas Originals 미야시타파크",
+     "desc": "미야시타파크 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "adidas-originals",
+     "addr": "〒150-0001 東京都渋谷区神宮前６丁目２０−１０ MIYASHITA PARK South 1F・2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6622585,
+     "lng": 139.70190159999999,
+     "map": "https://maps.google.com/?cid=11113241243265711853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-adidas-originals-미야시타파크.jpg"
+    },
+    {
+     "name": "Watchnian 시부야점",
+     "desc": "시부야점 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "watchnian",
+     "addr": "〒150-0042 東京都渋谷区宇田川町２６−５",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.659994,
+     "lng": 139.69884,
+     "map": "https://maps.google.com/?cid=5293628038802672511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-시부야점.jpg"
     }
    ],
    "photoSpots": [
@@ -1918,6 +2916,296 @@
      "lng": 139.6928239,
      "map": "https://maps.google.com/?cid=16457978015063719759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
     }
+   ],
+   "spots": [
+    {
+     "name": "이치반가이 · 쿠라즈쿠리 거리",
+     "time": "09:10~10:10",
+     "tip": "검은 기와·흙벽 창고 거리. 아침 사진의 본체",
+     "cost": "0",
+     "addr": "〒350-0063 埼玉県川越市幸町",
+     "hours": [
+      {
+       "day": "월",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "화",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "수",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "목",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "금",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "토",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "일",
+       "time": "24 :間営業"
+      }
+     ],
+     "lat": 35.923527,
+     "lng": 139.4829325,
+     "map": "https://maps.google.com/?cid=2878523704329094195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p-이치반가이-쿠라즈쿠리-거리.jpg"
+    },
+    {
+     "name": "토키노카네",
+     "time": "12:00 / 18:00 타종",
+     "tip": "가와고에의 상징. 안 B면 라이트업까지",
+     "cost": "0",
+     "addr": "〒350-0063 埼玉県川越市幸町１５−７",
+     "hours": [
+      {
+       "day": "월",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "화",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "수",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "목",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "금",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "토",
+       "time": "24 :間営業"
+      },
+      {
+       "day": "일",
+       "time": "24 :間営業"
+      }
+     ],
+     "lat": 35.9234758,
+     "lng": 139.48333499999998,
+     "map": "https://maps.google.com/?cid=13347384384474513249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p-토키노카네.jpg"
+    },
+    {
+     "name": "카시야요코초",
+     "time": "10:10~10:25",
+     "tip": "고구마·막대엿 등 과자 골목",
+     "cost": "0",
+     "addr": "〒350-0062 埼玉県川越市元町２丁目１１−３",
+     "hours": [
+      {
+       "day": "월",
+       "time": "9:00~17:00"
+      },
+      {
+       "day": "화",
+       "time": "9:00~17:00"
+      },
+      {
+       "day": "수",
+       "time": "9:00~17:00"
+      },
+      {
+       "day": "목",
+       "time": "9:00~17:00"
+      },
+      {
+       "day": "금",
+       "time": "9:00~17:00"
+      },
+      {
+       "day": "토",
+       "time": "9:00~17:00"
+      },
+      {
+       "day": "일",
+       "time": "9:00~17:00"
+      }
+     ],
+     "lat": 35.9250599,
+     "lng": 139.4810513,
+     "map": "https://maps.google.com/?cid=5295597158508306682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p-카시야요코초.jpg"
+    },
+    {
+     "name": "小川菊",
+     "time": "10:30 줄서기 · 10:40 오픈",
+     "tip": "장어 점심. 주말 예약 불가",
+     "cost": "0",
+     "addr": "〒350-0065 埼玉県川越市仲町３−２２",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~14:00, 16:30~19:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~14:00, 16:30~19:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~14:00, 16:30~19:00"
+      },
+      {
+       "day": "목",
+       "time": "휴무",
+       "off": true
+      },
+      {
+       "day": "금",
+       "time": "11:00~14:00, 16:30~19:00"
+      },
+      {
+       "day": "토",
+       "time": "10:40~18:00"
+      },
+      {
+       "day": "일",
+       "time": "10:40~18:00"
+      }
+     ],
+     "lat": 35.9206734,
+     "lng": 139.4832727,
+     "map": "https://maps.google.com/?cid=6115106734021921369&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p.jpg"
+    },
+    {
+     "name": "가와고에 히카와신사",
+     "time": "13:20~13:50",
+     "tip": "붉은 다리 · 에마 터널",
+     "cost": "0",
+     "addr": "〒350-0052 埼玉県川越市宮下町２丁目１１−３",
+     "hours": [
+      {
+       "day": "월",
+       "time": "8:00~16:30"
+      },
+      {
+       "day": "화",
+       "time": "8:00~16:30"
+      },
+      {
+       "day": "수",
+       "time": "8:00~16:30"
+      },
+      {
+       "day": "목",
+       "time": "8:00~16:30"
+      },
+      {
+       "day": "금",
+       "time": "8:00~16:30"
+      },
+      {
+       "day": "토",
+       "time": "8:00~16:30"
+      },
+      {
+       "day": "일",
+       "time": "8:00~16:30"
+      }
+     ],
+     "lat": 35.9275498,
+     "lng": 139.4885588,
+     "map": "https://maps.google.com/?cid=9209437817087783004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p-가와고에-히카와신사.jpg"
+    },
+    {
+     "name": "기타인 · 500나한",
+     "time": "14:00~15:00",
+     "tip": "16:50 폐문 전 입장",
+     "cost": "0",
+     "addr": "〒350-0036 埼玉県川越市小仙波町１丁目２０−１",
+     "hours": [
+      {
+       "day": "월",
+       "time": "9:00~16:00"
+      },
+      {
+       "day": "화",
+       "time": "9:00~16:00"
+      },
+      {
+       "day": "수",
+       "time": "9:00~16:00"
+      },
+      {
+       "day": "목",
+       "time": "9:00~16:00"
+      },
+      {
+       "day": "금",
+       "time": "9:00~16:00"
+      },
+      {
+       "day": "토",
+       "time": "9:00~16:00"
+      },
+      {
+       "day": "일",
+       "time": "9:00~16:00"
+      }
+     ],
+     "lat": 35.9179949,
+     "lng": 139.4898073,
+     "map": "https://maps.google.com/?cid=6729443840812125673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p-기타인-500나한.jpg"
+    },
+    {
+     "name": "다이쇼로망 유메도리",
+     "time": "15:15~16:00",
+     "tip": "크레아몰을 따라 역으로 내려오는 거리",
+     "cost": "0",
+     "addr": "〒350-0066 埼玉県川越市連雀町１７−１",
+     "hours": [
+      {
+       "day": "월",
+       "time": "9:00~18:00"
+      },
+      {
+       "day": "화",
+       "time": "9:00~18:00"
+      },
+      {
+       "day": "수",
+       "time": "9:00~18:00"
+      },
+      {
+       "day": "목",
+       "time": "9:00~18:00"
+      },
+      {
+       "day": "금",
+       "time": "9:00~18:00"
+      },
+      {
+       "day": "토",
+       "time": "9:00~18:00"
+      },
+      {
+       "day": "일",
+       "time": "9:00~18:00"
+      }
+     ],
+     "lat": 35.920018899999995,
+     "lng": 139.4835537,
+     "map": "https://maps.google.com/?cid=10565333723453964029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-p-다이쇼로망-유메도리.jpg"
+    }
    ]
   },
   {
@@ -2141,7 +3429,17 @@
      "name": "다이소 · Can do · Standard Product · Lakole · Kaldi · Right on",
      "desc": "여친 픽 · 잡화",
      "hours": "매장별",
-     "addr": "이케부쿠로에 전부 있다"
+     "addr": "이케부쿠로에 전부 있다",
+     "wishlist": {
+      "girlfriend": [
+       "Kaldi",
+       "Daiso",
+       "Can do",
+       "Lakole",
+       "Right on",
+       "잡화 부족분"
+      ]
+     }
     },
     {
      "name": "바카라 2곳",
@@ -2154,6 +3452,53 @@
      "desc": "내 위스키 — 글렌모렌지 시그넷 2병",
      "hours": "10:00~22:00 (야마야 이케부쿠로 서점·동점 모두)",
      "addr": "⚠️ 면세 400달러 한도"
+    },
+    {
+     "name": "몽벨 이케부쿠로 도부",
+     "desc": "이케부쿠로 도부 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "montbell",
+     "addr": "〒171-8512 東京都豊島区西池袋１丁目１−２５ 東武百貨店池袋店 5F 9・10番地",
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~19:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~19:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~19:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~19:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~19:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~19:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~19:00"
+      }
+     ],
+     "lat": 35.7300456,
+     "lng": 139.7104443,
+     "map": "https://maps.google.com/?cid=13123939370967231536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-이케부쿠로-도부.jpg",
+     "wishlist": {
+      "mine": [
+       "미니 더플백 후보",
+       "경량 장비"
+      ]
+     }
     }
    ],
    "photoSpots": [
@@ -2304,6 +3649,48 @@
      "lng": 139.79569519999998,
      "map": "https://maps.google.com/?cid=12915525959148884633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-x.jpg"
+    },
+    {
+     "name": "Deus Ex Machina 아사쿠사",
+     "desc": "아사쿠사 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "deus",
+     "addr": "〒131-0033 東京都墨田区向島１丁目２−８ W5",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "수",
+       "time": "휴무",
+       "off": true
+      },
+      {
+       "day": "목",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~19:00"
+      }
+     ],
+     "lat": 35.711082,
+     "lng": 139.80353019999998,
+     "map": "https://maps.google.com/?cid=4152845194933715767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-deus-아사쿠사.jpg"
     }
    ],
    "photoSpots": [
@@ -2812,7 +4199,12 @@
      "map": "https://maps.google.com/?cid=9979308774657714368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "lat": 35.6731273,
      "lng": 139.7672138,
-     "photo": "photos/s-ginza-itoya.jpg"
+     "photo": "photos/s-ginza-itoya.jpg",
+     "wishlist": {
+      "girlfriend": [
+       "문구류"
+      ]
+     }
     },
     {
      "name": "MUJI 긴자",
@@ -2966,6 +4358,392 @@
      "map": "https://maps.google.com/?cid=11822431248665941811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-fire-kids-긴자나인점.jpg",
      "brand": "firekids"
+    },
+    {
+     "name": "Dover Street Market Ginza",
+     "badge": "여자친구",
+     "desc": "긴자 의류 편집숍 · Ginza Komatsu West",
+     "wishlist": {
+      "girlfriend": [
+       "의류 편집숍 둘러보기"
+      ]
+     },
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "addr": "〒104-0061 東京都中央区銀座６丁目９−５",
+     "lat": 35.6704316,
+     "lng": 139.76314299999999,
+     "map": "https://maps.google.com/?cid=1517999343228708133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-dover-street-market-ginza.jpg"
+    },
+    {
+     "name": "Standard Products 마로니에게이트 긴자점",
+     "badge": "잡화",
+     "desc": "마로니에게이트 긴자2 6F · Standard Products 글로벌 플래그십",
+     "wishlist": {
+      "girlfriend": [
+       "이마바리 직조 손수건",
+       "구마노 메이크업 브러시",
+       "보냉백",
+       "세키시(関市) 가위·식칼"
+      ]
+     },
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "addr": "〒104-0061 東京都中央区銀座３丁目２−１ マロニエゲート銀座２ 6階",
+     "lat": 35.673792399999996,
+     "lng": 139.7649803,
+     "map": "https://maps.google.com/?cid=7126707852372668630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-standard-products-마로니에게이트-긴자점.jpg",
+     "brand": "standard-products"
+    },
+    {
+     "name": "JINS 긴자 4초메점",
+     "desc": "안경 · Google 지도 저장 지점 (긴자 4초메)",
+     "addr": "〒104-0061 東京都中央区銀座４丁目５−１",
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~20:00"
+      }
+     ],
+     "lat": 35.6722234,
+     "lng": 139.76545389999998,
+     "map": "https://maps.google.com/?cid=12645961307280874438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-jins-긴자-4초메점.jpg",
+     "brand": "jins"
+    },
+    {
+     "name": "Goldwin 마루노우치",
+     "desc": "마루노우치 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "goldwin",
+     "addr": "〒100-0005 東京都千代田区丸の内２丁目６−１ ブリックスクエア１Ｆ １０８区",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6790668,
+     "lng": 139.7626826,
+     "map": "https://maps.google.com/?cid=3617760219693041920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-goldwin-마루노우치.jpg"
+    },
+    {
+     "name": "Chrome Hearts 긴자",
+     "desc": "긴자 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "chrome-hearts",
+     "addr": "〒104-0061 東京都中央区銀座５丁目４−９ B1 - 2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "화",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "수",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "목",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "금",
+       "time": "12:00~19:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~19:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~19:00"
+      }
+     ],
+     "lat": 35.6713605,
+     "lng": 139.7629508,
+     "map": "https://maps.google.com/?cid=5054441042591433914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-chrome-hearts-긴자.jpg"
+    },
+    {
+     "name": "몽벨 교바시",
+     "desc": "교바시 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "montbell",
+     "addr": "〒104-0031 東京都中央区京橋３丁目１−１ 東京スクエアガーデン １ ２階",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~21:00"
+      }
+     ],
+     "lat": 35.6759537,
+     "lng": 139.768802,
+     "map": "https://maps.google.com/?cid=18111296058751286170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-교바시.jpg",
+     "wishlist": {
+      "mine": [
+       "미니 더플백 후보",
+       "경량 장비"
+      ]
+     }
+    },
+    {
+     "name": "Watchnian 긴자5초메점",
+     "desc": "긴자5초메점 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "watchnian",
+     "addr": "〒104-0061 東京都中央区銀座５丁目７−１９",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6713094,
+     "lng": 139.7645091,
+     "map": "https://maps.google.com/?cid=1463761501935935259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-긴자5초메점-fix.jpg"
+    },
+    {
+     "name": "Watchnian 긴자2초메점",
+     "desc": "긴자2초메점 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "watchnian",
+     "addr": "〒104-0061 東京都中央区銀座２丁目５−５ マネージュビル銀座 1F/2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.673848,
+     "lng": 139.7668381,
+     "map": "https://maps.google.com/?cid=274954618749916335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-긴자2초메점.jpg"
+    },
+    {
+     "name": "Watchnian 긴자본점",
+     "desc": "긴자본점 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "watchnian",
+     "addr": "〒104-0061 東京都中央区銀座８丁目８−５ 陽栄銀座ビル 1F/2F",
+     "hours": [
+      {
+       "day": "월",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "11:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "11:00~20:00"
+      }
+     ],
+     "lat": 35.6684212,
+     "lng": 139.7617339,
+     "map": "https://maps.google.com/?cid=234653590795315723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-watchnian-긴자본점.jpg"
     }
    ],
    "photoSpots": [
@@ -3196,6 +4974,53 @@
      "lng": 139.7757219,
      "map": "https://maps.google.com/?cid=13471579127040383835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/s-japan-blue-jeans-우에노점.jpg"
+    },
+    {
+     "name": "몽벨 오카치마치",
+     "desc": "오카치마치 도보권 지점 · 기존 주 지점에서 못 보면 여기",
+     "badge": "근처 지점",
+     "brand": "montbell",
+     "addr": "〒110-0005 東京都台東区上野３丁目２２−６ コムテラス 御徒町",
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~21:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~21:00"
+      }
+     ],
+     "lat": 35.7064151,
+     "lng": 139.7737829,
+     "map": "https://maps.google.com/?cid=17245256251592542764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/b-montbell-오카치마치.jpg",
+     "wishlist": {
+      "mine": [
+       "미니 더플백 후보",
+       "경량 장비"
+      ]
+     }
     }
    ],
    "photoSpots": [
@@ -3222,16 +5047,133 @@
      "photo": "photos/p-야네센-야나카-네즈-센다기.jpg"
     }
    ]
+  },
+  {
+   "id": "nakano-option",
+   "name": "나카노 · 별도 옵션",
+   "day": "sat",
+   "order": 99,
+   "lat": 35.7092475,
+   "lng": 139.6656524,
+   "timeA": "시간 여유 시",
+   "durA": "2.5~3시간 권장",
+   "timeB": "시간 여유 시",
+   "durB": "2.5~3시간 권장",
+   "transport": "신주쿠에서 JR 주오선 약 20분 + 도보 5분",
+   "note": "토요일 기본 동선 밖이다. 다른 지역 가게를 줄이거나 별도 반나절을 잡을 때만 선택.",
+   "shops": [
+    {
+     "name": "나카노 브로드웨이",
+     "desc": "애니·만화·빈티지·시계 상점이 모인 쇼핑센터 · Google 지도 저장 지점",
+     "addr": "〒164-0001 東京都中野区中野５丁目５２−１５",
+     "hours": [
+      {
+       "day": "월",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "화",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "수",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "목",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "금",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "토",
+       "time": "10:00~20:00"
+      },
+      {
+       "day": "일",
+       "time": "10:00~20:00"
+      }
+     ],
+     "lat": 35.7092475,
+     "lng": 139.66565240000003,
+     "map": "https://maps.google.com/?cid=16264325981541494974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-나카노-브로드웨이.jpg"
+    }
+   ]
   }
  ],
  "bonus": [],
+ "tips": [
+  {
+   "id": "payment",
+   "icon": "💳",
+   "title": "결제 · 카드 사용",
+   "summary": "토스 JPY를 기본으로, Npay는 행사 조건을 채울 때만, SFC2는 보증금·장애용 백업으로 둔다.",
+   "sections": [
+    {"title": "세 카드 역할", "items": ["토스 JPY + 체크카드: 일반 결제와 필요한 현금 인출에 먼저 사용. 이미 환전한 JPY를 그대로 소진한다.", "Npay 머니카드 실물 Visa: 일본 이벤트의 조건을 자연스럽게 넘기는 결제에만 사용. 토스 JPY가 아닌 Npay 머니에서 빠진다.", "삼성카드 SFC2: 호텔 체크인 보증금, 취소 가능 예약, 토스 결제 실패 시의 신용카드 백업으로 보관."]},
+    {"title": "현장 결제 규칙", "items": ["카드 단말기·ATM에서는 항상 JPY / Japanese yen / local currency를 선택하고, KRW / won / home currency는 거절한다.", "Npay 해외 QR과 Npay 실물카드 결제는 서로 다른 수단이다. 한 거래는 즉시할인 또는 실물카드 행사 중 더 확실한 하나만 고른다.", "노포·소규모 식당·IC 충전용으로 현금은 따로 둔다. 세븐은행 ATM에서 토스 실물카드와 PIN으로 필요한 만큼 인출한다."]},
+    {"title": "면세 · 쇼핑", "items": ["면세는 같은 날·같은 점포 세전 5,000엔부터 가능하다. 쇼핑 날에는 여권 실물과 명의가 같은 결제수단을 챙긴다.", "돈키 쿠폰은 캡처가 아니라 결제 직전의 실시간 화면을 제시한다. 면세 소모품은 일본에서 개봉하지 않는다.", "귀국 일반물품 한도는 1인 US$800이며, 주류·담배·향수는 별도 한도가 있다. 영수증을 품목별로 보관한다."]}
+   ],
+   "notice": "Npay 이벤트와 QR 할인은 기간·예산·가맹점 조건이 바뀔 수 있으므로 결제 직전에 앱 혜택 상세를 다시 확인한다."
+  },
+  {
+   "id": "npay-event",
+   "icon": "🟢",
+   "title": "Npay 머니카드 · 일본 행사",
+   "summary": "실물 Visa 카드로 결제할 때만 인정된다. 돈키·편의점 결제 전에 이 순서를 확인한다.",
+   "sections": [
+    {"title": "결제 전 · 공통 규칙", "items": ["반드시 이벤트 페이지에서 응모를 먼저 완료한다. 응모 전 결제는 소급 적용되지 않는다.", "일본 오프라인에서 Npay 머니카드 실물 Visa로 외화 승인받은 거래만 인정된다. QR·간편결제 연동·온라인 결제·원화 결제는 제외다.", "조건 금액은 원화 환산 승인액 기준이며, 취소·부분취소·15일 안에 정상 매입되지 않은 결제는 빠질 수 있다. 포인트는 정산 후 익월 또는 익익월 15일에 지급된다."]},
+    {"title": "기본 · 식사", "items": ["일본 첫 오프라인 실물카드 결제: 3만원 이상 1건이면 1만원. 2026-07-14까지 일본 오프라인 결제 이력이 없던 회원만 해당한다.", "일본 전체 누적: 50만원 / 100만원 / 150만원 이상이면 총 2만원 / 5만원 / 10만원. 할인 때문에 문턱을 억지로 채우지는 않는다.", "이치란: 일본 이치란에서 한 번에 2만원 이상 결제하면 1만원. 분할 결제는 합산되지 않으며 백화점 입점점은 제외될 수 있다."]},
+    {"title": "편의점 · 쇼핑", "items": ["세븐일레븐·패밀리마트·로손: 세 브랜드 합산 3만원 이상이면 1만원. ATM 출금·공과금·기프트카드·전자머니 충전·상품권은 제외될 수 있다.", "돈키호테: 일본 돈키호테 누적 10만원 이상이면 2만원. 면세 처리 거래도 승인 원화 금액 기준으로 산정된다. 쿠폰은 결제 전에 실시간 화면으로 제시한다.", "유니클로: 단독 매장 누적 5만원 이상이면 2만원. GU 등 다른 브랜드는 제외다.", "한큐·다이마루·파르코: 세 백화점 합산 10만원 이상이면 3만원. 백화점·몰 안 매장은 Visa 가맹점명이 다르면 제외될 수 있다."]},
+    {"title": "여행 중 고르는 법", "items": ["돈키에서 10만원 가까운 쇼핑, 3대 편의점에서 누적 3만원, 이치란 단건 2만원이 자연스럽게 생길 때만 실물 Npay 카드로 낸다.", "위 조건에 안 맞는 일반 결제는 이미 환전한 토스 JPY를 먼저 쓴다. 카드 이벤트 실적을 위해 소비를 늘리지 않는다.", "Npay 해외 QR은 이 실물카드 행사와 별개다. QR 즉시할인이 실제로 더 좋다고 앱에 표시될 때만 그 거래에 QR을 고른다."]}
+   ],
+   "notice": "행사 기간은 2026-07-15~10-14이며 예산 소진 시 조기 종료될 수 있다. 동일 브랜드라도 Visa 가맹점 정보에 따라 대상에서 빠질 수 있다.",
+   "link": {"href": "https://campaign2.naver.com/moneycard_2026jp/", "label": "Npay 일본 행사 조건 다시 보기"}
+  },
+  {
+   "id": "hotel",
+   "icon": "🏨",
+   "title": "도미인 이케부쿠로 활용",
+   "summary": "짐 보관, 15층 흑탕 대욕장, 무료 야식·아이스를 일정의 고정 루틴으로 쓴다.",
+   "sections": [
+    {"title": "도착 · 출발", "items": ["체크인 15:00 / 체크아웃 11:00. 체크인 전과 체크아웃 당일 모두 짐 보관이 가능하니 이케부쿠로역에서 먼저 들른다.", "숙소는 이케부쿠로역 동쪽, 35번 출구에서 도보 약 9분이다. 역에서 길을 잃으면 지상으로 나와 구글맵을 다시 켠다.", "22:00 이후 도착할 가능성이 있으면 호텔에 미리 알린다. 체크아웃 뒤에도 짐을 맡기고 마지막 일정을 소화한다."]},
+    {"title": "밤 · 아침 루틴", "items": ["1층 웰컴 드링크 15:00~23:00, 2층 무료 夜鳴きそば는 21:30~23:00. 저녁 식사 대신이 아니라 늦은 밤 가벼운 마무리로 잡는다.", "15층 흑탕 대욕장은 15:00~다음 날 10:00, 사우나는 01:00~05:00만 중단. 사우나까지 할 날은 00:30 전 도착한다.", "밤은 목욕·사우나 뒤 무료 아이스(15:00~25:00), 아침은 목욕 뒤 유산균 음료(05:00~10:00) 순서가 좋다."]},
+    {"title": "객실 · 세탁", "items": ["15층 랜드리와 만화 코너를 이용할 수 있다. 세탁을 먼저 돌리고 목욕하면 기다리는 시간이 없다.", "프런트에서 우산·충전기·변환 어댑터·다리미 등 대여 가능 여부를 먼저 묻는다. 랜드리 요금과 조식 포함 여부도 체크인 때 확인한다.", "대욕장은 음식·알코올 반입이 안 된다. 타투가 있으면 이용 가능 여부와 가림 스티커를 체크인 때 확인한다."]}
+   ]
+  },
+  {
+   "id": "apps",
+   "icon": "📱",
+   "title": "여행 앱 · 데이터",
+   "summary": "입국 QR, 지도, 재난 알림, 교통 IC, 번역을 출국 전에 각각 한 번씩 실제로 열어본다.",
+   "sections": [
+    {"title": "필수", "items": ["Visit Japan Web: 두 사람 각각 여권·입국 일정·숙소 주소를 등록하고 Immigration·Customs QR을 각자 폰과 스크린샷에 보관한다.", "Google Maps: 도미인·공항·예약 식당·매일 첫/마지막 목적지를 저장·공유하고, 도쿄와 공항 범위 오프라인 지도를 내려받는다.", "Safety tips: 위치와 푸시 알림을 허용한다. 일본 체류 중에는 재난 알림을 끄지 않는다."]},
+    {"title": "상황별 보조", "items": ["iPhone은 Wallet Suica를 발급해 소액 충전·Express Mode까지 시험한다. Android는 이미 발급·충전이 검증된 기기만 모바일 Suica를 쓴다.", "Google Translate는 일본어·한국어 오프라인 팩과 카메라 권한을 설정하고, Papago는 익숙한 대화용으로 둔다.", "eSIM은 출국 전 설치만 하고, 도착 뒤 모바일 데이터 회선으로 전환한다. 예약 식당은 TableCheck 확인 메일·예약번호·취소 기한을 저장한다."]}
+   ],
+   "notice": "Google Maps의 오프라인 지도에서는 도보·대중교통 경로가 제한되므로 현지 데이터는 계속 켜 둔다."
+  }
+ ],
  "checklist": [
   {
    "group": "예약 · 결제",
    "items": [
     "크로스핏 이케부쿠로 드롭인 예약 (LINE · 9/28 6:30 · 티셔츠 판매 여부도 같이 물어보기)",
     "스카이라이너 왕복 e티켓 ¥4,500 × 2 결제",
-    "모바일 스이카 발급 (아이폰 지갑앱, 출발 전 미리)"
+    "교통 IC 준비 — iPhone은 Wallet Suica 발급·소액 충전·Express Mode까지 시험, Android는 검증된 기기만 모바일 Suica 사용",
+    "Npay 머니카드 — 실물카드 수령·여권 영문명 일치 확인",
+    "Npay 일본 여행 이벤트·해외여행 10% 이벤트 응모, 예상액 이상 Npay 머니 충전",
+    "해외결제용 백업카드 1장 + 소액 엔화 분산 (면세 결제수단은 여권 명의와 같아야 함)"
+   ]
+  },
+  {
+   "group": "카드 · 환전 5분 설정",
+   "items": [
+    "토스 JPY — 해외결제계좌 연결·JPY 잔액·해외결제 허용·자동환전·실물카드 PIN 확인",
+    "Npay 실물카드 — 실물카드·Npay 머니·연결계좌 확인, QR은 실물카드 행사와 별개인지 앱 혜택 상세 확인",
+    "삼성카드 SFC2 — 카드 버전·국제브랜드·해외 할인·해외사용 허용 확인, 해외원화결제(DCC) 차단",
+    "여행 당일 — 모든 단말기·ATM에서 JPY/local currency 선택, 토스·SFC2·소액 현금은 나눠 보관"
    ]
   },
   {
@@ -3242,27 +5184,22 @@
    ]
   },
   {
-   "group": "남은 확인 사항",
+   "group": "출입국 · 여행 앱",
    "items": [
-    "유나이티드 애로우 시부야 위치 정정 확인 — 실제는 히카리에 ShinQs, 스크램블스퀘어 아님",
-    "Goldwin 하라주쿠 재고 현장 확인 (사이즈·컬러)",
-    "Animate 이케부쿠로 위스키 매장 가격 비교"
-   ]
-  },
-  {
-   "group": "출입국 · 앱 설치",
-   "items": [
-    "Visit Japan Web 등록 (2인, 입국심사+세관 QR 통합)",
-    "eSIM 개통 — 출국 전 설치만, 도착 후 활성화",
-    "파파고 또는 구글 번역 앱 설치 (카메라 번역)",
-    "Payke 앱 설치 (바코드 스캔 상품 정보 확인)",
-    "신용카드 해외결제 알림 설정"
+    "Visit Japan Web — 2인 각각 등록하고 입국심사·세관 QR을 폰과 스크린샷에 저장",
+    "eSIM 설치·이름 지정 — 출국 전 설치만 하고 도착 후 모바일 데이터 회선으로 전환",
+    "Google Maps — 장소 저장·공유 및 도쿄/공항 오프라인 지도 다운로드",
+    "Safety tips — 위치·푸시 알림 허용",
+    "Google Translate — 일본어·한국어 오프라인 팩과 카메라 권한 설정, Papago는 대화용으로 유지",
+    "Wallet Suica — iPhone에서 발급·소액 충전·Express Mode 실제 시험 (Android는 검증된 경우만)",
+    "예약 식당 이메일·예약번호·취소 기한과 카드 해외결제 알림 확인",
+    "귀국 뒤 여행 eSIM을 끄고 한국 회선을 다시 켤 것"
    ]
   },
   {
    "group": "짐 — 문서 · 결제",
    "items": [
-    "여권 (유효기간 6개월 이상 확인)",
+    "여권 (영문명·번호를 항공권과 대조, 만료 임박 시 항공사 탑승 요건 확인)",
     "여권 사본을 폰에 사진으로 저장 (분실 대비)",
     "항공권 e티켓",
     "해외여행자보험 가입 확인",
@@ -3273,7 +5210,8 @@
    "group": "짐 — 전자기기",
    "items": [
     "콘센트 어댑터 — 일본은 100V·A타입, 한국 돼지코 필요",
-    "보조배터리 (위탁수하물 금지, 기내 반입만)",
+    "보조배터리·여분 배터리·전자담배 (단락 보호 후 기내 반입만)",
+    "기내 액체류 — 용기당 100mL 이하, 합계 1L 투명 지퍼백 1개",
     "스마트폰 충전기 · 케이블",
     "카메라(X100V) 여유 배터리 · SD카드"
    ]
@@ -3285,14 +5223,16 @@
     "접이식 우산 (태풍 시즌 끝자락)",
     "편한 신발",
     "운동화 · 운동복 (크로스핏용, 9/28)",
-    "도미인 세탁기 무료 — 옷은 넉넉히 안 챙겨도 됨"
+    "도미인 15층 랜드리 이용을 고려해 옷 부피 조절 (세탁·건조 요금은 체크인 때 확인)"
    ]
   },
   {
    "group": "짐 — 쇼핑 대비",
    "items": [
     "캐리어 여유 공간 + 그릇용 완충재",
-    "접이식 보조 가방 (쇼핑 짐 늘어날 때)"
+    "접이식 보조 가방 (쇼핑 짐 늘어날 때)",
+    "돈키 쿠폰은 캡처 아닌 실시간 화면으로 준비, 쇼핑 전/귀국 전 영수증을 품목별로 합산",
+    "한국 반입 일반물품 US$800·주류 2L/US$400·향수 60mL·담배 200개비 초과 여부 확인"
    ]
   },
   {
@@ -3357,7 +5297,9 @@
      "lng": 139.7626826,
      "map": "https://maps.google.com/?cid=3617760219693041920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-goldwin-마루노우치.jpg",
-     "nearRegionId": "ginza"
+     "nearRegionId": "ginza",
+     "regionId": "ginza",
+     "shopName": "Goldwin 마루노우치"
     }
    ]
   },
@@ -3406,7 +5348,9 @@
      "lng": 139.7048752,
      "map": "https://maps.google.com/?cid=14231011816628294094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deus-시부야.jpg",
-     "nearRegionId": "harajuku"
+     "nearRegionId": "harajuku",
+     "regionId": "harajuku",
+     "shopName": "Deus Ex Machina 시부야"
     },
     {
      "label": "아사쿠사",
@@ -3446,7 +5390,9 @@
      "lng": 139.80353019999998,
      "map": "https://maps.google.com/?cid=4152845194933715767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deus-아사쿠사.jpg",
-     "nearRegionId": "asakusa"
+     "nearRegionId": "asakusa",
+     "regionId": "asakusa",
+     "shopName": "Deus Ex Machina 아사쿠사"
     }
    ]
   },
@@ -3495,7 +5441,9 @@
      "lng": 139.7629508,
      "map": "https://maps.google.com/?cid=5054441042591433914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-chrome-hearts-긴자.jpg",
-     "nearRegionId": "ginza"
+     "nearRegionId": "ginza",
+     "regionId": "ginza",
+     "shopName": "Chrome Hearts 긴자"
     },
     {
      "label": "하라주쿠",
@@ -3534,7 +5482,9 @@
      "lng": 139.709265,
      "map": "https://maps.google.com/?cid=9778377381539910962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-chrome-hearts-하라주쿠.jpg",
-     "nearRegionId": "harajuku"
+     "nearRegionId": "harajuku",
+     "regionId": "harajuku",
+     "shopName": "Chrome Hearts 하라주쿠"
     }
    ]
   },
@@ -3588,7 +5538,9 @@
      "lng": 139.70190159999999,
      "map": "https://maps.google.com/?cid=11113241243265711853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-adidas-originals-미야시타파크.jpg",
-     "nearRegionId": "shibuya"
+     "nearRegionId": "shibuya",
+     "regionId": "shibuya",
+     "shopName": "adidas Originals 미야시타파크"
     },
     {
      "label": "신주쿠",
@@ -3627,7 +5579,9 @@
      "lng": 139.7018393,
      "map": "https://maps.google.com/?cid=14804572943054525449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-adidas-originals-신주쿠.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "adidas Originals 신주쿠"
     }
    ]
   },
@@ -3637,7 +5591,7 @@
     {
      "label": "시부야",
      "regionId": "shibuya",
-     "shopName": "유나이티드 애로우"
+     "shopName": "유나이티드 애로우 시부야 스크램블스퀘어"
     },
     {
      "label": "하라주쿠",
@@ -3676,7 +5630,9 @@
      "lng": 139.7095079,
      "map": "https://maps.google.com/?cid=14329430069820695518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-united-arrows-하라주쿠.jpg",
-     "nearRegionId": "harajuku"
+     "nearRegionId": "harajuku",
+     "regionId": "harajuku",
+     "shopName": "유나이티드 애로우 하라주쿠"
     },
     {
      "label": "신주쿠 루미네",
@@ -3715,7 +5671,9 @@
      "lng": 139.6992913,
      "map": "https://maps.google.com/?cid=91966904553009600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-united-arrows-신주쿠-루미네.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "유나이티드 애로우 신주쿠 루미네"
     }
    ]
   },
@@ -3764,7 +5722,9 @@
      "lng": 139.6992203,
      "map": "https://maps.google.com/?cid=17884812280338132625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-montbell-신주쿠-남구.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "몽벨 신주쿠 남구"
     },
     {
      "label": "오카치마치",
@@ -3803,7 +5763,9 @@
      "lng": 139.7737829,
      "map": "https://maps.google.com/?cid=17245256251592542764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-montbell-오카치마치.jpg",
-     "nearRegionId": "ueno"
+     "nearRegionId": "ueno",
+     "regionId": "ueno",
+     "shopName": "몽벨 오카치마치"
     },
     {
      "label": "교바시",
@@ -3842,7 +5804,9 @@
      "lng": 139.768802,
      "map": "https://maps.google.com/?cid=18111296058751286170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-montbell-교바시.jpg",
-     "nearRegionId": "ginza"
+     "nearRegionId": "ginza",
+     "regionId": "ginza",
+     "shopName": "몽벨 교바시"
     },
     {
      "label": "이케부쿠로 도부",
@@ -3881,7 +5845,9 @@
      "lng": 139.7104443,
      "map": "https://maps.google.com/?cid=13123939370967231536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-montbell-이케부쿠로-도부.jpg",
-     "nearRegionId": "ikebukuro-night"
+     "nearRegionId": "ikebukuro-night",
+     "regionId": "ikebukuro-night",
+     "shopName": "몽벨 이케부쿠로 도부"
     }
    ]
   },
@@ -3930,7 +5896,9 @@
      "lng": 139.7031084,
      "map": "https://maps.google.com/?cid=2327735776294731591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-rinkan-신주쿠.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "RINKAN (크롬하츠 리셀) 신주쿠"
     },
     {
      "label": "하라주쿠 silver",
@@ -3969,7 +5937,9 @@
      "lng": 139.7077677,
      "map": "https://maps.google.com/?cid=6018458820991992819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-rinkan-하라주쿠-silver.jpg",
-     "nearRegionId": "harajuku"
+     "nearRegionId": "harajuku",
+     "regionId": "harajuku",
+     "shopName": "RINKAN (크롬하츠 리셀) 하라주쿠 silver"
     }
    ]
   },
@@ -4018,7 +5988,9 @@
      "lng": 139.70120530000003,
      "map": "https://maps.google.com/?cid=951930861678083629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-randa-루미네에스트-신주쿠.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "RANDA 루미네에스트 신주쿠"
     }
    ]
   },
@@ -4067,7 +6039,9 @@
      "lng": 139.7049648,
      "map": "https://maps.google.com/?cid=15579103828022728797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-allu-신주쿠.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "ALLU 신주쿠"
     }
    ]
   },
@@ -4186,7 +6160,9 @@
      "lng": 139.70635339999998,
      "map": "https://maps.google.com/?cid=104110879906635141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deal-design-신주쿠.jpg",
-     "nearRegionId": "shinjuku"
+     "nearRegionId": "shinjuku",
+     "regionId": "shinjuku",
+     "shopName": "Deal Design 신주쿠"
     },
     {
      "label": "하라주쿠",
@@ -4225,7 +6201,9 @@
      "lng": 139.708082,
      "map": "https://maps.google.com/?cid=2019336947751146632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deal-design-하라주쿠.png",
-     "nearRegionId": "harajuku"
+     "nearRegionId": "harajuku",
+     "regionId": "harajuku",
+     "shopName": "Deal Design 하라주쿠"
     }
    ]
   },
@@ -4274,7 +6252,9 @@
      "lng": 139.69884,
      "map": "https://maps.google.com/?cid=5293628038802672511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-watchnian-시부야점.jpg",
-     "nearRegionId": "shibuya"
+     "nearRegionId": "shibuya",
+     "regionId": "shibuya",
+     "shopName": "Watchnian 시부야점"
     },
     {
      "label": "긴자5초메점",
@@ -4313,7 +6293,9 @@
      "lng": 139.7645091,
      "map": "https://maps.google.com/?cid=1463761501935935259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-watchnian-긴자5초메점-fix.jpg",
-     "nearRegionId": "ginza"
+     "nearRegionId": "ginza",
+     "regionId": "ginza",
+     "shopName": "Watchnian 긴자5초메점"
     },
     {
      "label": "긴자2초메점",
@@ -4352,7 +6334,9 @@
      "lng": 139.7668381,
      "map": "https://maps.google.com/?cid=274954618749916335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-watchnian-긴자2초메점.jpg",
-     "nearRegionId": "ginza"
+     "nearRegionId": "ginza",
+     "regionId": "ginza",
+     "shopName": "Watchnian 긴자2초메점"
     },
     {
      "label": "긴자본점",
@@ -4391,7 +6375,9 @@
      "lng": 139.7617339,
      "map": "https://maps.google.com/?cid=234653590795315723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-watchnian-긴자본점.jpg",
-     "nearRegionId": "ginza"
+     "nearRegionId": "ginza",
+     "regionId": "ginza",
+     "shopName": "Watchnian 긴자본점"
     },
     {
      "label": "나카노점",
@@ -4574,6 +6560,61 @@
      "photo": "photos/b-graphpaper-tokyo.jpg"
     }
    ]
+  },
+  "standard-products": {
+   "name": "Standard Products",
+   "locations": [
+    {
+     "label": "긴자",
+     "regionId": "ginza",
+     "shopName": "Standard Products 마로니에게이트 긴자점"
+    },
+    {
+     "label": "신주쿠",
+     "regionId": "shinjuku",
+     "shopName": "Standard Products 빅카메라 신주쿠 동쪽출구점"
+    }
+   ]
+  },
+  "atmos": {
+   "name": "atmos",
+   "locations": [
+    {
+     "label": "신주쿠",
+     "regionId": "shinjuku",
+     "shopName": "아트모스 신주쿠점"
+    }
+   ]
+  },
+  "paris-miki": {
+   "name": "Paris Miki",
+   "locations": [
+    {
+     "label": "하라주쿠",
+     "regionId": "harajuku",
+     "shopName": "Paris Miki Harajuku"
+    },
+    {
+     "label": "시부야",
+     "regionId": "shibuya",
+     "shopName": "파리미키 시부야점"
+    }
+   ]
+  },
+  "jins": {
+   "name": "JINS",
+   "locations": [
+    {
+     "label": "신주쿠",
+     "regionId": "shinjuku",
+     "shopName": "Jins 플래그십"
+    },
+    {
+     "label": "긴자 4초메",
+     "regionId": "ginza",
+     "shopName": "JINS 긴자 4초메점"
+    }
+   ]
   }
  },
  "transitLegs": [
@@ -4617,7 +6658,13 @@
     "정확한 클래스 시작 시각 확인 (공식 사이트에 시간표 비공개 — 예약 시 재확인)",
     "운동복 · 실내 운동화 · 수건 · 물통 챙기기"
    ],
-   "note": "주소 東京都豊島区池袋3-60-4 · 목요일 휴무 · 정원 12명 · 예약 hacomono/LINE. → [[03 크로스핏 드롭인]]"
+   "note": "주소 東京都豊島区池袋3-60-4 · 목요일 휴무 · 정원 12명 · 예약 hacomono/LINE. → [[03 크로스핏 드롭인]]",
+   "checks": [
+    "C6는 이케부쿠로역 서쪽 출구 — 숙소(동쪽)와 반대편임을 확인",
+    "C6 출구에서 북쪽으로 도보 8분 · 池袋3-60-4",
+    "클래스 10분 전 2층 도착",
+    "운동복 · 실내 운동화 · 수건 · 물통 챙기기"
+   ]
   },
   {
    "id": "airport-in",
@@ -4663,7 +6710,14 @@
     "Visit Japan Web 등록 (2인 각각, 세관 QR 준비)",
     "모바일 스이카 발급 (야마노테선 구간용)"
    ],
-   "note": "리무진버스·N'EX 직통은 이번 항공편·숙소엔 안 맞는다 — 스카이라이너가 유일한 정답. → [[14 공항 ↔ 숙소 교통]]"
+   "note": "리무진버스·N'EX 직통은 이번 항공편·숙소엔 안 맞는다 — 스카이라이너가 유일한 정답. → [[14 공항 ↔ 숙소 교통]]",
+   "checks": [
+    "Visit Japan Web QR 준비",
+    "空港第2ビル역에서 Skyliner e티켓 교환·좌석지정",
+    "닛포리에서 하차 (케이세이우에노까지 가지 않기)",
+    "JR 야마노테선 외선 · 이케부쿠로/시부야 방향 확인",
+    "이케부쿠로는 동쪽 출구로 나와 숙소 방향 지도 열기"
+   ]
   },
   {
    "id": "kawagoe-rt",
@@ -4696,7 +6750,13 @@
     "도부 토조선 급행 확인 (각역정차는 50분 걸린다)",
     "코에도 순환버스 1일권 살지 결정 — 기타인까지 넣으면 이득"
    ],
-   "note": "역 앞엔 아무것도 없다 — 관광지는 역 북쪽 1.5~2km. → [[23 가와고에 (일요일 당일치기)]]"
+   "note": "역 앞엔 아무것도 없다 — 관광지는 역 북쪽 1.5~2km. → [[23 가와고에 (일요일 당일치기)]]",
+   "checks": [
+    "이케부쿠로 도부 토조선 플랫폼에서 急行(급행) 확인",
+    "각역정차(各駅停車)는 타지 않기",
+    "가와고에역 도착 후 이치반가이는 북쪽 1.5~2km — 버스/도보 선택",
+    "복편 시각은 안 A 17:05 / 안 B 19:20 확인"
+   ]
   },
   {
    "id": "airport-out",
@@ -4733,7 +6793,13 @@
     "복편 스카이라이너 좌석지정 — 닛포리 12:25편 (공항에서 미리 가능한지 확인)",
     "면세 쇼핑 정리 (위스키 400달러 한도 등)"
    ],
-   "note": "→ [[14 공항 ↔ 숙소 교통]]"
+   "note": "→ [[14 공항 ↔ 숙소 교통]]",
+   "checks": [
+    "체크아웃·짐/락커 회수",
+    "이케부쿠로에서 JR 야마노테선 외선 · 닛포리 방향 확인",
+    "닛포리에서 Skyliner 탑승 · 예약 좌석 확인",
+    "나리타 T2 도착 후 항공사 카운터·보안검색 진행"
+   ]
   }
  ]
 }
