@@ -1,5 +1,5 @@
 /* 도쿄 플랜 — 오프라인 캐시 */
-var VERSION = "26.09.23-0008";
+var VERSION = "26.09.23-0009";
 var CACHE = "tp-v" + VERSION;
 var CORE = ["./", "./index.html", "./data.json", "./manifest.webmanifest",
             "./apple-touch-icon.png", "./icon-192.png", "./icon-512.png"];
