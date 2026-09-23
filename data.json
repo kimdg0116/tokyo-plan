@@ -606,6 +606,22 @@
      "lng": 139.70635339999998,
      "map": "https://maps.google.com/?cid=104110879906635141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-deal-design-신주쿠.jpg"
+    },
+    {
+     "name": "야마야 신주쿠점",
+     "desc": "위스키 구매 대안 · Cas:pace 일정이 우선이라 오래 보지 않기",
+     "badge": "시간 여유 시",
+     "brand": "yamaya",
+     "hours": "10:00~22:00 · 연중무휴",
+     "addr": "〒160-0023 東京都新宿区西新宿３丁目２−７ KDX新宿ビル 1F"
+    },
+    {
+     "name": "시나노야 신주쿠점",
+     "desc": "전문 보틀 대안 · Cas:pace 방문을 줄여서까지 들르지 않기",
+     "badge": "시간 여유 시",
+     "brand": "shinanoya",
+     "hours": "월~토 11:00~23:00 · 일·공휴 11:00~21:00",
+     "addr": "〒160-0021 東京都新宿区歌舞伎町１丁目１２−９ タテハナビル 1F"
     }
    ],
    "photoSpots": [
@@ -707,7 +723,7 @@
    "timeB": "15:40~16:40",
    "durB": "60분 (BAPE·단톤·Goldwin만)",
    "transport": "신주쿠 4분",
-   "note": "神宮前~南青山 한 동네. 안 B는 이 축을 50분 손해 본다 — 시간 없으면 버리는 순서: Cas:pace → JAPAN BLUE(화요일 우에노에서 본다) → BAPE THINK.",
+   "note": "神宮前~南青山 한 동네. Cas:pace는 15:40 첫 방문으로 고정한다. 안 B는 이 축을 50분 손해 본다 — 시간 없으면 버리는 순서: JAPAN BLUE(화요일 우에노에서 본다) → BAPE THINK → 나머지 중복 지점.",
    "shops": [
     {
      "name": "BAPE STORE 하라주쿠",
@@ -1120,7 +1136,7 @@
       }
      ],
      "addr": "〒150-0001 東京都渋谷区神宮前３丁目２４−３ 桑原ビル 1階B",
-     "badge": "시간 없으면 1순위로 버림",
+     "badge": "필수 · 15:40 첫 방문",
      "lat": 35.670911499999995,
      "lng": 139.7075442,
      "map": "https://maps.google.com/?cid=7100548764819391178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2367,6 +2383,22 @@
      "lng": 139.69884,
      "map": "https://maps.google.com/?cid=5293628038802672511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-watchnian-시부야점.jpg"
+    },
+    {
+     "name": "야마야 시부야 도겐자카우에점",
+     "desc": "정규품 가격 비교 · 시나노야와 한 곳만 고르기",
+     "badge": "위스키 비교",
+     "brand": "yamaya",
+     "hours": "10:00~22:00 · 연중무휴",
+     "addr": "〒150-0044 東京都渋谷区円山町３−６ E・スペースタワー 1F"
+    },
+    {
+     "name": "시나노야 도겐자카점",
+     "desc": "한정판·싱글배럴 탐색용 · 스파이시하지 않은 버번을 요청",
+     "badge": "전문 보틀",
+     "brand": "shinanoya",
+     "hours": "토 12:00~21:00",
+     "addr": "〒150-0043 東京都渋谷区道玄坂１丁目１９−１１ 寿道玄坂ビル 1F"
     }
    ],
    "photoSpots": [
@@ -3448,10 +3480,28 @@
      "addr": "세이부·도부"
     },
     {
-     "name": "주류 전문점 (야마야 등)",
-     "desc": "내 위스키 — 글렌모렌지 시그넷 2병",
-     "hours": "10:00~22:00 (야마야 이케부쿠로 서점·동점 모두)",
-     "addr": "⚠️ 면세 400달러 한도"
+     "name": "야마야 이케부쿠로 東점",
+     "desc": "위스키 구매 1순위 · Woodford Double Oaked부터 가격 확인",
+     "badge": "위스키 1순위",
+     "brand": "yamaya",
+     "hours": "10:00~22:00 · 연중무휴",
+     "addr": "〒170-0013 東京都豊島区東池袋１丁目４３−６"
+    },
+    {
+     "name": "야마야 이케부쿠로 西점",
+     "desc": "東점 품절·가격 차이일 때의 대안",
+     "badge": "위스키 대안",
+     "brand": "yamaya",
+     "hours": "10:00~22:00 · 연중무휴",
+     "addr": "〒171-0014 東京都豊島区池袋２丁目６８−５ ホテルオーエド 1F"
+    },
+    {
+     "name": "시나노야 이케부쿠로점",
+     "desc": "Maker's Mark Cask Strength · 전문 보틀 비교",
+     "badge": "위스키 1순위",
+     "brand": "shinanoya",
+     "hours": "월~토 12:00~21:00 · 일·공휴 12:00~20:00",
+     "addr": "〒171-0021 東京都豊島区西池袋１丁目１８−８ 西池後藤ビル 1F"
     },
     {
      "name": "몽벨 이케부쿠로 도부",
@@ -4744,6 +4794,22 @@
      "lng": 139.7617339,
      "map": "https://maps.google.com/?cid=234653590795315723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
      "photo": "photos/b-watchnian-긴자본점.jpg"
+    },
+    {
+     "name": "야마야 긴자점",
+     "desc": "월요일 긴자 블록의 정규품 구매 대안",
+     "badge": "위스키 대안",
+     "brand": "yamaya",
+     "hours": "11:00~22:00",
+     "addr": "〒104-0061 東京都中央区銀座７丁目１２−１８ 第一銀座ビル 1F"
+    },
+    {
+     "name": "시나노야 긴자점",
+     "desc": "긴자에서 전문 보틀을 비교할 때만 들르기",
+     "badge": "위스키 대안",
+     "brand": "shinanoya",
+     "hours": "월~목 12:00~22:00 · 금 12:00~23:00 · 토 11:00~20:00 · 일·공휴 11:00~19:00",
+     "addr": "〒104-0061 東京都中央区銀座８丁目６−２２ 銀座ピアースビル 1F"
     }
    ],
    "photoSpots": [
@@ -5119,6 +5185,19 @@
    "notice": "Npay 이벤트와 QR 할인은 기간·예산·가맹점 조건이 바뀔 수 있으므로 결제 직전에 앱 혜택 상세를 다시 확인한다."
   },
   {
+   "id": "whisky",
+   "icon": "🥃",
+   "title": "위스키 구매 · 비스파이시 버번",
+   "summary": "스파이시함 대신 더블 오크·밀 버번을 고른다. 1병이면 Woodford, 2병이면 Maker's Cask Strength까지.",
+   "sections": [
+    {"title": "바로 살 두 병", "items": ["1병: Woodford Reserve Double Oaked (700ml, 약 ¥6,200~7,500) — 바닐라·캐러멜·헤이즐넛 중심의 더블 오크. 이번 취향의 가장 안전한 선택.", "2병: Maker's Mark Cask Strength (700~750ml, 약 ¥6,800~8,000) — rye 대신 wheat를 써서 고도수여도 후추 같은 스파이스가 덜하다."]},
+    {"title": "없을 때 대체", "items": ["Maker's Mark 46 (700ml, 약 ¥5,100~6,400) — 프렌치 오크로 바닐라·캐러멜을 더한 가장 좋은 대안.", "Old Forester 1910 (750ml, 약 ¥10,000~12,000) — 다크 캐러멜·마시멜로 계열. ¥12,000을 넘으면 건너뛴다.", "Larceny Barrel Proof (750ml, 약 ¥10,000~13,000) — 재고가 드물어 보이면 시음·평가 후만 고른다.", "I.W. Harper 12년 (750ml, 약 ¥6,000~8,000) — 부드럽고 달큰한 오크 숙성감을 원할 때."]},
+    {"title": "매장 고르는 법", "items": ["이케부쿠로 야마야: 정규품 가격 확인 1순위. Woodford Double Oaked부터 본다.", "이케부쿠로 시나노야: Maker's Mark Cask Strength·전문 보틀 비교 1순위.", "시부야 도겐자카: 야마야와 시나노야를 둘 다 돌지 말고, 세전 가격이 예상가를 크게 넘지 않는 한 곳에서 산다.", "점원에게: スパイシーじゃない、甘くてオーキーなバーボン (매운 느낌 없이 달고 오키한 버번)."]},
+    {"title": "이번에는 피할 병", "items": ["Rittenhouse Rye BiB · James E. Pepper Rye — 호밀의 후추·허브 스파이스가 중심.", "Wild Turkey Rare Breed · Knob Creek Single Barrel · Elijah Craig Barrel Proof — 라이·베이킹 스파이스가 두드러질 수 있다.", "Old Grand-Dad BiB — high-rye 스타일이라 현재 취향과 반대."]}
+   ],
+   "notice": "귀국 주류 한도는 1인 2L·US$400 이하. 100mL를 넘으므로 위탁수하물에 넣고, 병은 옷으로 감싸 완충한다. 재고·배치·매장가는 당일 확인한다."
+  },
+  {
    "id": "npay-event",
    "icon": "🟢",
    "title": "Npay 머니카드 · 일본 행사",
@@ -5252,6 +5331,25 @@
   "photo": "photos/hotel-dormyinn-ikebukuro.jpg"
  },
  "brands": {
+  "yamaya": {
+   "name": "야마야",
+   "locations": [
+    {"label": "신주쿠", "regionId": "shinjuku", "shopName": "야마야 신주쿠점"},
+    {"label": "시부야 도겐자카우에", "regionId": "shibuya", "shopName": "야마야 시부야 도겐자카우에점"},
+    {"label": "이케부쿠로 東", "regionId": "ikebukuro-night", "shopName": "야마야 이케부쿠로 東점"},
+    {"label": "이케부쿠로 西", "regionId": "ikebukuro-night", "shopName": "야마야 이케부쿠로 西점"},
+    {"label": "긴자", "regionId": "ginza", "shopName": "야마야 긴자점"}
+   ]
+  },
+  "shinanoya": {
+   "name": "시나노야",
+   "locations": [
+    {"label": "신주쿠", "regionId": "shinjuku", "shopName": "시나노야 신주쿠점"},
+    {"label": "시부야 도겐자카", "regionId": "shibuya", "shopName": "시나노야 도겐자카점"},
+    {"label": "이케부쿠로", "regionId": "ikebukuro-night", "shopName": "시나노야 이케부쿠로점"},
+    {"label": "긴자", "regionId": "ginza", "shopName": "시나노야 긴자점"}
+   ]
+  },
   "goldwin": {
    "name": "Goldwin",
    "locations": [

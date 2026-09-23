@@ -153,6 +153,15 @@ def main():
     # 이미 일정 안에 있는 가게는 (region_id, shop_name)로 링크만 한다 (API 호출 없음).
     # extra는 일정엔 없는 다른 지점 — 새로 검색해서 채운다.
     BRANDS = {
+        "yamaya": {"name": "야마야", "members": [("shinjuku", "야마야 신주쿠점"),
+                                                    ("shibuya", "야마야 시부야 도겐자카우에점"),
+                                                    ("ikebukuro-night", "야마야 이케부쿠로 東점"),
+                                                    ("ikebukuro-night", "야마야 이케부쿠로 西점"),
+                                                    ("ginza", "야마야 긴자점")], "extra": []},
+        "shinanoya": {"name": "시나노야", "members": [("shinjuku", "시나노야 신주쿠점"),
+                                                       ("shibuya", "시나노야 도겐자카점"),
+                                                       ("ikebukuro-night", "시나노야 이케부쿠로점"),
+                                                       ("ginza", "시나노야 긴자점")], "extra": []},
         "goldwin": {"name": "Goldwin", "members": [("harajuku", "Goldwin Harajuku")],
                     "extra": [{"label": "마루노우치", "q": "ゴールドウィン 丸の内"}]},
         "deus": {"name": "Deus Ex Machina", "members": [("harajuku", "Deus Ex Machina 하라주쿠")],
