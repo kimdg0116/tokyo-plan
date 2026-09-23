@@ -153,6 +153,8 @@ def main():
     # 이미 일정 안에 있는 가게는 (region_id, shop_name)로 링크만 한다 (API 호출 없음).
     # extra는 일정엔 없는 다른 지점 — 새로 검색해서 채운다.
     BRANDS = {
+        "baccarat": {"name": "바카라", "members": [("ikebukuro-night", "바카라 이케부쿠로 세이부"),
+                                                     ("ikebukuro-night", "바카라 이케부쿠로 도부")], "extra": []},
         "yamaya": {"name": "야마야", "members": [("shinjuku", "야마야 신주쿠점"),
                                                     ("shibuya", "야마야 시부야 도겐자카우에점"),
                                                     ("ikebukuro-night", "야마야 이케부쿠로 東점"),
@@ -232,7 +234,7 @@ def main():
     print("\n== 가게 본체 ==")
     SKIP_SHOPS = {
         "드럭스토어", "다이소 · Can do · Standard Product · Lakole · Kaldi · Right on",
-        "바카라 2곳", "주류 전문점 (야마야 등)", "스포츠용품 거리", "MUJI 긴자", "유니클로 긴자",
+        "스포츠용품 거리", "MUJI 긴자", "유니클로 긴자",
     }
     for r in data["regions"]:
         center = (r.get("lat"), r.get("lng"))

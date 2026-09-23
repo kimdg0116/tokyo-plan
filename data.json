@@ -613,7 +613,11 @@
      "badge": "시간 여유 시",
      "brand": "yamaya",
      "hours": "10:00~22:00 · 연중무휴",
-     "addr": "〒160-0023 東京都新宿区西新宿３丁目２−７ KDX新宿ビル 1F"
+     "addr": "〒160-0023 東京都新宿区西新宿３丁目２−７ KDX新宿ビル 1F",
+     "lat": 35.6866808,
+     "lng": 139.6937978,
+     "map": "https://maps.google.com/?cid=15879628768225736326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-yamaya-신주쿠.jpg"
     },
     {
      "name": "시나노야 신주쿠점",
@@ -621,7 +625,11 @@
      "badge": "시간 여유 시",
      "brand": "shinanoya",
      "hours": "월~토 11:00~23:00 · 일·공휴 11:00~21:00",
-     "addr": "〒160-0021 東京都新宿区歌舞伎町１丁目１２−９ タテハナビル 1F"
+     "addr": "〒160-0021 東京都新宿区歌舞伎町１丁目１２−９ タテハナビル 1F",
+     "lat": 35.6954945,
+     "lng": 139.7026252,
+     "map": "https://maps.google.com/?cid=8093876115245030587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-shinanoya-신주쿠.jpg"
     }
    ],
    "photoSpots": [
@@ -2390,7 +2398,11 @@
      "badge": "위스키 비교",
      "brand": "yamaya",
      "hours": "10:00~22:00 · 연중무휴",
-     "addr": "〒150-0044 東京都渋谷区円山町３−６ E・スペースタワー 1F"
+     "addr": "〒150-0044 東京都渋谷区円山町３−６ E・スペースタワー 1F",
+     "lat": 35.6574935,
+     "lng": 139.6955514,
+     "map": "https://maps.google.com/?cid=1310084552383141945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-yamaya-시부야-도겐자카우에.jpg"
     },
     {
      "name": "시나노야 도겐자카점",
@@ -2398,7 +2410,11 @@
      "badge": "전문 보틀",
      "brand": "shinanoya",
      "hours": "토 12:00~21:00",
-     "addr": "〒150-0043 東京都渋谷区道玄坂１丁目１９−１１ 寿道玄坂ビル 1F"
+     "addr": "〒150-0043 東京都渋谷区道玄坂１丁目１９−１１ 寿道玄坂ビル 1F",
+     "lat": 35.6569029,
+     "lng": 139.6958992,
+     "map": "https://maps.google.com/?cid=9847872992388191270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-shinanoya-도겐자카.jpg"
     }
    ],
    "photoSpots": [
@@ -3474,10 +3490,28 @@
      }
     },
     {
-     "name": "바카라 2곳",
-     "desc": "내 잔 — 백화점 내",
-     "hours": "백화점 폐점 시각",
-     "addr": "세이부·도부"
+     "name": "바카라 이케부쿠로 세이부",
+     "desc": "내 잔 · 세이부 본관 5F · 이케부쿠로 동쪽 쇼핑 동선",
+     "badge": "크리스털",
+     "brand": "baccarat",
+     "hours": "10:00~20:00 · 백화점 영업일 기준",
+     "addr": "〒171-8569 東京都豊島区南池袋１丁目２８−１ 西武池袋本店 5F",
+     "lat": 35.7289987,
+     "lng": 139.7115886,
+     "map": "https://maps.google.com/?cid=4321869978840313099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-baccarat-이케부쿠로-세이부.jpg"
+    },
+    {
+     "name": "바카라 이케부쿠로 도부",
+     "desc": "내 잔 · 도부백화점 2F 10번지 · 세이부와 한 곳만 보기",
+     "badge": "크리스털",
+     "brand": "baccarat",
+     "hours": "10:00~20:00 · 백화점 영업일 기준",
+     "addr": "〒171-8512 東京都豊島区西池袋１丁目１−２５ 東武百貨店池袋店 2F 10番地",
+     "lat": 35.7298179,
+     "lng": 139.7101148,
+     "map": "https://maps.google.com/?cid=1752604873599928230",
+     "photo": "photos/s-baccarat-이케부쿠로-도부.jpg"
     },
     {
      "name": "야마야 이케부쿠로 東점",
@@ -3485,7 +3519,11 @@
      "badge": "위스키 1순위",
      "brand": "yamaya",
      "hours": "10:00~22:00 · 연중무휴",
-     "addr": "〒170-0013 東京都豊島区東池袋１丁目４３−６"
+     "addr": "〒170-0013 東京都豊島区東池袋１丁目４３−６",
+     "lat": 35.7327589,
+     "lng": 139.7134454,
+     "map": "https://maps.google.com/?cid=9465153352156244312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-yamaya-이케부쿠로-동.jpg"
     },
     {
      "name": "야마야 이케부쿠로 西점",
@@ -3493,7 +3531,11 @@
      "badge": "위스키 대안",
      "brand": "yamaya",
      "hours": "10:00~22:00 · 연중무휴",
-     "addr": "〒171-0014 東京都豊島区池袋２丁目６８−５ ホテルオーエド 1F"
+     "addr": "〒171-0014 東京都豊島区池袋２丁目６８−５ ホテルオーエド 1F",
+     "lat": 35.7352966,
+     "lng": 139.7094054,
+     "map": "https://maps.google.com/?cid=10575814195985977220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-yamaya-이케부쿠로-서.jpg"
     },
     {
      "name": "시나노야 이케부쿠로점",
@@ -3501,7 +3543,11 @@
      "badge": "위스키 1순위",
      "brand": "shinanoya",
      "hours": "월~토 12:00~21:00 · 일·공휴 12:00~20:00",
-     "addr": "〒171-0021 東京都豊島区西池袋１丁目１８−８ 西池後藤ビル 1F"
+     "addr": "〒171-0021 東京都豊島区西池袋１丁目１８−８ 西池後藤ビル 1F",
+     "lat": 35.7314575,
+     "lng": 139.7091876,
+     "map": "https://maps.google.com/?cid=11517665311195992387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-shinanoya-이케부쿠로.jpg"
     },
     {
      "name": "몽벨 이케부쿠로 도부",
@@ -4801,7 +4847,11 @@
      "badge": "위스키 대안",
      "brand": "yamaya",
      "hours": "11:00~22:00",
-     "addr": "〒104-0061 東京都中央区銀座７丁目１２−１８ 第一銀座ビル 1F"
+     "addr": "〒104-0061 東京都中央区銀座７丁目１２−１８ 第一銀座ビル 1F",
+     "lat": 35.6685752,
+     "lng": 139.7642295,
+     "map": "https://maps.google.com/?cid=3991889716441009705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-yamaya-긴자.jpg"
     },
     {
      "name": "시나노야 긴자점",
@@ -4809,7 +4859,11 @@
      "badge": "위스키 대안",
      "brand": "shinanoya",
      "hours": "월~목 12:00~22:00 · 금 12:00~23:00 · 토 11:00~20:00 · 일·공휴 11:00~19:00",
-     "addr": "〒104-0061 東京都中央区銀座８丁目６−２２ 銀座ピアースビル 1F"
+     "addr": "〒104-0061 東京都中央区銀座８丁目６−２２ 銀座ピアースビル 1F",
+     "lat": 35.6687965,
+     "lng": 139.7608354,
+     "map": "https://maps.google.com/?cid=16528443507161319767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+     "photo": "photos/s-shinanoya-긴자.jpg"
     }
    ],
    "photoSpots": [
@@ -5348,6 +5402,13 @@
     {"label": "시부야 도겐자카", "regionId": "shibuya", "shopName": "시나노야 도겐자카점"},
     {"label": "이케부쿠로", "regionId": "ikebukuro-night", "shopName": "시나노야 이케부쿠로점"},
     {"label": "긴자", "regionId": "ginza", "shopName": "시나노야 긴자점"}
+   ]
+  },
+  "baccarat": {
+   "name": "바카라",
+   "locations": [
+    {"label": "이케부쿠로 세이부", "regionId": "ikebukuro-night", "shopName": "바카라 이케부쿠로 세이부"},
+    {"label": "이케부쿠로 도부", "regionId": "ikebukuro-night", "shopName": "바카라 이케부쿠로 도부"}
    ]
   },
   "goldwin": {
