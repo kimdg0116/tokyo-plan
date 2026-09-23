@@ -3539,7 +3539,7 @@
     },
     {
      "name": "시나노야 이케부쿠로점",
-     "desc": "Maker's Mark Cask Strength · 전문 보틀 비교",
+     "desc": "Elijah Craig Barrel Proof · Maker's Mark Cask Strength 비교",
      "badge": "위스키 1순위",
      "brand": "shinanoya",
      "hours": "월~토 12:00~21:00 · 일·공휴 12:00~20:00",
@@ -5242,12 +5242,12 @@
    "id": "whisky",
    "icon": "🥃",
    "title": "위스키 구매 · 비스파이시 버번",
-   "summary": "스파이시함 대신 더블 오크·밀 버번을 고른다. 1병이면 Woodford, 2병이면 Maker's Cask Strength까지.",
+   "summary": "디틀링 캐스크스트렝스의 초콜릿·토스티드 오크를 기준으로, 스파이스는 시음으로 거른다.",
    "sections": [
-    {"title": "바로 살 두 병", "items": ["1병: Woodford Reserve Double Oaked (700ml, 약 ¥6,200~7,500) — 바닐라·캐러멜·헤이즐넛 중심의 더블 오크. 이번 취향의 가장 안전한 선택.", "2병: Maker's Mark Cask Strength (700~750ml, 약 ¥6,800~8,000) — rye 대신 wheat를 써서 고도수여도 후추 같은 스파이스가 덜하다."]},
-    {"title": "없을 때 대체", "items": ["Maker's Mark 46 (700ml, 약 ¥5,100~6,400) — 프렌치 오크로 바닐라·캐러멜을 더한 가장 좋은 대안.", "Old Forester 1910 (750ml, 약 ¥10,000~12,000) — 다크 캐러멜·마시멜로 계열. ¥12,000을 넘으면 건너뛴다.", "Larceny Barrel Proof (750ml, 약 ¥10,000~13,000) — 재고가 드물어 보이면 시음·평가 후만 고른다.", "I.W. Harper 12년 (750ml, 약 ¥6,000~8,000) — 부드럽고 달큰한 오크 숙성감을 원할 때."]},
-    {"title": "매장 고르는 법", "items": ["이케부쿠로 야마야: 정규품 가격 확인 1순위. Woodford Double Oaked부터 본다.", "이케부쿠로 시나노야: Maker's Mark Cask Strength·전문 보틀 비교 1순위.", "시부야 도겐자카: 야마야와 시나노야를 둘 다 돌지 말고, 세전 가격이 예상가를 크게 넘지 않는 한 곳에서 산다.", "점원에게: スパイシーじゃない、甘くてオーキーなバーボン (매운 느낌 없이 달고 오키한 버번)."]},
-    {"title": "이번에는 피할 병", "items": ["Rittenhouse Rye BiB · James E. Pepper Rye — 호밀의 후추·허브 스파이스가 중심.", "Wild Turkey Rare Breed · Knob Creek Single Barrel · Elijah Craig Barrel Proof — 라이·베이킹 스파이스가 두드러질 수 있다.", "Old Grand-Dad BiB — high-rye 스타일이라 현재 취향과 반대."]}
+    {"title": "바로 사면 좋은 위스키", "items": ["시음 최우선: Elijah Craig Barrel Proof (700ml, 약 ¥16,000~19,000) — 디틀링 캐스크스트렝스의 고도수·점도·토스티드 오크·초콜릿에 가장 가까운 후보. 배치별 차이가 크고 블랙페퍼·시나몬이 남을 수 있으니 시음에서 괜찮을 때만 산다.", "초콜릿·디저트: Old Forester 1910 (750ml, 약 ¥10,000~12,000) — 더블 배럴의 다크 캐러멜·토피·로스팅 커피·모카. 디틀링보다 도수는 낮으며 ¥12,000을 넘으면 건너뛴다.", "스파이스 안전망: Maker's Mark Cask Strength (700~750ml, 약 ¥6,800~8,000) — wheat 기반 고도수 버번. 다크한 로스팅감은 덜하지만 후추 같은 스파이스가 낮고 바닐라·캐러멜·오크가 진하다."]},
+    {"title": "없을 때 대체", "items": ["Woodford Reserve Double Oaked (700ml, 약 ¥6,200~7,500) — 초콜릿·고도수보다 안전한 단맛과 부드러운 오크감이 필요할 때.", "Maker's Mark 46 (700ml, 약 ¥5,100~6,400) — 프렌치 오크로 바닐라·캐러멜을 더한 가장 좋은 대안.", "Larceny Barrel Proof (750ml, 약 ¥10,000~13,000) — 재고가 드물어 보이면 시음·평가 후만 고른다.", "I.W. Harper 12년 (750ml, 약 ¥6,000~8,000) — 부드럽고 달큰한 오크 숙성감을 원할 때."]},
+    {"title": "매장 고르는 법", "items": ["이케부쿠로 야마야: Elijah Craig Barrel Proof의 정규품 가격·배치 확인을 먼저 한다.", "이케부쿠로 시나노야: Elijah Craig Barrel Proof·Old Forester 1910·Maker's Mark Cask Strength를 비교하기 좋다.", "시부야 도겐자카: 야마야와 시나노야를 둘 다 돌지 말고, 세전 가격이 예상가를 크게 넘지 않는 한 곳에서 산다.", "점원에게: チョコレートっぽく、甘くてオーキーなバーボン。スパイシーすぎないもの (초콜릿 느낌이 나고 달고 오키하며, 너무 스파이시하지 않은 버번)."]},
+    {"title": "이번에는 피할 병", "items": ["Rittenhouse Rye BiB · James E. Pepper Rye — 호밀의 후추·허브 스파이스가 중심.", "Wild Turkey Rare Breed · Knob Creek Single Barrel — 라이·베이킹 스파이스가 두드러질 수 있다.", "Old Grand-Dad BiB — high-rye 스타일이라 현재 취향과 반대."]}
    ],
    "notice": "귀국 주류 한도는 1인 2L·US$400 이하. 100mL를 넘으므로 위탁수하물에 넣고, 병은 옷으로 감싸 완충한다. 재고·배치·매장가는 당일 확인한다."
   },
