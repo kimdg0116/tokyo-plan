@@ -1006,14 +1006,19 @@
 
 <script>
   (function(){
-    var CURRENT = "26.09.24-0013";
+    var SEEN_VERSION_KEY = "tokyo-plan-seen-version";
     var btn = document.getElementById("upd");
     var latest = null;
     function check(){
       fetch("./version.json?t=" + Date.now(), { cache: "no-store" })
         .then(function(r){ return r.ok ? r.json() : null; })
         .then(function(j){
-          if (j && j.version && j.version !== CURRENT){
+          var seen = localStorage.getItem(SEEN_VERSION_KEY);
+          if (j && j.version && !seen) {
+            localStorage.setItem(SEEN_VERSION_KEY, j.version);
+            latest = null;
+            if (btn) btn.hidden = true;
+          } else if (j && j.version && j.version !== seen) {
             latest = j.version;
             if (btn) btn.hidden = false;
           } else {
@@ -1029,6 +1034,7 @@
     if (btn) btn.addEventListener("click", function(){
       btn.textContent = "업데이트 중…";
       btn.hidden = true;
+      if (latest) localStorage.setItem(SEEN_VERSION_KEY, latest);
       var clear = window.caches ? caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k); })); }) : Promise.resolve();
       var upd = ("serviceWorker" in navigator) ? navigator.serviceWorker.getRegistration().then(function(r){ return r ? r.update() : null; }) : Promise.resolve();
       Promise.all([clear.catch(function(){}), upd.catch(function(){})]).then(function(){
